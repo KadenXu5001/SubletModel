@@ -1,0 +1,501 @@
+Listing_ID,Listing_Type,Price_USD,Bedrooms_In_Unit,Bathrooms,Total_Roommates,Location_Area,Date_Available,Furnished_Status
+SUB-001,Private Room,1010,3,2.0,2,Downtown Evanston (near Davis CTA/Metra),2026-06-27,Furnished
+SUB-002,Entire Unit,1725,0,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-05-08,Furnished
+SUB-003,Private Room,1146,5,2.0,4,Noyes Street (North Campus area),2026-09-17,Furnished
+SUB-004,Entire Unit,1764,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-08-17,Unfurnished
+SUB-005,Entire Unit,2139,1,1.0,0,Noyes Street (North Campus area),2026-05-25,Furnished
+SUB-006,Entire Unit,1480,0,1.0,0,Central Street (North Evanston),2026-08-05,Furnished
+SUB-007,Private Room,997,2,1.0,1,Orrington Ave (Near University Library),2026-05-18,Furnished
+SUB-008,Entire Unit,1719,0,1.0,0,Sherman Ave (South Campus area),2026-08-02,Furnished
+SUB-009,Private Room,985,3,1.0,2,Chicago Ave & Dempster St,2026-06-13,Furnished
+SUB-010,Private Room,921,4,1.5,3,Orrington Ave (Near University Library),2026-06-26,Unfurnished
+SUB-011,Entire Unit,2547,2,1.5,0,Sherman Ave (South Campus area),2026-09-23,Furnished
+SUB-012,Private Room,1196,3,1.0,2,Orrington Ave (Near University Library),2026-07-07,Furnished
+SUB-013,Entire Unit,1934,1,1.0,0,Sherman Ave (South Campus area),2026-08-01,Furnished
+SUB-014,Private Room,1108,5,1.5,4,Downtown Evanston (near Davis CTA/Metra),2026-06-10,Furnished
+SUB-015,Entire Unit,1841,1,1.0,0,Sherman Ave (South Campus area),2026-05-03,Unfurnished
+SUB-016,Entire Unit,1422,0,1.0,0,Central Street (North Evanston),2026-07-27,Unfurnished
+SUB-017,Private Room,934,3,2.0,2,Downtown Evanston (near Davis CTA/Metra),2026-07-07,Unfurnished
+SUB-018,Private Room,1050,4,2.0,3,South Evanston (near Main St),2026-06-09,Furnished
+SUB-019,Entire Unit,1693,0,1.0,0,Orrington Ave (Near University Library),2026-09-03,Furnished
+SUB-020,Private Room,1170,5,1.5,4,Orrington Ave (Near University Library),2026-05-22,Unfurnished
+SUB-021,Private Room,808,4,3.0,3,West Evanston (near Dodge Ave),2026-06-12,Unfurnished
+SUB-022,Entire Unit,1782,1,1.0,0,Central Street (North Evanston),2026-07-19,Unfurnished
+SUB-023,Private Room,945,2,1.5,1,Sherman Ave (South Campus area),2026-06-27,Furnished
+SUB-024,Private Room,887,3,1.0,2,Noyes Street (North Campus area),2026-05-16,Furnished
+SUB-025,Private Room,1220,3,2.0,2,Noyes Street (North Campus area),2026-09-16,Furnished
+SUB-026,Private Room,1086,2,1.5,1,Sherman Ave (South Campus area),2026-05-25,Furnished
+SUB-027,Private Room,873,2,1.5,1,Central Street (North Evanston),2026-05-26,Unfurnished
+SUB-028,Entire Unit,2113,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-09-15,Furnished
+SUB-029,Private Room,1227,2,1.0,1,Orrington Ave (Near University Library),2026-09-18,Furnished
+SUB-030,Entire Unit,2096,1,1.0,0,Orrington Ave (Near University Library),2026-06-12,Unfurnished
+SUB-031,Entire Unit,3760,3,2.5,0,Orrington Ave (Near University Library),2026-05-01,Furnished
+SUB-032,Private Room,797,5,2.0,4,West Evanston (near Dodge Ave),2026-09-20,Unfurnished
+SUB-033,Private Room,757,2,1.5,1,Chicago Ave & Dempster St,2026-09-16,Furnished
+SUB-034,Private Room,903,2,1.0,1,Sherman Ave (South Campus area),2026-06-10,Unfurnished
+SUB-035,Private Room,1031,3,2.0,2,West Evanston (near Dodge Ave),2026-05-31,Furnished
+SUB-036,Private Room,1059,4,2.5,3,Sherman Ave (South Campus area),2026-09-11,Furnished
+SUB-037,Private Room,892,5,2.5,4,Noyes Street (North Campus area),2026-07-16,Furnished
+SUB-038,Private Room,868,3,2.0,2,South Evanston (near Main St),2026-09-15,Furnished
+SUB-039,Entire Unit,2137,1,1.0,0,Orrington Ave (Near University Library),2026-08-03,Unfurnished
+SUB-040,Entire Unit,1483,0,1.0,0,South Evanston (near Main St),2026-09-13,Unfurnished
+SUB-041,Private Room,754,4,1.5,3,West Evanston (near Dodge Ave),2026-06-04,Unfurnished
+SUB-042,Entire Unit,2880,2,1.0,0,Noyes Street (North Campus area),2026-06-23,Furnished
+SUB-043,Private Room,822,5,2.5,4,Orrington Ave (Near University Library),2026-05-24,Unfurnished
+SUB-044,Private Room,1088,5,3.0,4,Downtown Evanston (near Davis CTA/Metra),2026-06-11,Unfurnished
+SUB-045,Private Room,998,2,1.5,1,Chicago Ave & Dempster St,2026-06-08,Unfurnished
+SUB-046,Private Room,1034,2,1.5,1,Sherman Ave (South Campus area),2026-08-02,Furnished
+SUB-047,Private Room,956,3,1.0,2,Sherman Ave (South Campus area),2026-08-13,Furnished
+SUB-048,Private Room,856,3,1.5,2,Central Street (North Evanston),2026-08-14,Furnished
+SUB-049,Entire Unit,2199,1,1.0,0,Sherman Ave (South Campus area),2026-08-29,Furnished
+SUB-050,Entire Unit,2000,1,1.0,0,Orrington Ave (Near University Library),2026-06-19,Furnished
+SUB-051,Private Room,800,4,1.5,3,South Evanston (near Main St),2026-09-15,Furnished
+SUB-052,Private Room,912,5,2.5,4,Chicago Ave & Dempster St,2026-05-28,Furnished
+SUB-053,Private Room,964,3,1.5,2,Sherman Ave (South Campus area),2026-09-25,Furnished
+SUB-054,Private Room,966,4,3.0,3,Orrington Ave (Near University Library),2026-06-20,Furnished
+SUB-055,Private Room,917,4,3.0,3,West Evanston (near Dodge Ave),2026-07-16,Furnished
+SUB-056,Private Room,1035,3,2.0,2,South Evanston (near Main St),2026-08-06,Furnished
+SUB-057,Private Room,991,5,2.5,4,Ridge Ave & Church St,2026-06-23,Furnished
+SUB-058,Private Room,1212,2,1.5,1,Noyes Street (North Campus area),2026-06-13,Furnished
+SUB-059,Private Room,919,4,2.0,3,Downtown Evanston (near Davis CTA/Metra),2026-06-30,Unfurnished
+SUB-060,Private Room,1232,5,3.0,4,Noyes Street (North Campus area),2026-05-19,Furnished
+SUB-061,Entire Unit,1895,1,1.0,0,Sherman Ave (South Campus area),2026-06-07,Furnished
+SUB-062,Entire Unit,1720,1,1.0,0,Central Street (North Evanston),2026-09-10,Furnished
+SUB-063,Private Room,1013,4,3.0,3,Ridge Ave & Church St,2026-09-21,Unfurnished
+SUB-064,Entire Unit,2012,1,1.0,0,Orrington Ave (Near University Library),2026-09-18,Furnished
+SUB-065,Private Room,840,5,2.0,4,Central Street (North Evanston),2026-07-10,Unfurnished
+SUB-066,Private Room,804,4,1.5,3,Central Street (North Evanston),2026-07-25,Furnished
+SUB-067,Private Room,869,5,3.0,4,West Evanston (near Dodge Ave),2026-05-17,Unfurnished
+SUB-068,Private Room,1197,5,1.5,4,Sherman Ave (South Campus area),2026-08-16,Furnished
+SUB-069,Private Room,946,3,1.5,2,Sherman Ave (South Campus area),2026-08-16,Unfurnished
+SUB-070,Private Room,1003,3,1.5,2,Downtown Evanston (near Davis CTA/Metra),2026-08-12,Furnished
+SUB-071,Private Room,964,2,1.5,1,Sherman Ave (South Campus area),2026-05-07,Furnished
+SUB-072,Private Room,1089,4,3.0,3,Sherman Ave (South Campus area),2026-07-23,Furnished
+SUB-073,Private Room,1026,2,1.5,1,Downtown Evanston (near Davis CTA/Metra),2026-09-16,Furnished
+SUB-074,Entire Unit,1210,0,1.0,0,West Evanston (near Dodge Ave),2026-07-03,Unfurnished
+SUB-075,Private Room,1077,3,1.5,2,Noyes Street (North Campus area),2026-05-30,Furnished
+SUB-076,Private Room,755,3,1.5,2,South Evanston (near Main St),2026-05-30,Unfurnished
+SUB-077,Private Room,982,5,2.0,4,Orrington Ave (Near University Library),2026-08-05,Furnished
+SUB-078,Entire Unit,2317,2,2.0,0,Noyes Street (North Campus area),2026-07-17,Unfurnished
+SUB-079,Entire Unit,1819,0,1.0,0,Noyes Street (North Campus area),2026-08-03,Furnished
+SUB-080,Entire Unit,2010,1,1.0,0,Ridge Ave & Church St,2026-08-01,Furnished
+SUB-081,Private Room,1178,5,3.0,4,Noyes Street (North Campus area),2026-07-09,Furnished
+SUB-082,Private Room,1020,4,3.0,3,Orrington Ave (Near University Library),2026-05-23,Unfurnished
+SUB-083,Private Room,849,5,2.5,4,South Evanston (near Main St),2026-05-08,Furnished
+SUB-084,Private Room,1001,4,1.5,3,Ridge Ave & Church St,2026-09-30,Furnished
+SUB-085,Private Room,1004,5,3.0,4,Central Street (North Evanston),2026-07-01,Furnished
+SUB-086,Private Room,1170,4,2.5,3,Noyes Street (North Campus area),2026-07-02,Furnished
+SUB-087,Private Room,897,5,2.5,4,Green Bay Road (Near Canal),2026-07-30,Furnished
+SUB-088,Private Room,882,3,1.0,2,Central Street (North Evanston),2026-09-15,Furnished
+SUB-089,Private Room,799,4,1.5,3,Central Street (North Evanston),2026-09-12,Unfurnished
+SUB-090,Private Room,889,3,1.5,2,Sherman Ave (South Campus area),2026-09-14,Furnished
+SUB-091,Private Room,1036,2,1.0,1,Chicago Ave & Dempster St,2026-09-03,Furnished
+SUB-092,Private Room,916,4,3.0,3,Sherman Ave (South Campus area),2026-05-14,Furnished
+SUB-093,Private Room,855,3,2.0,2,South Evanston (near Main St),2026-06-08,Unfurnished
+SUB-094,Private Room,1104,3,2.0,2,Noyes Street (North Campus area),2026-08-15,Furnished
+SUB-095,Private Room,871,2,1.0,1,South Evanston (near Main St),2026-09-23,Furnished
+SUB-096,Private Room,752,2,1.0,1,West Evanston (near Dodge Ave),2026-06-14,Furnished
+SUB-097,Private Room,961,4,2.5,3,South Evanston (near Main St),2026-06-29,Furnished
+SUB-098,Private Room,927,3,1.5,2,Orrington Ave (Near University Library),2026-09-28,Unfurnished
+SUB-099,Private Room,986,2,1.0,1,Downtown Evanston (near Davis CTA/Metra),2026-06-06,Furnished
+SUB-100,Entire Unit,1850,1,1.0,0,South Evanston (near Main St),2026-06-01,Furnished
+SUB-101,Private Room,1160,2,1.0,1,Noyes Street (North Campus area),2026-08-21,Furnished
+SUB-102,Private Room,1173,2,1.5,1,Downtown Evanston (near Davis CTA/Metra),2026-09-25,Furnished
+SUB-103,Entire Unit,1760,0,1.0,0,Sherman Ave (South Campus area),2026-07-11,Unfurnished
+SUB-104,Private Room,1080,5,2.5,4,Sherman Ave (South Campus area),2026-07-29,Furnished
+SUB-105,Entire Unit,2154,1,1.0,0,Noyes Street (North Campus area),2026-07-13,Unfurnished
+SUB-106,Private Room,1130,2,1.5,1,Sherman Ave (South Campus area),2026-07-22,Furnished
+SUB-107,Entire Unit,2326,1,1.0,0,Sherman Ave (South Campus area),2026-09-10,Furnished
+SUB-108,Entire Unit,2130,1,1.0,0,Noyes Street (North Campus area),2026-07-13,Furnished
+SUB-109,Entire Unit,1534,1,1.0,0,South Evanston (near Main St),2026-06-10,Furnished
+SUB-110,Private Room,1150,5,1.5,4,Noyes Street (North Campus area),2026-05-30,Unfurnished
+SUB-111,Private Room,981,5,3.0,4,Central Street (North Evanston),2026-07-09,Furnished
+SUB-112,Private Room,1114,3,1.0,2,Downtown Evanston (near Davis CTA/Metra),2026-09-08,Furnished
+SUB-113,Entire Unit,2505,2,1.5,0,Noyes Street (North Campus area),2026-07-08,Unfurnished
+SUB-114,Private Room,870,5,2.5,4,West Evanston (near Dodge Ave),2026-08-23,Unfurnished
+SUB-115,Private Room,1044,3,2.0,2,Sherman Ave (South Campus area),2026-07-22,Furnished
+SUB-116,Private Room,1114,5,3.0,4,Central Street (North Evanston),2026-08-30,Furnished
+SUB-117,Entire Unit,1594,0,1.0,0,Green Bay Road (Near Canal),2026-05-10,Furnished
+SUB-118,Entire Unit,2434,2,1.0,0,Orrington Ave (Near University Library),2026-09-12,Furnished
+SUB-119,Entire Unit,2123,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-07,Unfurnished
+SUB-120,Private Room,1211,5,2.5,4,Noyes Street (North Campus area),2026-09-14,Unfurnished
+SUB-121,Entire Unit,2047,1,1.0,0,Sherman Ave (South Campus area),2026-05-18,Furnished
+SUB-122,Private Room,853,5,2.0,4,Chicago Ave & Dempster St,2026-05-26,Unfurnished
+SUB-123,Entire Unit,2028,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-15,Unfurnished
+SUB-124,Private Room,918,3,1.0,2,Sherman Ave (South Campus area),2026-06-16,Unfurnished
+SUB-125,Entire Unit,1567,0,1.0,0,South Evanston (near Main St),2026-09-27,Furnished
+SUB-126,Private Room,940,4,2.0,3,Noyes Street (North Campus area),2026-08-28,Furnished
+SUB-127,Entire Unit,1909,1,1.0,0,Noyes Street (North Campus area),2026-07-04,Unfurnished
+SUB-128,Entire Unit,2118,1,1.0,0,Orrington Ave (Near University Library),2026-08-06,Furnished
+SUB-129,Private Room,920,2,1.5,1,Ridge Ave & Church St,2026-05-03,Furnished
+SUB-130,Entire Unit,1670,1,1.0,0,South Evanston (near Main St),2026-06-18,Furnished
+SUB-131,Private Room,797,2,1.5,1,South Evanston (near Main St),2026-08-21,Furnished
+SUB-132,Entire Unit,1836,0,1.0,0,Noyes Street (North Campus area),2026-06-21,Furnished
+SUB-133,Private Room,946,4,2.5,3,Noyes Street (North Campus area),2026-09-01,Furnished
+SUB-134,Private Room,902,4,1.5,3,Chicago Ave & Dempster St,2026-08-10,Unfurnished
+SUB-135,Private Room,980,5,2.5,4,Sherman Ave (South Campus area),2026-07-07,Furnished
+SUB-136,Private Room,732,3,2.0,2,South Evanston (near Main St),2026-07-23,Unfurnished
+SUB-137,Private Room,827,2,1.0,1,Sherman Ave (South Campus area),2026-08-13,Unfurnished
+SUB-138,Private Room,1146,3,1.5,2,Sherman Ave (South Campus area),2026-09-15,Furnished
+SUB-139,Entire Unit,2457,2,1.0,0,West Evanston (near Dodge Ave),2026-09-28,Furnished
+SUB-140,Private Room,1020,2,1.5,1,Sherman Ave (South Campus area),2026-07-11,Furnished
+SUB-141,Entire Unit,2032,1,1.0,0,Orrington Ave (Near University Library),2026-08-03,Furnished
+SUB-142,Private Room,1028,2,1.0,1,Chicago Ave & Dempster St,2026-08-25,Unfurnished
+SUB-143,Private Room,1027,3,1.0,2,Chicago Ave & Dempster St,2026-07-25,Furnished
+SUB-144,Private Room,850,3,1.5,2,Central Street (North Evanston),2026-06-25,Furnished
+SUB-145,Entire Unit,3511,3,2.5,0,Downtown Evanston (near Davis CTA/Metra),2026-06-07,Unfurnished
+SUB-146,Private Room,1003,3,2.0,2,Orrington Ave (Near University Library),2026-07-31,Furnished
+SUB-147,Private Room,1176,2,1.5,1,Downtown Evanston (near Davis CTA/Metra),2026-05-30,Furnished
+SUB-148,Private Room,1160,4,3.0,3,Downtown Evanston (near Davis CTA/Metra),2026-05-12,Furnished
+SUB-149,Entire Unit,1913,1,1.0,0,Ridge Ave & Church St,2026-05-28,Furnished
+SUB-150,Entire Unit,2105,1,1.0,0,Noyes Street (North Campus area),2026-06-02,Furnished
+SUB-151,Private Room,1116,2,1.0,1,Sherman Ave (South Campus area),2026-05-26,Furnished
+SUB-152,Private Room,927,4,3.0,3,Ridge Ave & Church St,2026-05-25,Furnished
+SUB-153,Private Room,743,2,1.0,1,Chicago Ave & Dempster St,2026-08-30,Unfurnished
+SUB-154,Private Room,1158,2,1.5,1,Downtown Evanston (near Davis CTA/Metra),2026-06-03,Unfurnished
+SUB-155,Private Room,1146,2,1.5,1,Orrington Ave (Near University Library),2026-08-17,Unfurnished
+SUB-156,Private Room,939,3,1.0,2,South Evanston (near Main St),2026-09-01,Furnished
+SUB-157,Private Room,750,2,1.5,1,Central Street (North Evanston),2026-08-18,Furnished
+SUB-158,Private Room,773,2,1.0,1,Central Street (North Evanston),2026-07-29,Unfurnished
+SUB-159,Private Room,1099,2,1.0,1,Sherman Ave (South Campus area),2026-05-08,Furnished
+SUB-160,Private Room,899,2,1.0,1,Sherman Ave (South Campus area),2026-09-23,Unfurnished
+SUB-161,Entire Unit,2308,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-08-22,Furnished
+SUB-162,Private Room,1099,5,1.5,4,Noyes Street (North Campus area),2026-07-28,Furnished
+SUB-163,Private Room,873,5,1.5,4,Sherman Ave (South Campus area),2026-06-26,Furnished
+SUB-164,Entire Unit,1407,1,1.0,0,Central Street (North Evanston),2026-07-14,Unfurnished
+SUB-165,Private Room,1218,3,2.0,2,Sherman Ave (South Campus area),2026-09-14,Furnished
+SUB-166,Private Room,1085,5,1.5,4,Orrington Ave (Near University Library),2026-05-05,Furnished
+SUB-167,Private Room,901,5,1.5,4,Central Street (North Evanston),2026-05-30,Furnished
+SUB-168,Entire Unit,1254,0,1.0,0,South Evanston (near Main St),2026-08-01,Unfurnished
+SUB-169,Private Room,859,4,2.5,3,South Evanston (near Main St),2026-08-10,Furnished
+SUB-170,Entire Unit,2139,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-09-13,Furnished
+SUB-171,Entire Unit,1373,0,1.0,0,South Evanston (near Main St),2026-05-27,Furnished
+SUB-172,Private Room,988,5,3.0,4,Central Street (North Evanston),2026-06-15,Unfurnished
+SUB-173,Entire Unit,2040,1,1.0,0,Sherman Ave (South Campus area),2026-09-22,Unfurnished
+SUB-174,Private Room,1073,4,1.5,3,Sherman Ave (South Campus area),2026-07-17,Furnished
+SUB-175,Private Room,1247,2,1.0,1,Sherman Ave (South Campus area),2026-07-13,Furnished
+SUB-176,Private Room,864,5,2.0,4,South Evanston (near Main St),2026-05-11,Unfurnished
+SUB-177,Private Room,907,2,1.5,1,Sherman Ave (South Campus area),2026-08-24,Unfurnished
+SUB-178,Private Room,1026,3,1.5,2,Downtown Evanston (near Davis CTA/Metra),2026-08-21,Unfurnished
+SUB-179,Private Room,868,4,1.5,3,Central Street (North Evanston),2026-05-14,Unfurnished
+SUB-180,Private Room,1065,4,1.5,3,West Evanston (near Dodge Ave),2026-06-08,Furnished
+SUB-181,Private Room,882,3,2.0,2,Noyes Street (North Campus area),2026-08-09,Unfurnished
+SUB-182,Private Room,1008,2,1.5,1,South Evanston (near Main St),2026-06-02,Furnished
+SUB-183,Private Room,932,5,2.0,4,Noyes Street (North Campus area),2026-07-27,Unfurnished
+SUB-184,Private Room,1132,2,1.5,1,Noyes Street (North Campus area),2026-09-07,Unfurnished
+SUB-185,Private Room,1124,5,1.5,4,Noyes Street (North Campus area),2026-06-12,Furnished
+SUB-186,Entire Unit,1733,1,1.0,0,Chicago Ave & Dempster St,2026-08-23,Furnished
+SUB-187,Entire Unit,1851,1,1.0,0,Ridge Ave & Church St,2026-06-19,Unfurnished
+SUB-188,Private Room,1012,5,2.0,4,Noyes Street (North Campus area),2026-09-13,Furnished
+SUB-189,Entire Unit,1953,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-08-04,Furnished
+SUB-190,Entire Unit,2112,1,1.0,0,Noyes Street (North Campus area),2026-07-09,Unfurnished
+SUB-191,Entire Unit,2487,2,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-08-24,Unfurnished
+SUB-192,Private Room,885,4,2.0,3,Sherman Ave (South Campus area),2026-05-21,Furnished
+SUB-193,Entire Unit,1441,0,1.0,0,South Evanston (near Main St),2026-06-05,Unfurnished
+SUB-194,Private Room,841,2,1.0,1,Downtown Evanston (near Davis CTA/Metra),2026-08-23,Unfurnished
+SUB-195,Private Room,977,5,1.5,4,Downtown Evanston (near Davis CTA/Metra),2026-09-13,Unfurnished
+SUB-196,Private Room,1190,2,1.0,1,Downtown Evanston (near Davis CTA/Metra),2026-08-26,Furnished
+SUB-197,Private Room,925,4,3.0,3,Sherman Ave (South Campus area),2026-06-06,Furnished
+SUB-198,Private Room,1138,4,1.5,3,Sherman Ave (South Campus area),2026-05-22,Unfurnished
+SUB-199,Private Room,1074,5,1.5,4,Green Bay Road (Near Canal),2026-08-08,Furnished
+SUB-200,Entire Unit,1977,1,1.0,0,Noyes Street (North Campus area),2026-05-18,Furnished
+SUB-201,Entire Unit,2065,1,1.0,0,Noyes Street (North Campus area),2026-09-17,Furnished
+SUB-202,Private Room,761,2,1.5,1,West Evanston (near Dodge Ave),2026-06-04,Furnished
+SUB-203,Private Room,978,4,3.0,3,Ridge Ave & Church St,2026-07-20,Unfurnished
+SUB-204,Private Room,1219,4,1.5,3,Downtown Evanston (near Davis CTA/Metra),2026-07-13,Furnished
+SUB-205,Private Room,958,5,2.5,4,Sherman Ave (South Campus area),2026-08-21,Unfurnished
+SUB-206,Private Room,895,2,1.5,1,Sherman Ave (South Campus area),2026-07-08,Unfurnished
+SUB-207,Private Room,934,2,1.0,1,Ridge Ave & Church St,2026-07-22,Furnished
+SUB-208,Private Room,1033,5,2.5,4,Sherman Ave (South Campus area),2026-06-12,Unfurnished
+SUB-209,Entire Unit,1762,1,1.0,0,Orrington Ave (Near University Library),2026-08-20,Furnished
+SUB-210,Private Room,1197,2,1.0,1,Sherman Ave (South Campus area),2026-06-10,Unfurnished
+SUB-211,Entire Unit,1806,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-08-02,Furnished
+SUB-212,Private Room,937,3,2.0,2,Chicago Ave & Dempster St,2026-05-20,Furnished
+SUB-213,Private Room,1114,3,1.5,2,Noyes Street (North Campus area),2026-05-07,Unfurnished
+SUB-214,Entire Unit,2019,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-08-23,Unfurnished
+SUB-215,Entire Unit,2164,1,1.0,0,Sherman Ave (South Campus area),2026-05-19,Furnished
+SUB-216,Entire Unit,1697,1,1.0,0,Green Bay Road (Near Canal),2026-05-17,Unfurnished
+SUB-217,Entire Unit,2310,2,2.0,0,Orrington Ave (Near University Library),2026-06-14,Unfurnished
+SUB-218,Entire Unit,1606,0,1.0,0,Ridge Ave & Church St,2026-09-04,Furnished
+SUB-219,Private Room,973,2,1.5,1,Ridge Ave & Church St,2026-05-23,Furnished
+SUB-220,Entire Unit,1676,0,1.0,0,Sherman Ave (South Campus area),2026-09-25,Unfurnished
+SUB-221,Private Room,1113,3,1.0,2,Sherman Ave (South Campus area),2026-06-02,Furnished
+SUB-222,Entire Unit,1984,1,1.0,0,Sherman Ave (South Campus area),2026-06-11,Furnished
+SUB-223,Entire Unit,1838,1,1.0,0,Ridge Ave & Church St,2026-09-19,Furnished
+SUB-224,Private Room,1287,3,1.0,2,Sherman Ave (South Campus area),2026-09-26,Furnished
+SUB-225,Entire Unit,2144,2,1.0,0,Noyes Street (North Campus area),2026-05-11,Unfurnished
+SUB-226,Entire Unit,2663,2,1.5,0,Central Street (North Evanston),2026-06-23,Furnished
+SUB-227,Private Room,1245,5,2.0,4,Orrington Ave (Near University Library),2026-07-17,Furnished
+SUB-228,Private Room,850,5,3.0,4,West Evanston (near Dodge Ave),2026-08-15,Furnished
+SUB-229,Private Room,1054,5,2.0,4,Noyes Street (North Campus area),2026-07-28,Unfurnished
+SUB-230,Private Room,912,5,2.0,4,Noyes Street (North Campus area),2026-07-08,Furnished
+SUB-231,Private Room,1232,3,1.5,2,Sherman Ave (South Campus area),2026-07-03,Furnished
+SUB-232,Private Room,1056,5,2.5,4,Noyes Street (North Campus area),2026-08-28,Unfurnished
+SUB-233,Private Room,1014,3,2.0,2,Sherman Ave (South Campus area),2026-07-01,Furnished
+SUB-234,Private Room,755,4,1.5,3,South Evanston (near Main St),2026-08-29,Unfurnished
+SUB-235,Private Room,1011,4,1.5,3,Orrington Ave (Near University Library),2026-08-12,Unfurnished
+SUB-236,Private Room,1180,5,3.0,4,Noyes Street (North Campus area),2026-05-19,Furnished
+SUB-237,Private Room,1131,4,2.5,3,Downtown Evanston (near Davis CTA/Metra),2026-08-09,Unfurnished
+SUB-238,Entire Unit,1545,0,1.0,0,Noyes Street (North Campus area),2026-09-06,Furnished
+SUB-239,Private Room,1188,3,1.5,2,Sherman Ave (South Campus area),2026-09-09,Furnished
+SUB-240,Private Room,988,4,3.0,3,South Evanston (near Main St),2026-09-29,Unfurnished
+SUB-241,Private Room,1048,5,2.5,4,Ridge Ave & Church St,2026-05-29,Furnished
+SUB-242,Private Room,900,3,2.0,2,Noyes Street (North Campus area),2026-09-26,Unfurnished
+SUB-243,Private Room,928,3,2.0,2,Sherman Ave (South Campus area),2026-08-06,Unfurnished
+SUB-244,Private Room,828,4,3.0,3,Central Street (North Evanston),2026-08-21,Furnished
+SUB-245,Private Room,1091,2,1.0,1,Sherman Ave (South Campus area),2026-08-29,Unfurnished
+SUB-246,Private Room,994,4,2.0,3,Green Bay Road (Near Canal),2026-08-05,Furnished
+SUB-247,Private Room,961,5,2.0,4,Sherman Ave (South Campus area),2026-07-07,Unfurnished
+SUB-248,Private Room,1090,4,2.0,3,Noyes Street (North Campus area),2026-07-16,Unfurnished
+SUB-249,Private Room,993,4,1.5,3,South Evanston (near Main St),2026-07-10,Unfurnished
+SUB-250,Private Room,857,3,1.5,2,Sherman Ave (South Campus area),2026-07-28,Unfurnished
+SUB-251,Entire Unit,2393,2,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-05,Unfurnished
+SUB-252,Private Room,792,3,1.0,2,South Evanston (near Main St),2026-05-28,Furnished
+SUB-253,Entire Unit,2195,1,1.0,0,Noyes Street (North Campus area),2026-05-26,Furnished
+SUB-254,Entire Unit,2292,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-06-10,Furnished
+SUB-255,Private Room,1045,2,1.0,1,Chicago Ave & Dempster St,2026-05-16,Furnished
+SUB-256,Entire Unit,1580,1,1.0,0,Chicago Ave & Dempster St,2026-06-14,Unfurnished
+SUB-257,Entire Unit,1807,0,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-09-04,Unfurnished
+SUB-258,Entire Unit,2589,2,1.5,0,Downtown Evanston (near Davis CTA/Metra),2026-05-28,Furnished
+SUB-259,Private Room,912,5,2.5,4,Sherman Ave (South Campus area),2026-09-07,Unfurnished
+SUB-260,Private Room,912,2,1.5,1,Central Street (North Evanston),2026-06-17,Furnished
+SUB-261,Private Room,962,5,2.5,4,Noyes Street (North Campus area),2026-08-12,Furnished
+SUB-262,Private Room,936,2,1.5,1,Green Bay Road (Near Canal),2026-07-03,Furnished
+SUB-263,Private Room,1249,2,1.5,1,Noyes Street (North Campus area),2026-09-27,Furnished
+SUB-264,Private Room,825,5,2.5,4,West Evanston (near Dodge Ave),2026-06-10,Furnished
+SUB-265,Entire Unit,3067,3,2.5,0,Noyes Street (North Campus area),2026-06-26,Furnished
+SUB-266,Entire Unit,2468,2,2.0,0,Sherman Ave (South Campus area),2026-08-29,Unfurnished
+SUB-267,Private Room,739,5,2.5,4,Central Street (North Evanston),2026-05-21,Unfurnished
+SUB-268,Entire Unit,2137,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-09-07,Unfurnished
+SUB-269,Private Room,1146,5,1.5,4,Orrington Ave (Near University Library),2026-06-22,Furnished
+SUB-270,Private Room,902,5,2.5,4,Sherman Ave (South Campus area),2026-05-15,Furnished
+SUB-271,Entire Unit,1584,1,1.0,0,Central Street (North Evanston),2026-05-12,Furnished
+SUB-272,Entire Unit,1482,0,1.0,0,Chicago Ave & Dempster St,2026-08-29,Furnished
+SUB-273,Entire Unit,1791,1,1.0,0,Central Street (North Evanston),2026-08-16,Unfurnished
+SUB-274,Private Room,1029,3,2.0,2,Orrington Ave (Near University Library),2026-05-21,Furnished
+SUB-275,Entire Unit,2609,2,1.0,0,Sherman Ave (South Campus area),2026-06-27,Furnished
+SUB-276,Entire Unit,2028,1,1.0,0,Sherman Ave (South Campus area),2026-06-28,Furnished
+SUB-277,Private Room,949,5,1.5,4,Orrington Ave (Near University Library),2026-05-09,Unfurnished
+SUB-278,Private Room,772,3,2.0,2,South Evanston (near Main St),2026-05-13,Furnished
+SUB-279,Private Room,977,3,2.0,2,Sherman Ave (South Campus area),2026-05-15,Unfurnished
+SUB-280,Entire Unit,1680,1,1.0,0,Central Street (North Evanston),2026-07-22,Furnished
+SUB-281,Private Room,1261,3,2.0,2,Sherman Ave (South Campus area),2026-09-20,Furnished
+SUB-282,Private Room,909,4,3.0,3,Chicago Ave & Dempster St,2026-08-06,Unfurnished
+SUB-283,Private Room,1043,3,1.0,2,Sherman Ave (South Campus area),2026-08-30,Unfurnished
+SUB-284,Private Room,1070,5,2.0,4,Sherman Ave (South Campus area),2026-08-14,Furnished
+SUB-285,Private Room,726,2,1.0,1,South Evanston (near Main St),2026-08-03,Unfurnished
+SUB-286,Private Room,1103,3,2.0,2,West Evanston (near Dodge Ave),2026-05-19,Furnished
+SUB-287,Private Room,991,2,1.0,1,Noyes Street (North Campus area),2026-07-17,Unfurnished
+SUB-288,Private Room,882,3,1.5,2,Green Bay Road (Near Canal),2026-07-02,Furnished
+SUB-289,Private Room,1105,4,2.5,3,Noyes Street (North Campus area),2026-07-31,Furnished
+SUB-290,Private Room,860,3,1.5,2,Ridge Ave & Church St,2026-07-21,Unfurnished
+SUB-291,Private Room,1045,2,1.5,1,South Evanston (near Main St),2026-06-07,Furnished
+SUB-292,Private Room,1178,3,1.5,2,Sherman Ave (South Campus area),2026-07-24,Furnished
+SUB-293,Private Room,857,5,3.0,4,Chicago Ave & Dempster St,2026-09-03,Furnished
+SUB-294,Entire Unit,1791,0,1.0,0,Noyes Street (North Campus area),2026-09-03,Unfurnished
+SUB-295,Entire Unit,2294,2,2.0,0,Sherman Ave (South Campus area),2026-05-20,Unfurnished
+SUB-296,Private Room,1029,3,1.0,2,Downtown Evanston (near Davis CTA/Metra),2026-05-18,Furnished
+SUB-297,Private Room,703,5,1.5,4,South Evanston (near Main St),2026-09-01,Unfurnished
+SUB-298,Private Room,1214,4,1.5,3,Sherman Ave (South Campus area),2026-07-10,Furnished
+SUB-299,Private Room,862,3,1.0,2,Chicago Ave & Dempster St,2026-05-25,Furnished
+SUB-300,Private Room,961,2,1.5,1,Ridge Ave & Church St,2026-08-10,Furnished
+SUB-301,Private Room,956,2,1.0,1,Green Bay Road (Near Canal),2026-05-21,Furnished
+SUB-302,Private Room,1179,2,1.5,1,Sherman Ave (South Campus area),2026-06-13,Furnished
+SUB-303,Private Room,808,2,1.0,1,Chicago Ave & Dempster St,2026-09-13,Unfurnished
+SUB-304,Entire Unit,1375,0,1.0,0,West Evanston (near Dodge Ave),2026-07-09,Furnished
+SUB-305,Entire Unit,1591,0,1.0,0,Orrington Ave (Near University Library),2026-05-09,Furnished
+SUB-306,Private Room,783,2,1.5,1,Central Street (North Evanston),2026-08-10,Unfurnished
+SUB-307,Private Room,771,4,3.0,3,South Evanston (near Main St),2026-09-16,Unfurnished
+SUB-308,Entire Unit,1502,0,1.0,0,West Evanston (near Dodge Ave),2026-07-28,Furnished
+SUB-309,Entire Unit,1891,1,1.0,0,Noyes Street (North Campus area),2026-09-30,Unfurnished
+SUB-310,Private Room,957,4,3.0,3,Ridge Ave & Church St,2026-06-28,Furnished
+SUB-311,Private Room,767,3,2.0,2,West Evanston (near Dodge Ave),2026-07-15,Furnished
+SUB-312,Private Room,997,5,2.5,4,Sherman Ave (South Campus area),2026-06-09,Unfurnished
+SUB-313,Private Room,780,2,1.0,1,Chicago Ave & Dempster St,2026-07-09,Furnished
+SUB-314,Private Room,941,2,1.0,1,South Evanston (near Main St),2026-05-27,Furnished
+SUB-315,Private Room,960,2,1.5,1,South Evanston (near Main St),2026-08-07,Furnished
+SUB-316,Entire Unit,1710,1,1.0,0,Central Street (North Evanston),2026-07-02,Furnished
+SUB-317,Private Room,982,3,1.0,2,Downtown Evanston (near Davis CTA/Metra),2026-09-04,Furnished
+SUB-318,Private Room,1246,3,2.0,2,Sherman Ave (South Campus area),2026-07-04,Furnished
+SUB-319,Private Room,1211,5,2.5,4,Sherman Ave (South Campus area),2026-05-02,Furnished
+SUB-320,Private Room,1041,3,1.5,2,Sherman Ave (South Campus area),2026-09-30,Unfurnished
+SUB-321,Entire Unit,3710,3,2.5,0,Noyes Street (North Campus area),2026-08-10,Furnished
+SUB-322,Private Room,918,4,3.0,3,South Evanston (near Main St),2026-08-05,Furnished
+SUB-323,Entire Unit,1763,1,1.0,0,Noyes Street (North Campus area),2026-06-16,Unfurnished
+SUB-324,Private Room,1100,2,1.5,1,Central Street (North Evanston),2026-07-14,Furnished
+SUB-325,Private Room,957,5,3.0,4,Noyes Street (North Campus area),2026-06-09,Furnished
+SUB-326,Private Room,1215,2,1.5,1,Sherman Ave (South Campus area),2026-08-16,Furnished
+SUB-327,Entire Unit,1796,0,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-30,Furnished
+SUB-328,Entire Unit,2659,3,2.5,0,West Evanston (near Dodge Ave),2026-07-24,Furnished
+SUB-329,Private Room,1041,3,1.5,2,Noyes Street (North Campus area),2026-09-20,Unfurnished
+SUB-330,Private Room,947,4,1.5,3,West Evanston (near Dodge Ave),2026-06-08,Unfurnished
+SUB-331,Private Room,1002,3,1.5,2,Sherman Ave (South Campus area),2026-05-30,Unfurnished
+SUB-332,Private Room,1100,2,1.5,1,Noyes Street (North Campus area),2026-08-30,Furnished
+SUB-333,Private Room,882,2,1.0,1,Ridge Ave & Church St,2026-07-27,Furnished
+SUB-334,Private Room,1181,3,1.5,2,Noyes Street (North Campus area),2026-08-27,Furnished
+SUB-335,Private Room,1069,5,3.0,4,Sherman Ave (South Campus area),2026-06-20,Furnished
+SUB-336,Private Room,1028,2,1.0,1,Noyes Street (North Campus area),2026-05-17,Unfurnished
+SUB-337,Private Room,1162,4,3.0,3,Downtown Evanston (near Davis CTA/Metra),2026-09-03,Unfurnished
+SUB-338,Private Room,1161,4,1.5,3,Noyes Street (North Campus area),2026-06-14,Unfurnished
+SUB-339,Private Room,1114,3,2.0,2,Noyes Street (North Campus area),2026-08-04,Furnished
+SUB-340,Private Room,990,3,2.0,2,Sherman Ave (South Campus area),2026-09-15,Furnished
+SUB-341,Private Room,1102,4,1.5,3,Noyes Street (North Campus area),2026-05-14,Furnished
+SUB-342,Entire Unit,2006,1,1.0,0,Chicago Ave & Dempster St,2026-09-04,Furnished
+SUB-343,Entire Unit,1882,0,1.0,0,Sherman Ave (South Campus area),2026-09-22,Furnished
+SUB-344,Private Room,1149,5,1.5,4,Noyes Street (North Campus area),2026-08-26,Furnished
+SUB-345,Entire Unit,2536,2,1.5,0,Ridge Ave & Church St,2026-05-11,Furnished
+SUB-346,Entire Unit,1698,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-03,Unfurnished
+SUB-347,Private Room,1236,3,1.0,2,Orrington Ave (Near University Library),2026-05-31,Furnished
+SUB-348,Entire Unit,2082,2,1.0,0,South Evanston (near Main St),2026-06-05,Furnished
+SUB-349,Private Room,1184,4,2.5,3,Noyes Street (North Campus area),2026-07-22,Furnished
+SUB-350,Entire Unit,2637,2,1.5,0,West Evanston (near Dodge Ave),2026-08-14,Furnished
+SUB-351,Entire Unit,2645,2,2.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-22,Furnished
+SUB-352,Private Room,1143,2,1.0,1,Noyes Street (North Campus area),2026-08-24,Furnished
+SUB-353,Private Room,818,4,1.5,3,Chicago Ave & Dempster St,2026-09-02,Furnished
+SUB-354,Entire Unit,2123,2,1.5,0,South Evanston (near Main St),2026-05-17,Unfurnished
+SUB-355,Entire Unit,2583,2,1.5,0,Ridge Ave & Church St,2026-07-22,Furnished
+SUB-356,Private Room,1220,2,1.0,1,Orrington Ave (Near University Library),2026-05-13,Unfurnished
+SUB-357,Entire Unit,1659,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-06-10,Unfurnished
+SUB-358,Private Room,813,3,1.5,2,West Evanston (near Dodge Ave),2026-07-17,Furnished
+SUB-359,Private Room,1159,2,1.5,1,Downtown Evanston (near Davis CTA/Metra),2026-06-12,Unfurnished
+SUB-360,Entire Unit,2229,2,1.0,0,Central Street (North Evanston),2026-05-24,Furnished
+SUB-361,Private Room,907,2,1.0,1,South Evanston (near Main St),2026-08-22,Furnished
+SUB-362,Entire Unit,1891,1,1.0,0,Sherman Ave (South Campus area),2026-05-19,Furnished
+SUB-363,Private Room,1193,3,2.0,2,Sherman Ave (South Campus area),2026-08-06,Furnished
+SUB-364,Private Room,1216,4,2.0,3,Downtown Evanston (near Davis CTA/Metra),2026-08-21,Unfurnished
+SUB-365,Private Room,967,2,1.0,1,Sherman Ave (South Campus area),2026-06-25,Unfurnished
+SUB-366,Private Room,868,4,2.0,3,Central Street (North Evanston),2026-08-18,Furnished
+SUB-367,Private Room,1034,2,1.5,1,Noyes Street (North Campus area),2026-07-12,Furnished
+SUB-368,Private Room,929,3,1.5,2,Central Street (North Evanston),2026-05-14,Furnished
+SUB-369,Private Room,816,4,2.5,3,South Evanston (near Main St),2026-05-04,Furnished
+SUB-370,Entire Unit,2042,2,1.0,0,South Evanston (near Main St),2026-06-14,Furnished
+SUB-371,Private Room,1269,5,2.5,4,Noyes Street (North Campus area),2026-05-16,Furnished
+SUB-372,Entire Unit,1837,1,1.0,0,Sherman Ave (South Campus area),2026-09-15,Furnished
+SUB-373,Private Room,1254,4,3.0,3,Sherman Ave (South Campus area),2026-06-09,Furnished
+SUB-374,Entire Unit,2040,2,1.0,0,West Evanston (near Dodge Ave),2026-08-20,Furnished
+SUB-375,Private Room,932,4,2.0,3,Sherman Ave (South Campus area),2026-05-15,Furnished
+SUB-376,Private Room,1078,4,2.0,3,Downtown Evanston (near Davis CTA/Metra),2026-07-28,Furnished
+SUB-377,Entire Unit,2058,1,1.0,0,Noyes Street (North Campus area),2026-05-08,Unfurnished
+SUB-378,Private Room,1107,5,3.0,4,Noyes Street (North Campus area),2026-05-20,Unfurnished
+SUB-379,Private Room,1250,4,1.5,3,Orrington Ave (Near University Library),2026-06-10,Furnished
+SUB-380,Private Room,989,3,1.0,2,Central Street (North Evanston),2026-05-04,Furnished
+SUB-381,Private Room,995,5,2.0,4,Noyes Street (North Campus area),2026-05-10,Unfurnished
+SUB-382,Private Room,1025,4,1.5,3,Central Street (North Evanston),2026-05-20,Furnished
+SUB-383,Entire Unit,3667,3,2.0,0,Noyes Street (North Campus area),2026-05-12,Unfurnished
+SUB-384,Entire Unit,1505,1,1.0,0,Central Street (North Evanston),2026-05-23,Furnished
+SUB-385,Private Room,1058,5,2.5,4,South Evanston (near Main St),2026-07-02,Furnished
+SUB-386,Entire Unit,2054,2,1.0,0,Central Street (North Evanston),2026-09-17,Unfurnished
+SUB-387,Private Room,964,2,1.5,1,Sherman Ave (South Campus area),2026-07-28,Furnished
+SUB-388,Private Room,979,3,1.5,2,Central Street (North Evanston),2026-06-22,Furnished
+SUB-389,Entire Unit,2748,2,2.0,0,Downtown Evanston (near Davis CTA/Metra),2026-05-12,Furnished
+SUB-390,Private Room,930,3,2.0,2,Central Street (North Evanston),2026-09-07,Furnished
+SUB-391,Private Room,973,3,1.5,2,Downtown Evanston (near Davis CTA/Metra),2026-06-03,Unfurnished
+SUB-392,Entire Unit,1887,1,1.0,0,Sherman Ave (South Campus area),2026-07-23,Unfurnished
+SUB-393,Private Room,875,2,1.0,1,Noyes Street (North Campus area),2026-09-27,Unfurnished
+SUB-394,Private Room,1057,3,1.5,2,Noyes Street (North Campus area),2026-07-31,Furnished
+SUB-395,Entire Unit,2677,2,2.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-17,Unfurnished
+SUB-396,Private Room,1136,4,3.0,3,Orrington Ave (Near University Library),2026-07-03,Furnished
+SUB-397,Private Room,802,5,2.0,4,Ridge Ave & Church St,2026-08-12,Furnished
+SUB-398,Private Room,851,3,1.0,2,Ridge Ave & Church St,2026-05-16,Furnished
+SUB-399,Private Room,740,4,1.5,3,South Evanston (near Main St),2026-09-27,Furnished
+SUB-400,Private Room,721,4,1.5,3,South Evanston (near Main St),2026-05-24,Unfurnished
+SUB-401,Entire Unit,2565,2,1.5,0,Downtown Evanston (near Davis CTA/Metra),2026-08-19,Unfurnished
+SUB-402,Private Room,1074,4,2.5,3,Sherman Ave (South Campus area),2026-06-17,Furnished
+SUB-403,Private Room,761,5,3.0,4,South Evanston (near Main St),2026-09-05,Furnished
+SUB-404,Private Room,1129,3,2.0,2,Downtown Evanston (near Davis CTA/Metra),2026-09-12,Furnished
+SUB-405,Entire Unit,2245,1,1.0,0,Sherman Ave (South Campus area),2026-09-02,Furnished
+SUB-406,Private Room,1155,4,1.5,3,Downtown Evanston (near Davis CTA/Metra),2026-05-08,Furnished
+SUB-407,Entire Unit,1646,1,1.0,0,Green Bay Road (Near Canal),2026-05-26,Unfurnished
+SUB-408,Private Room,898,3,2.0,2,Ridge Ave & Church St,2026-05-15,Unfurnished
+SUB-409,Private Room,862,3,2.0,2,Ridge Ave & Church St,2026-06-15,Unfurnished
+SUB-410,Entire Unit,2481,2,1.5,0,West Evanston (near Dodge Ave),2026-05-08,Unfurnished
+SUB-411,Private Room,978,4,2.0,3,South Evanston (near Main St),2026-09-04,Furnished
+SUB-412,Private Room,1084,5,1.5,4,Noyes Street (North Campus area),2026-09-12,Furnished
+SUB-413,Entire Unit,1715,0,1.0,0,Noyes Street (North Campus area),2026-07-22,Furnished
+SUB-414,Entire Unit,3221,3,2.5,0,Central Street (North Evanston),2026-08-02,Unfurnished
+SUB-415,Entire Unit,2003,1,1.0,0,Sherman Ave (South Campus area),2026-07-17,Furnished
+SUB-416,Entire Unit,2678,2,2.0,0,Chicago Ave & Dempster St,2026-06-14,Furnished
+SUB-417,Private Room,765,4,2.5,3,West Evanston (near Dodge Ave),2026-08-05,Unfurnished
+SUB-418,Private Room,970,5,1.5,4,Downtown Evanston (near Davis CTA/Metra),2026-09-24,Unfurnished
+SUB-419,Private Room,818,2,1.5,1,Ridge Ave & Church St,2026-09-22,Furnished
+SUB-420,Entire Unit,1821,1,1.0,0,Noyes Street (North Campus area),2026-06-12,Unfurnished
+SUB-421,Private Room,896,4,2.0,3,Central Street (North Evanston),2026-05-03,Furnished
+SUB-422,Private Room,1168,2,1.5,1,Noyes Street (North Campus area),2026-05-01,Furnished
+SUB-423,Entire Unit,2070,1,1.0,0,Orrington Ave (Near University Library),2026-08-05,Furnished
+SUB-424,Entire Unit,1237,0,1.0,0,South Evanston (near Main St),2026-06-27,Unfurnished
+SUB-425,Entire Unit,3141,3,2.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-06,Furnished
+SUB-426,Private Room,870,4,3.0,3,Downtown Evanston (near Davis CTA/Metra),2026-05-24,Unfurnished
+SUB-427,Entire Unit,1571,0,1.0,0,Noyes Street (North Campus area),2026-06-10,Unfurnished
+SUB-428,Entire Unit,1994,1,1.0,0,Sherman Ave (South Campus area),2026-09-16,Furnished
+SUB-429,Private Room,1036,3,1.0,2,Sherman Ave (South Campus area),2026-09-03,Furnished
+SUB-430,Private Room,751,3,1.0,2,Ridge Ave & Church St,2026-08-31,Furnished
+SUB-431,Private Room,1170,4,3.0,3,Noyes Street (North Campus area),2026-05-30,Furnished
+SUB-432,Private Room,848,5,2.5,4,South Evanston (near Main St),2026-08-03,Furnished
+SUB-433,Private Room,1183,2,1.0,1,Sherman Ave (South Campus area),2026-07-08,Furnished
+SUB-434,Private Room,780,3,2.0,2,Ridge Ave & Church St,2026-09-28,Furnished
+SUB-435,Entire Unit,2000,1,1.0,0,Sherman Ave (South Campus area),2026-08-30,Furnished
+SUB-436,Private Room,1051,3,1.0,2,Orrington Ave (Near University Library),2026-09-06,Unfurnished
+SUB-437,Entire Unit,1723,0,1.0,0,Noyes Street (North Campus area),2026-06-19,Furnished
+SUB-438,Private Room,764,4,2.5,3,Green Bay Road (Near Canal),2026-09-30,Furnished
+SUB-439,Private Room,1252,5,1.5,4,Sherman Ave (South Campus area),2026-07-10,Furnished
+SUB-440,Entire Unit,1801,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-09-23,Furnished
+SUB-441,Entire Unit,2292,2,1.5,0,Ridge Ave & Church St,2026-07-28,Unfurnished
+SUB-442,Private Room,837,4,3.0,3,South Evanston (near Main St),2026-06-14,Furnished
+SUB-443,Private Room,985,3,1.0,2,West Evanston (near Dodge Ave),2026-07-24,Furnished
+SUB-444,Entire Unit,2231,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-17,Unfurnished
+SUB-445,Private Room,908,5,2.5,4,Chicago Ave & Dempster St,2026-07-16,Furnished
+SUB-446,Private Room,1012,5,3.0,4,South Evanston (near Main St),2026-06-24,Furnished
+SUB-447,Entire Unit,2504,2,1.5,0,Sherman Ave (South Campus area),2026-07-19,Furnished
+SUB-448,Entire Unit,2255,2,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-06-21,Furnished
+SUB-449,Entire Unit,1663,1,1.0,0,Central Street (North Evanston),2026-08-27,Furnished
+SUB-450,Private Room,1037,5,2.5,4,Sherman Ave (South Campus area),2026-06-15,Furnished
+SUB-451,Entire Unit,1641,0,1.0,0,West Evanston (near Dodge Ave),2026-08-07,Furnished
+SUB-452,Entire Unit,2152,1,1.0,0,Orrington Ave (Near University Library),2026-06-22,Furnished
+SUB-453,Entire Unit,2077,2,2.0,0,Chicago Ave & Dempster St,2026-08-30,Unfurnished
+SUB-454,Private Room,1090,4,3.0,3,Downtown Evanston (near Davis CTA/Metra),2026-07-18,Furnished
+SUB-455,Private Room,1145,2,1.0,1,Sherman Ave (South Campus area),2026-08-10,Unfurnished
+SUB-456,Entire Unit,1842,1,1.0,0,Ridge Ave & Church St,2026-09-30,Furnished
+SUB-457,Private Room,1226,4,2.5,3,Downtown Evanston (near Davis CTA/Metra),2026-07-23,Unfurnished
+SUB-458,Entire Unit,2615,2,1.0,0,West Evanston (near Dodge Ave),2026-09-10,Furnished
+SUB-459,Private Room,914,4,2.5,3,West Evanston (near Dodge Ave),2026-09-05,Unfurnished
+SUB-460,Private Room,881,3,1.5,2,Central Street (North Evanston),2026-09-24,Furnished
+SUB-461,Private Room,1036,4,2.0,3,Ridge Ave & Church St,2026-07-31,Unfurnished
+SUB-462,Entire Unit,2890,2,2.0,0,Noyes Street (North Campus area),2026-06-02,Furnished
+SUB-463,Entire Unit,1971,1,1.0,0,Orrington Ave (Near University Library),2026-06-26,Unfurnished
+SUB-464,Entire Unit,1846,1,1.0,0,Noyes Street (North Campus area),2026-07-15,Furnished
+SUB-465,Entire Unit,1599,1,1.0,0,South Evanston (near Main St),2026-05-19,Unfurnished
+SUB-466,Private Room,931,5,1.5,4,Orrington Ave (Near University Library),2026-07-16,Furnished
+SUB-467,Private Room,792,3,1.5,2,Green Bay Road (Near Canal),2026-08-26,Unfurnished
+SUB-468,Entire Unit,1717,1,1.0,0,Sherman Ave (South Campus area),2026-06-15,Furnished
+SUB-469,Private Room,830,5,1.5,4,Central Street (North Evanston),2026-06-10,Furnished
+SUB-470,Private Room,924,5,1.5,4,Sherman Ave (South Campus area),2026-08-31,Furnished
+SUB-471,Entire Unit,1546,0,1.0,0,Chicago Ave & Dempster St,2026-09-13,Unfurnished
+SUB-472,Private Room,801,4,2.0,3,Central Street (North Evanston),2026-07-28,Furnished
+SUB-473,Private Room,1184,4,2.5,3,Noyes Street (North Campus area),2026-05-12,Furnished
+SUB-474,Private Room,1079,4,3.0,3,Noyes Street (North Campus area),2026-06-04,Unfurnished
+SUB-475,Private Room,814,2,1.0,1,Chicago Ave & Dempster St,2026-08-12,Unfurnished
+SUB-476,Entire Unit,1769,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-09-28,Unfurnished
+SUB-477,Entire Unit,2075,2,2.0,0,Ridge Ave & Church St,2026-07-05,Furnished
+SUB-478,Entire Unit,1259,0,1.0,0,West Evanston (near Dodge Ave),2026-05-06,Unfurnished
+SUB-479,Private Room,1167,3,1.0,2,Sherman Ave (South Campus area),2026-08-30,Furnished
+SUB-480,Private Room,1217,5,1.5,4,Downtown Evanston (near Davis CTA/Metra),2026-06-05,Furnished
+SUB-481,Private Room,1139,3,1.5,2,Downtown Evanston (near Davis CTA/Metra),2026-06-20,Furnished
+SUB-482,Entire Unit,2706,2,2.0,0,Noyes Street (North Campus area),2026-09-05,Furnished
+SUB-483,Private Room,746,5,2.0,4,West Evanston (near Dodge Ave),2026-09-24,Unfurnished
+SUB-484,Entire Unit,2092,1,1.0,0,Downtown Evanston (near Davis CTA/Metra),2026-07-05,Unfurnished
+SUB-485,Private Room,1186,4,2.5,3,Downtown Evanston (near Davis CTA/Metra),2026-05-11,Unfurnished
+SUB-486,Private Room,1221,2,1.0,1,Downtown Evanston (near Davis CTA/Metra),2026-05-12,Unfurnished
+SUB-487,Private Room,1030,2,1.5,1,Sherman Ave (South Campus area),2026-07-08,Furnished
+SUB-488,Private Room,1067,5,3.0,4,Chicago Ave & Dempster St,2026-08-07,Furnished
+SUB-489,Private Room,1057,2,1.5,1,West Evanston (near Dodge Ave),2026-06-10,Furnished
+SUB-490,Entire Unit,2066,2,2.0,0,West Evanston (near Dodge Ave),2026-08-06,Furnished
+SUB-491,Entire Unit,2321,2,1.0,0,Central Street (North Evanston),2026-09-01,Unfurnished
+SUB-492,Private Room,1039,3,2.0,2,Downtown Evanston (near Davis CTA/Metra),2026-05-04,Unfurnished
+SUB-493,Private Room,1107,5,2.5,4,Central Street (North Evanston),2026-07-03,Furnished
+SUB-494,Private Room,1118,2,1.0,1,Downtown Evanston (near Davis CTA/Metra),2026-05-14,Unfurnished
+SUB-495,Entire Unit,2015,1,1.0,0,Orrington Ave (Near University Library),2026-09-03,Furnished
+SUB-496,Private Room,988,2,1.5,1,South Evanston (near Main St),2026-06-30,Furnished
+SUB-497,Private Room,954,5,1.5,4,Orrington Ave (Near University Library),2026-05-31,Furnished
+SUB-498,Private Room,1201,3,2.0,2,Sherman Ave (South Campus area),2026-07-17,Unfurnished
+SUB-499,Entire Unit,2948,2,1.5,0,Sherman Ave (South Campus area),2026-06-27,Furnished
+SUB-500,Private Room,1076,2,1.0,1,Central Street (North Evanston),2026-08-24,Furnished
