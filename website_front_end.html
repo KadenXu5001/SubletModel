@@ -1,0 +1,204 @@
+
+import React, { useState } from "react";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+
+export default function ApartmentChecker() {
+  const [form, setForm] = useState({
+    address: "",
+    price: "",
+    beds: "",
+    baths: "",
+    sqft: "",
+    furnished: false,
+  });
+
+  const [result, setResult] = useState(null);
+  const [comparables, setComparables] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setForm({
+      ...form,
+      [name]: type === "checkbox" ? checked : value,
+    });
+  };
+
+  const handleSubmit = async () => {
+    setLoading(true);
+    try {
+      const res = await fetch("/api/analyze-listing", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      const data = await res.json();
+      setResult(data.analysis);
+      setComparables(data.comparables);
+    } catch (error) {
+      console.error(error);
+    }
+    setLoading(false);
+  };
+
+  const priceDiff = result
+    ? Math.round(form.price - result.estimated_price)
+    : null;
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* NAV */}
+      <div className="bg-white/80 backdrop-blur border-b px-8 py-4 flex justify-between items-center sticky top-0 z-10">
+        <h1 className="text-2xl font-bold text-blue-600 tracking-tight">RentSmart</h1>
+        <div className="text-sm text-gray-500">Evanston, IL</div>
+      </div>
+
+      {/* HERO */}
+      <div className="relative overflow-hidden bg-gradient-to-br from-blue-100 via-blue-50 to-white px-6 py-20 text-center">
+        <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_20%_20%,#2563eb,transparent_40%),radial-gradient(circle_at_80%_30%,#60a5fa,transparent_40%)]"></div>
+
+
+        <div className="relative max-w-4xl mx-auto">
+          <h2 className="text-5xl font-extrabold mb-4 text-gray-900 leading-tight">
+            Find the <span className="text-blue-600">true price</span> of your apartment
+          </h2>
+          <p className="text-lg text-gray-600 mb-10">
+            AI-powered rent analysis, instant comparables, and market insights — all in one place.
+          </p>
+
+
+          {/* SEARCH CARD */}
+          <Card className="shadow-2xl rounded-2xl border-0">
+            <CardContent className="p-8 grid md:grid-cols-3 gap-5">
+              <Input name="address" placeholder="Address" onChange={handleChange} />
+              <Input name="price" type="number" placeholder="Rent ($)" onChange={handleChange} />
+              <Input name="sqft" type="number" placeholder="Sq Ft" onChange={handleChange} />
+              <Input name="beds" type="number" placeholder="Beds" onChange={handleChange} />
+              <Input name="baths" type="number" placeholder="Baths" onChange={handleChange} />
+              <div className="flex items-center gap-2">
+                <input type="checkbox" name="furnished" checked={form.furnished} onChange={handleChange} />
+                <Label>Furnished</Label>
+              </div>
+
+              <Button
+                onClick={handleSubmit}
+                disabled={loading}
+                className="md:col-span-3 bg-blue-600 hover:bg-blue-700 text-white py-4 text-lg rounded-xl shadow"
+              >
+                {loading ? "Analyzing listing..." : "Analyze Listing"}
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+
+      {/* FEATURES */}
+      <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8">
+        {[
+          {
+            title: "Instant Insights",
+            desc: "Know immediately if you're getting a good deal or overpaying.",
+          },
+          {
+            title: "Smart Comparisons",
+            desc: "Compare against similar listings in Evanston automatically.",
+          },
+          {
+            title: "Data-Driven AI",
+            desc: "Powered by real-time rental data and predictive models.",
+          },
+        ].map((f, i) => (
+          <div key={i} className="bg-white rounded-2xl p-6 shadow hover:shadow-lg transition">
+            <h3 className="text-lg font-semibold mb-2 text-gray-900">{f.title}</h3>
+            <p className="text-gray-600 text-sm">{f.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* RESULTS */}
+      <div className="max-w-6xl mx-auto px-6 pb-16 grid gap-6">
+        {result && (
+          <Card className="shadow-lg border-0 rounded-2xl">
+            <CardContent className="p-6">
+              <h3 className="text-xl font-semibold mb-3">Price Analysis</h3>
+              <p className="text-lg">
+                This listing is{' '}
+                <span
+                  className={`font-semibold capitalize ${
+                    result.label === "overpriced"
+                      ? "text-red-500"
+                      : result.label === "underpriced"
+                      ? "text-green-600"
+                      : "text-gray-900"
+                  }`}
+                >
+                  {result.label}
+                </span>
+              </p>
+              <p className="text-gray-600">
+                Estimated fair rent: ${result.estimated_price}
+              </p>
+
+              {priceDiff !== null && (
+                <div className="mt-4">
+                  <div className="w-full bg-gray-200 h-3 rounded-full">
+                    <div
+                      className={`h-3 rounded-full ${
+                        priceDiff > 0 ? "bg-red-500" : "bg-green-500"
+                      }`}
+                      style={{ width: `${Math.min(Math.abs(priceDiff) / 10, 100)}%` }}
+                    ></div>
+                  </div>
+                  <p className="text-sm mt-2 text-gray-600">
+                    {priceDiff > 0
+                      ? `Overpriced by ${priceDiff}`
+                      : `Underpriced by ${Math.abs(priceDiff)}`}
+                  </p>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        )}
+
+        {comparables.length > 0 && (
+          <div>
+            <h3 className="text-xl font-semibold mb-4">Similar Listings</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              {comparables.map((comp, idx) => (
+                <Card
+                  key={idx}
+                  className="overflow-hidden rounded-2xl border-0 shadow hover:shadow-xl transition"
+                >
+                  <div className="h-40 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center text-gray-500 text-sm">
+                    Image
+                  </div>
+                  <CardContent className="p-4">
+                    <p className="font-bold text-lg">${comp.price}</p>
+                    <p className="text-sm text-gray-600">
+                      {comp.beds} bd • {comp.baths} ba • {comp.sqft} sqft
+                    </p>
+                    <p className="text-sm mt-1 text-gray-500 truncate">{comp.address}</p>
+                    {comp.furnished !== undefined && (
+                      <span className="inline-block mt-2 text-xs px-2 py-1 bg-blue-100 text-blue-600 rounded-full">
+                        {comp.furnished ? "Furnished" : "Unfurnished"}
+                      </span>
+                    )}
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* FOOTER */}      <div className="bg-white border-t py-8 text-center">
+        <p className="text-sm text-gray-400">
+          Built for renters in Evanston · AI-powered market insights
+        </p>
+      </div>
+    </div>
+  );
+}
