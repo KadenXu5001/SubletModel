@@ -1,0 +1,6361 @@
+[
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/860-hinman/5XjRWb/",
+    "price": "$1,145+/mo",
+    "beds": 0,
+    "baths": 1,
+    "area": null,
+    "address": "860 Hinman, 860 Hinman Ave #095169ad6, Evanston, IL 60202",
+    "zpid": "458573950",
+    "raw": {
+      "zpid": "458573950",
+      "palsId": "100066001_8f5bfe6df935712add26fb5d054e7f2522155d99fe526ff91fe607938d02e08b",
+      "id": "458573950",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "2qmqbhuwrzjbu",
+      "imgSrc": "https://photos.zillowstatic.com/fp/ee542fe613c9b9846f6a5aff264290e5-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/860-hinman/5XjRWb/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$1,145+/mo",
+      "unformattedPrice": 1145,
+      "address": "860 Hinman, 860 Hinman Ave #095169ad6, Evanston, IL 60202",
+      "addressStreet": "860 Hinman Ave #095169ad6",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 0,
+      "baths": 1,
+      "latLong": {
+        "latitude": 42.033688,
+        "longitude": -87.67787
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 458573950,
+          "streetAddress": "860 Hinman Ave #095169ad6",
+          "zipcode": "60202",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.033688,
+          "longitude": -87.67787,
+          "price": 1145,
+          "datePriceChanged": 1777532400000,
+          "bathrooms": 1,
+          "bedrooms": 0,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 198,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 1338,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 1145,
+          "priceChange": 50,
+          "timeOnZillow": 17119534000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 095169ad6",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "ee542fe613c9b9846f6a5aff264290e5"
+          },
+          {
+            "photoKey": "abba2750c6fc20fafbf09cb9a054404e"
+          },
+          {
+            "photoKey": "1a9e31f1217f83b76f64161cf12db84e"
+          },
+          {
+            "photoKey": "7a061257d348c74c2f93349452505a78"
+          },
+          {
+            "photoKey": "0c73f8e2c53e158a84e424354e2ef6a9"
+          },
+          {
+            "photoKey": "8d841691560dee1302b420d10fe6f786"
+          },
+          {
+            "photoKey": "b12e6227af5a20b02aaa20ff75fcb736"
+          },
+          {
+            "photoKey": "32cd54cf89a2072b8a77718d42605ea3"
+          },
+          {
+            "photoKey": "43aa53a3ba857c66db1ff78bd4aaf232"
+          },
+          {
+            "photoKey": "88dc8b85ab39f9aa80098a04efc35ef4"
+          },
+          {
+            "photoKey": "ba5af92cf45c121e11f8aca2f9f4479a"
+          },
+          {
+            "photoKey": "b23a03859aa2a3ba479c8ba46f7d375a"
+          },
+          {
+            "photoKey": "70607883154d4fbe44d6adeda6d17b87"
+          },
+          {
+            "photoKey": "abbda4461b428acc5afefdb3f1459b83"
+          },
+          {
+            "photoKey": "1769a311f19337daf09c7f7021c6f71b"
+          },
+          {
+            "photoKey": "75f21b25dc1eea026e38b62f2f4c3f04"
+          },
+          {
+            "photoKey": "0991cb1763e18b98e6e73867c3477cb4"
+          },
+          {
+            "photoKey": "b1d3de59ee374f63aa1cdb4dad75c3ba"
+          },
+          {
+            "photoKey": "fd7736088de6171f8fec4dd820f91fc5"
+          },
+          {
+            "photoKey": "ed6e9bd0483bf332702c825ba21af773"
+          },
+          {
+            "photoKey": "c26adce02fcb11eec9b3a1841bffe247"
+          },
+          {
+            "photoKey": "8097870ef9c3bd28cf366a4cf0f79eb8"
+          },
+          {
+            "photoKey": "778d1b8ff81279876fb6203b299e2409"
+          },
+          {
+            "photoKey": "fd3f74049e243950e52daa01f51a6665"
+          },
+          {
+            "photoKey": "9764a1f26063b21474a78cafc60412cd"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/810-clark-st/CkFGy2/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "810 Clark St, Evanston, IL",
+    "zpid": "42.049755--87.682465",
+    "raw": {
+      "zpid": "42.049755--87.682465",
+      "id": "42.049755--87.682465",
+      "providerListingId": "4fqmu9fecrjq9",
+      "imgSrc": "https://photos.zillowstatic.com/fp/dd2ae2802147fe9d71beb322ab34194f-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/810-clark-st/CkFGy2/",
+      "statusType": "FOR_RENT",
+      "statusText": "810 Clark St",
+      "address": "810 Clark St, Evanston, IL",
+      "addressStreet": "810 Clark St # 2B-1Ba-900Sqft",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,970+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,560+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2751135331,
+      "latLong": {
+        "latitude": 42.049755,
+        "longitude": -87.682465
+      },
+      "buildingName": "810 Clark St",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "dd2ae2802147fe9d71beb322ab34194f"
+          },
+          {
+            "photoKey": "135906c6c5a4cfbea44870bd5529476b"
+          },
+          {
+            "photoKey": "9e93fe542a2c2b4a164a584129cfc561"
+          },
+          {
+            "photoKey": "b545def235d481bb86e371abb631f85c"
+          },
+          {
+            "photoKey": "1404644d92ed987009227cb17e740393"
+          },
+          {
+            "photoKey": "08d6fafdee668f747ecd35a4100e1453"
+          },
+          {
+            "photoKey": "99a3a72fdb7380b6835784e6cba2f777"
+          },
+          {
+            "photoKey": "d12e35365987378bb987e255428e7668"
+          },
+          {
+            "photoKey": "acd13fcbcd0c2b8e9629c0be17f9913f"
+          },
+          {
+            "photoKey": "c3de5ed8134809f55d9963e086442b32"
+          },
+          {
+            "photoKey": "14374a03aa3944403a9ae3dcb266c175"
+          },
+          {
+            "photoKey": "9e6d47eb3441d55d862330c08549341c"
+          },
+          {
+            "photoKey": "b4a2dcc34215c08288debf66b1dd50a7"
+          },
+          {
+            "photoKey": "45648ccc1ab9f0abded7f8deaff6665b"
+          },
+          {
+            "photoKey": "0766a0fe61b2b54e7678e44f9b209340"
+          },
+          {
+            "photoKey": "49ad48b83a2ec6bebcf2d550e6360792"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/2210-22-maple-ave./5XjSyc/",
+    "price": "$1,995/mo",
+    "beds": 2,
+    "baths": 1,
+    "area": 750,
+    "address": "2210-22 Maple Ave., 2210 Maple Ave #1010-212, Evanston, IL 60201",
+    "zpid": "2071595633",
+    "raw": {
+      "zpid": "2071595633",
+      "palsId": "100066001_42ddb3d83f270024e0f1fec93e59a2b14245e79c7e30c690812c5997cf9bb656",
+      "id": "2071595633",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "3rvhrbnc9sprk",
+      "imgSrc": "https://photos.zillowstatic.com/fp/00a35f5e7319d6b617178cddba4060dc-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/2210-22-maple-ave./5XjSyc/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$1,995/mo",
+      "unformattedPrice": 1995,
+      "address": "2210-22 Maple Ave., 2210 Maple Ave #1010-212, Evanston, IL 60201",
+      "addressStreet": "2210 Maple Ave #1010-212",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 2,
+      "baths": 1,
+      "area": 750,
+      "latLong": {
+        "latitude": 42.058147,
+        "longitude": -87.68416
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "3 days ago",
+            "contentType": "timeOnInfo"
+          }
+        ],
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 2071595633,
+          "streetAddress": "2210 Maple Ave #1010-212",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.058147,
+          "longitude": -87.68416,
+          "price": 1995,
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "livingArea": 750,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 3,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 2276,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 1995,
+          "timeOnZillow": 263091000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 1010-212",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "availabilityDate": "2026-09-01 00:00:00",
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "00a35f5e7319d6b617178cddba4060dc"
+          },
+          {
+            "photoKey": "665ddabaf8c08139984212c93c7c74b5"
+          },
+          {
+            "photoKey": "ce613298b220e7d734e8d3da21bcd319"
+          },
+          {
+            "photoKey": "d206a158400f574d418b6ab2ae484142"
+          },
+          {
+            "photoKey": "e60e2a8d43845fcd39afd8a40c852d82"
+          },
+          {
+            "photoKey": "d42f4a97e3b39de3092d79d8f927bd67"
+          },
+          {
+            "photoKey": "7755d399943803a950ff608fc7b62682"
+          },
+          {
+            "photoKey": "7dc54445022f07872715068768d841e4"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/1320-chicago/5XjMKz/",
+    "price": "$1,590+/mo",
+    "beds": 1,
+    "baths": 1,
+    "area": 506,
+    "address": "1320 Chicago, 1320 Chicago Ave, Evanston, IL 60201",
+    "zpid": "442556300",
+    "raw": {
+      "zpid": "442556300",
+      "palsId": "100066001_603fa3533f8f105b492707b8a98fc425d34eda7e20ba6beeefd7728e87764ff7",
+      "id": "442556300",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "5ctt798m3ym5u",
+      "imgSrc": "https://photos.zillowstatic.com/fp/755ee2cfcb73b9330f08b278ab668972-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/1320-chicago/5XjMKz/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$1,590+/mo",
+      "unformattedPrice": 1590,
+      "address": "1320 Chicago, 1320 Chicago Ave, Evanston, IL 60201",
+      "addressStreet": "1320 Chicago Ave #1684026",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 1,
+      "baths": 1,
+      "area": 506,
+      "latLong": {
+        "latitude": 42.041943,
+        "longitude": -87.68099
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 442556300,
+          "streetAddress": "1320 Chicago Ave #1684026",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.041943,
+          "longitude": -87.68099,
+          "price": 1590,
+          "datePriceChanged": 1780038000000,
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "livingArea": 506,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 69,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 1649,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 1590,
+          "priceChange": 105,
+          "timeOnZillow": 5973511000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 1684026",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "755ee2cfcb73b9330f08b278ab668972"
+          },
+          {
+            "photoKey": "786a7d25785e26b0a6c8e163ac522240"
+          },
+          {
+            "photoKey": "965da9fa374d7a920668802bd52ed88f"
+          },
+          {
+            "photoKey": "386ba38f9766dd1722e4ca717b90937e"
+          },
+          {
+            "photoKey": "844e4a8db4378d9dfc3f862d92e0b8f2"
+          },
+          {
+            "photoKey": "460aadc01d40aafefd01b0dd3059f5c9"
+          },
+          {
+            "photoKey": "f41fef762fc7c14067db9fc790f57897"
+          },
+          {
+            "photoKey": "a059db2bf3b3cf294b9e80d282c1d1c9"
+          },
+          {
+            "photoKey": "ac95919789234b0a1cb0236e8887bf8d"
+          },
+          {
+            "photoKey": "370f61a02ca2b0794b1cdc2920d08f06"
+          },
+          {
+            "photoKey": "410257e58ba5f43785ea1eda76abbc82"
+          },
+          {
+            "photoKey": "b3100c30c5990a88348d45b8211ab2f4"
+          },
+          {
+            "photoKey": "3ce50ccd0a3695f1f2ded4eef5fab151"
+          },
+          {
+            "photoKey": "53d29669789f566b20338cb29f807c68"
+          },
+          {
+            "photoKey": "5fb7d81971e56137e3f46fbe251fc119"
+          },
+          {
+            "photoKey": "bb7b57911e39d177aa55fa5cde287793"
+          },
+          {
+            "photoKey": "f01f4a7fe71cc67c4b790755d4248115"
+          },
+          {
+            "photoKey": "cac969359ffc9ee55f7f82c67002f460"
+          },
+          {
+            "photoKey": "7bfb00f2cbda28239600fb2bb125b973"
+          },
+          {
+            "photoKey": "ff100150e19d5d65491ae4e310bba694"
+          },
+          {
+            "photoKey": "9cc7be885b9d10fb9f3057577c4cfc47"
+          },
+          {
+            "photoKey": "cc77cc5d14296ed24d3f060dc0e39009"
+          },
+          {
+            "photoKey": "730511f216fb9daef4e091ba8f93ee23"
+          },
+          {
+            "photoKey": "4aed1f87eba84e76fdec24aecc4d58ff"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/910-judson/CkFTT6/",
+    "price": "$2,195/mo",
+    "beds": 2,
+    "baths": 2,
+    "area": 1150,
+    "address": "910 Judson, 910 Judson Ave #912-3A, Evanston, IL 60202",
+    "zpid": "462907870",
+    "raw": {
+      "zpid": "462907870",
+      "palsId": "100066001_43bd339705ad779dd980cefd520505044736fa3ed9bc4c0992698accc4109e38",
+      "id": "462907870",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "12kqsc2n0fbwx",
+      "imgSrc": "https://photos.zillowstatic.com/fp/fb779cd7e16571a0a213b55f55ad4ffd-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/910-judson/CkFTT6/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$2,195/mo",
+      "unformattedPrice": 2195,
+      "address": "910 Judson, 910 Judson Ave #912-3A, Evanston, IL 60202",
+      "addressStreet": "910 Judson Ave #912-3A",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 2,
+      "baths": 2,
+      "area": 1150,
+      "latLong": {
+        "latitude": 42.03448,
+        "longitude": -87.67664
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "8 days ago",
+            "contentType": "timeOnInfo"
+          }
+        ],
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 462907870,
+          "streetAddress": "910 Judson Ave #912-3A",
+          "zipcode": "60202",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.03448,
+          "longitude": -87.67664,
+          "price": 2195,
+          "bathrooms": 2,
+          "bedrooms": 2,
+          "livingArea": 1150,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 8,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 2134,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 2195,
+          "timeOnZillow": 693280000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 912-3A",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "availabilityDate": "2026-06-30 00:00:00",
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "fb779cd7e16571a0a213b55f55ad4ffd"
+          },
+          {
+            "photoKey": "4ecc11890ecdb13329f873cc7b5dff90"
+          },
+          {
+            "photoKey": "123f93f783eaed29779e65b1b9fca9ea"
+          },
+          {
+            "photoKey": "4e367119a6dbf7134f51b9fbd5f21872"
+          },
+          {
+            "photoKey": "7805e15b6a6f229059c4c2e2185da2a3"
+          },
+          {
+            "photoKey": "b8d3c5c60eb84242b143508705bc401c"
+          },
+          {
+            "photoKey": "38831cbbd6dc81aa6517f18d40e5e56e"
+          },
+          {
+            "photoKey": "3efb32a4207efad6e9bc98759d417478"
+          },
+          {
+            "photoKey": "fb054b1025817f26eff24bfedf6e69d9"
+          },
+          {
+            "photoKey": "e8f243186080a6a286a789ff0b431a89"
+          },
+          {
+            "photoKey": "0cbd987c1628e54c850808f24eee4124"
+          },
+          {
+            "photoKey": "a52af2f99b27c23ecd9e064a3f47daf0"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "halfBathroomCount": 0,
+        "fullBathroomCount": 2,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1303-maple/5XjQvs/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1303 Maple Ave, Evanston, IL",
+    "zpid": "42.04135--87.68508",
+    "raw": {
+      "zpid": "42.04135--87.68508",
+      "id": "42.04135--87.68508",
+      "providerListingId": "nsvj9yq7nxgf",
+      "imgSrc": "https://photos.zillowstatic.com/fp/88601a5a51add062e276a52c4e794d69-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1303-maple/5XjQvs/",
+      "statusType": "FOR_RENT",
+      "statusText": "1303 Maple",
+      "address": "1303 Maple Ave, Evanston, IL",
+      "addressStreet": "1303 Maple Ave  # 12bd70e2b",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,995+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,395+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001478506,
+      "latLong": {
+        "latitude": 42.04135,
+        "longitude": -87.68508
+      },
+      "buildingName": "1303 Maple",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": true,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "88601a5a51add062e276a52c4e794d69"
+          },
+          {
+            "photoKey": "6ff8bd9a6ef5f5bb77674511f07c321f"
+          },
+          {
+            "photoKey": "0c6acbe47228d133a44b04b501f99134"
+          },
+          {
+            "photoKey": "cdaed2dcfdbf41c878b3100f79783b1f"
+          },
+          {
+            "photoKey": "208840a1e1d6de6543193e9fc1436825"
+          },
+          {
+            "photoKey": "d21e24811f70ad71be474b8cd06e56eb"
+          },
+          {
+            "photoKey": "cf6c23f157df8dbdf4c4d71b799a1b55"
+          },
+          {
+            "photoKey": "98db7f674b844d9613de4f962a66ff1b"
+          },
+          {
+            "photoKey": "4dde65d2d4e9c62df777473dd851245e"
+          },
+          {
+            "photoKey": "af8dc04d473a87ec34a31fc3c6533db2"
+          },
+          {
+            "photoKey": "910d14af61332a1d872d94a278ab0ffa"
+          },
+          {
+            "photoKey": "a183901828aaef64c5a483c07da7a1c0"
+          },
+          {
+            "photoKey": "e533f42214506d3faff5df4a9735060f"
+          },
+          {
+            "photoKey": "59b52135031211dfb4ef053d29a8774f"
+          },
+          {
+            "photoKey": "33cb00e87da2f679eb3316c7c2267218"
+          },
+          {
+            "photoKey": "d86cb2b361680643309c38b775e1101b"
+          },
+          {
+            "photoKey": "336ca6cd35939b593963babfc1b48aba"
+          },
+          {
+            "photoKey": "a5f1893ed1df43a0e8be4296352dbe8b"
+          },
+          {
+            "photoKey": "97f6697064396fc2861dc9a7c102acbb"
+          },
+          {
+            "photoKey": "8b215c2d578e4f82cf5a43a9d26e6069"
+          },
+          {
+            "photoKey": "e4a9468da2a73861f44738905cb85bca"
+          },
+          {
+            "photoKey": "b6bb6e65e74513040009cd2628fcba81"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/presidential-apartments/Cmp956/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "800 Hinman Ave, Evanston, IL",
+    "zpid": "42.032368--87.677864",
+    "raw": {
+      "zpid": "42.032368--87.677864",
+      "id": "42.032368--87.677864",
+      "providerListingId": "2cnxxkj12xw2q",
+      "imgSrc": "https://photos.zillowstatic.com/fp/bc3dfc75f24f9ed72ea17869505c7f93-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/presidential-apartments/Cmp956/",
+      "statusType": "FOR_RENT",
+      "statusText": "Presidential Apartments",
+      "address": "800 Hinman Ave, Evanston, IL",
+      "addressStreet": "800 Hinman Ave # 800401",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,585+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,825+",
+          "beds": "1",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2760180147,
+      "latLong": {
+        "latitude": 42.032368,
+        "longitude": -87.677864
+      },
+      "buildingName": "Presidential Apartments",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "bc3dfc75f24f9ed72ea17869505c7f93"
+          },
+          {
+            "photoKey": "64d3fd34fd8ffd45c112377e93234709"
+          },
+          {
+            "photoKey": "0ba6635a2dc552f759dcba2de0da7235"
+          },
+          {
+            "photoKey": "aaa251733852f748a4ab377172a92120"
+          },
+          {
+            "photoKey": "53773aa25d0a6d53ca9aadcbf8fc4f73"
+          },
+          {
+            "photoKey": "9333fcbcc85ef92eba402d2d6d3c8e94"
+          },
+          {
+            "photoKey": "6bb5fbbad508358c7003046ed4f9c9fb"
+          },
+          {
+            "photoKey": "e6086e1c01126f2aa1522274fad0369a"
+          },
+          {
+            "photoKey": "cc3d2ee7eaaa0d7a5ea91e3d5b0b6ac3"
+          },
+          {
+            "photoKey": "e95e2a7438fea9d8f04d78dc0beef118"
+          },
+          {
+            "photoKey": "437667c28e3712c7893ab9249633b368"
+          },
+          {
+            "photoKey": "f1154d86aa408754340b040303b345cd"
+          },
+          {
+            "photoKey": "d222b3ab1498feb9dbd64065472df4d6"
+          },
+          {
+            "photoKey": "c877739cf4c85f24735c94123f1c9d2c"
+          },
+          {
+            "photoKey": "9c71dae6372c8d5353cc07ceeea7056b"
+          },
+          {
+            "photoKey": "4b1007eff6ad9551964609323b66f06d"
+          },
+          {
+            "photoKey": "3b69847254a1e6d3f3c7d00db06017d2"
+          },
+          {
+            "photoKey": "cc48ec41c0d9690cd52ec5cfcc611977"
+          },
+          {
+            "photoKey": "2cda67e79c74aa09f7ca8b3a3fbeac46"
+          },
+          {
+            "photoKey": "d5b76935bd44f521c5d060836056528d"
+          },
+          {
+            "photoKey": "47acbace356344b1cc73fe4c61d90787"
+          },
+          {
+            "photoKey": "1429ecff55bd1eaa39f3428e60a03483"
+          },
+          {
+            "photoKey": "cde872684a778f94d20882c50e5f54e2"
+          },
+          {
+            "photoKey": "322fde7ad74919039de17d0878f3768a"
+          },
+          {
+            "photoKey": "7ea3226c4f55a518e3035749a3e27578"
+          },
+          {
+            "photoKey": "5f4f8a300c6149936d069269523dbae7"
+          },
+          {
+            "photoKey": "6d451bf13215ef7ccf2212da3e2144ee"
+          },
+          {
+            "photoKey": "8b9714d616c5e582828b02a7da2f4985"
+          },
+          {
+            "photoKey": "d568f8b7ce180b0a3d688626136bcb88"
+          },
+          {
+            "photoKey": "5f26a9ca2041e5e34a76082ee3ad97f7"
+          },
+          {
+            "photoKey": "6baebbd384b1cfe407279292237aa214"
+          },
+          {
+            "photoKey": "6a992625334bfe5f8fcf00815efcc637"
+          },
+          {
+            "photoKey": "16c78e9a64d4d89749d117033db678bc"
+          },
+          {
+            "photoKey": "66e48e5d7244081e747660924ea50edc"
+          },
+          {
+            "photoKey": "0d53b8e76823d427b288a9b3f542b679"
+          },
+          {
+            "photoKey": "01a09670318e1081d5d1e289e2dba7ec"
+          },
+          {
+            "photoKey": "cb3f8a303a90b6415139de8dceed6345"
+          },
+          {
+            "photoKey": "c977d0503cfb8a9e20cf5886ab5291a3"
+          },
+          {
+            "photoKey": "f2d7da0388dbad13158e76121e095f97"
+          },
+          {
+            "photoKey": "9b9ac4fcc9bafac5ca0b3830f67b128a"
+          },
+          {
+            "photoKey": "5ca6f7f2d25a59d38f9cade11cd54e4c"
+          },
+          {
+            "photoKey": "87a45c2700f29c1ea4550358445d5134"
+          },
+          {
+            "photoKey": "97faf4297a48e6e8615451d6eee5867b"
+          },
+          {
+            "photoKey": "3b1e69bf062679786b1460d89eb63d08"
+          },
+          {
+            "photoKey": "89fb13cc9174cc0dbe2e32a6d55c8e44"
+          },
+          {
+            "photoKey": "9926a3cc4641c84c5e6313e50235763c"
+          },
+          {
+            "photoKey": "959a00ef680c557edc03d1e18a41d4e1"
+          },
+          {
+            "photoKey": "b9e9844a9b3aaf590c405452e934468a"
+          },
+          {
+            "photoKey": "3eea7da872462c3136c755083ab28120"
+          },
+          {
+            "photoKey": "42c30a3c76ab994db5ce8e616448894c"
+          },
+          {
+            "photoKey": "c5de25f7627ef415c1f5744ff6dc4285"
+          },
+          {
+            "photoKey": "ff09cfa372b52618632d47eb9e2941ac"
+          },
+          {
+            "photoKey": "d2ca0baadcb26170aa03a79c84e13fe4"
+          },
+          {
+            "photoKey": "c55af79f65d339aa3833a8082598a64f"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 7,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1100-church/CkQ7Yv/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1100 Church St, Evanston, IL",
+    "zpid": "42.048233--87.68714",
+    "raw": {
+      "zpid": "42.048233--87.68714",
+      "id": "42.048233--87.68714",
+      "providerListingId": "4fw2bdbm5eh7j",
+      "imgSrc": "https://photos.zillowstatic.com/fp/b14765d3cc40aa09e6ef15eb2acc5a47-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1100-church/CkQ7Yv/",
+      "statusType": "FOR_RENT",
+      "statusText": "1100 Church",
+      "address": "1100 Church St, Evanston, IL",
+      "addressStreet": "1100 Church St   Apt 502",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$2,395+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$3,295+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2752176429,
+      "latLong": {
+        "latitude": 42.048233,
+        "longitude": -87.68714
+      },
+      "buildingName": "1100 Church",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "b14765d3cc40aa09e6ef15eb2acc5a47"
+          },
+          {
+            "photoKey": "fcb056adfaef92f3c8908a6cdcaffb2d"
+          },
+          {
+            "photoKey": "a3a4411a60d45347ea7a9ffe31cb1861"
+          },
+          {
+            "photoKey": "12be18faf6bccf5f527c4f0fcd68466c"
+          },
+          {
+            "photoKey": "01eda7a6b4ac360d05bbbd539d505c72"
+          },
+          {
+            "photoKey": "fb9e87b1b9a7977e67003f09aaf3f52b"
+          },
+          {
+            "photoKey": "b525fd6958ab71dd83710fe216bfb98a"
+          },
+          {
+            "photoKey": "1c9c03bc4b9c8c5c99f19073cee249d5"
+          },
+          {
+            "photoKey": "39594fc94c397d6e92b5036e205ac2cf"
+          },
+          {
+            "photoKey": "f8158f54634b29d39f4e04a0ff68d053"
+          },
+          {
+            "photoKey": "c37cfc9a62dcfe0ee5802fd8197ec037"
+          },
+          {
+            "photoKey": "0cb3166860c90604b743dc21072daad0"
+          },
+          {
+            "photoKey": "3df6aa52a6d657421156c6cea2019c63"
+          },
+          {
+            "photoKey": "defc7795b11d8fa3b4c6bcacfc0de8c3"
+          },
+          {
+            "photoKey": "36ebe39592471217ce61ecb52b26ec22"
+          },
+          {
+            "photoKey": "8ca800c86dd37cc5c0ef9f0db084532a"
+          },
+          {
+            "photoKey": "e25dfb52c5b51ad17a15a3e1eed28dad"
+          },
+          {
+            "photoKey": "98f3810b7dbb87ee823d90c22ab8e46c"
+          },
+          {
+            "photoKey": "d48d224645427f9483527b454a6529b3"
+          },
+          {
+            "photoKey": "f6953d9a18e5c9a6ffbb8d2f3bb2af83"
+          },
+          {
+            "photoKey": "ef801f5ab4030f62db849c503641f62d"
+          },
+          {
+            "photoKey": "8f0f49a0713e04bd39652d9d77e58c4e"
+          },
+          {
+            "photoKey": "f9be7dc62911affa30848b03ec4da762"
+          },
+          {
+            "photoKey": "9a2801697454d1138cb240c6c1057b99"
+          },
+          {
+            "photoKey": "f7fb1a48ac50edd299c2b01695d54ead"
+          },
+          {
+            "photoKey": "00719b0e401a81355f7e3b4b92bac222"
+          },
+          {
+            "photoKey": "5c705e2b22094a11e972259748ede2b5"
+          },
+          {
+            "photoKey": "a26adba9c9e49ef0a532df426aced139"
+          },
+          {
+            "photoKey": "4c6692f1b55c51a60cf6d8454a7781b3"
+          },
+          {
+            "photoKey": "3de0bb15ad295d136c50b0a568667a0b"
+          },
+          {
+            "photoKey": "7403e8e3d4ba6479686eb7fbf54dab85"
+          },
+          {
+            "photoKey": "f143a1d02d24ddf0cb29bd344483976d"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 3,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1410-chicago/5XjTmV/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1410 Chicago Ave, Evanston, IL",
+    "zpid": "42.04314--87.68071",
+    "raw": {
+      "zpid": "42.04314--87.68071",
+      "id": "42.04314--87.68071",
+      "providerListingId": "85p2xa8n8jw",
+      "imgSrc": "https://photos.zillowstatic.com/fp/7232bab4c8dd42ba1ee970b26521c392-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1410-chicago/5XjTmV/",
+      "statusType": "FOR_RENT",
+      "statusText": "1410 Chicago",
+      "address": "1410 Chicago Ave, Evanston, IL",
+      "addressStreet": "1410 Chicago Ave # 58c9c41dd",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,745+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,795+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001485348,
+      "latLong": {
+        "latitude": 42.04314,
+        "longitude": -87.68071
+      },
+      "buildingName": "1410 Chicago",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": true,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "7232bab4c8dd42ba1ee970b26521c392"
+          },
+          {
+            "photoKey": "a614377034a4bd9296801b639a878c31"
+          },
+          {
+            "photoKey": "38a05fd99406bbc3129ee4afe75ff124"
+          },
+          {
+            "photoKey": "43efce4cee4c7707dfa6082ec692e381"
+          },
+          {
+            "photoKey": "499e6831139e2b0eacdc8bfc71a00323"
+          },
+          {
+            "photoKey": "1fcd2808a16cf845eeb7e76f09b4c233"
+          },
+          {
+            "photoKey": "2b048a485e71c734473799815f18bdd2"
+          },
+          {
+            "photoKey": "fc1374e3c3f4e5c899297355bf71ed71"
+          },
+          {
+            "photoKey": "f5a2d0d3972a83605df068bd84367d20"
+          },
+          {
+            "photoKey": "14b8fceb6f68f6c7c040d25c01b27567"
+          },
+          {
+            "photoKey": "13739208b7b4cf53920128bae736d21f"
+          },
+          {
+            "photoKey": "489c4c1079fa633b89cd617fbba2ac5b"
+          },
+          {
+            "photoKey": "6c19e7a6466e148b4e5ac74320bd66c0"
+          },
+          {
+            "photoKey": "f1bf2f0ba2e5a67024f3ea1187f9fcc4"
+          },
+          {
+            "photoKey": "fbae2244cf6d13f8240fd67c80aff1c5"
+          },
+          {
+            "photoKey": "ac6c26a89e3938b342c617e015bc6e0a"
+          },
+          {
+            "photoKey": "a1bcd495f1112213709cf0332a78b490"
+          },
+          {
+            "photoKey": "b4420615e788cb71aa945832d130dc60"
+          },
+          {
+            "photoKey": "67081b3058cb12e4821dd52094ec5207"
+          },
+          {
+            "photoKey": "525afc30858680ac9f0bbf1089766593"
+          },
+          {
+            "photoKey": "697b6c3655b24e914ab2d835ef1afc79"
+          },
+          {
+            "photoKey": "016a228a97cf4a010f17f38eb7d0243c"
+          },
+          {
+            "photoKey": "6658fb7b8e0490750388ebaf14b88ee3"
+          },
+          {
+            "photoKey": "50cb9710431eed4e55fa75382c1d6dba"
+          },
+          {
+            "photoKey": "a73df0477da6978933450ed6087ffab7"
+          },
+          {
+            "photoKey": "f0fe5decd2b827e71204795b03a76bb0"
+          },
+          {
+            "photoKey": "7e643cbe07898d17d5f8042eecd36ee1"
+          },
+          {
+            "photoKey": "e737de1d32ae5c907a6eb594a70f2939"
+          },
+          {
+            "photoKey": "69e50da14da6f7bc2208405b40d13ea7"
+          },
+          {
+            "photoKey": "ffa747d4c40d57897b6fe0051c5b27f0"
+          },
+          {
+            "photoKey": "df89a9e2f7666f948ca9719541314b27"
+          },
+          {
+            "photoKey": "5f6fa753ea39c40712e0187893765478"
+          },
+          {
+            "photoKey": "769ea05380e9b641d9edef58ed259388"
+          },
+          {
+            "photoKey": "1f2eff261092519af738af24776c6326"
+          },
+          {
+            "photoKey": "e23f7aad4ac5571d4ae917d389476671"
+          },
+          {
+            "photoKey": "2dc3d95f607bd77a581a10bd4811eec2"
+          },
+          {
+            "photoKey": "c96be65dcf45215f711f1b2c746d9e55"
+          },
+          {
+            "photoKey": "e1374c401d5552200b422e6df5473d2a"
+          },
+          {
+            "photoKey": "ef38dad2432cea5b5f35c76a862e39a5"
+          },
+          {
+            "photoKey": "3328d7ea16a3fbb8e7b36459ec41bd82"
+          },
+          {
+            "photoKey": "2556259035cf67fd005f16888206982e"
+          },
+          {
+            "photoKey": "3a35b380fe447ed777feccdc505d0e71"
+          },
+          {
+            "photoKey": "e4cce221b0eed276596dfac057e600e8"
+          },
+          {
+            "photoKey": "bc5163d6ef030478a8cf55841c6f965c"
+          },
+          {
+            "photoKey": "3023f5b91018d9de692dca9cea999cbc"
+          },
+          {
+            "photoKey": "ce885cf12926278803ed0de3c6dfacfb"
+          },
+          {
+            "photoKey": "642d7f40c6b6e370d384ee73738d897f"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1313-21-oak-ave/CgtGN9/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1313-21 Oak Ave, Evanston, IL",
+    "zpid": "42.04189--87.686424",
+    "raw": {
+      "zpid": "42.04189--87.686424",
+      "id": "42.04189--87.686424",
+      "providerListingId": "zhbp3h6a2hpu",
+      "imgSrc": "https://photos.zillowstatic.com/fp/7eb6349fe28b57c8168604fd0c4c1813-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1313-21-oak-ave/CgtGN9/",
+      "statusType": "FOR_RENT",
+      "statusText": "1313-21 Oak Ave",
+      "address": "1313-21 Oak Ave, Evanston, IL",
+      "addressStreet": "1313-21 Oak Ave # 2B-1Ba",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,895+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,050+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2737604282,
+      "latLong": {
+        "latitude": 42.04189,
+        "longitude": -87.686424
+      },
+      "buildingName": "1313-21 Oak Ave",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "7eb6349fe28b57c8168604fd0c4c1813"
+          },
+          {
+            "photoKey": "fa2e791a157ad8fb7f02402a324d29e9"
+          },
+          {
+            "photoKey": "fc818b5f165af548d4c31fcc11d1febb"
+          },
+          {
+            "photoKey": "e6742cfa22bc9015f167bc340038260a"
+          },
+          {
+            "photoKey": "2a7c5607996e79422d755b81d6d15394"
+          },
+          {
+            "photoKey": "619d53258fdcb5d4bf72aedfbecab33c"
+          },
+          {
+            "photoKey": "99de9b311a1de58c9524a79e554457cb"
+          },
+          {
+            "photoKey": "ead759f3857c5f44e861836258e1ac31"
+          },
+          {
+            "photoKey": "659facc22ef590599256a04b8bf2150a"
+          },
+          {
+            "photoKey": "f462efc07018940ac305ecc23aee8056"
+          },
+          {
+            "photoKey": "62b84ab7f61005188d846ed8fff2cc0c"
+          },
+          {
+            "photoKey": "01b881966111c50cee670d2e5005276f"
+          },
+          {
+            "photoKey": "662decce0496f2855b360da002884e43"
+          },
+          {
+            "photoKey": "1920247f71da33b44ec4a77fe47a7b2d"
+          },
+          {
+            "photoKey": "f012ae53f8904142969d05f9cc48838b"
+          },
+          {
+            "photoKey": "7fbc90e6cc0d6e504c60b78712c03b9f"
+          },
+          {
+            "photoKey": "02d85382847c6121ccc61c907b863f2f"
+          },
+          {
+            "photoKey": "3e8ad93ed55a6201b7edc1ccc52d08bb"
+          },
+          {
+            "photoKey": "46ff9b01658359a144003cdcc077def6"
+          },
+          {
+            "photoKey": "1a05e7e89359cec22cf5902c2930be6a"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/2212-26-sherman-ave./5XjLrc/",
+    "price": "$1,595+/mo",
+    "beds": 1,
+    "baths": 1,
+    "area": 670,
+    "address": "2212-26 Sherman Ave., 2212 Sherman Ave, Evanston, IL 60201",
+    "zpid": "2062456660",
+    "raw": {
+      "zpid": "2062456660",
+      "palsId": "100066001_c9dfb9aa6e117385e6de8483e6b94545632a2224b74560aced498267fd146ded",
+      "id": "2062456660",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "3jk3sy7gk3cmk",
+      "imgSrc": "https://photos.zillowstatic.com/fp/c8c1dfcc67e4c9bd2dee40d7dcedbb4d-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/2212-26-sherman-ave./5XjLrc/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$1,595+/mo",
+      "unformattedPrice": 1595,
+      "address": "2212-26 Sherman Ave., 2212 Sherman Ave, Evanston, IL 60201",
+      "addressStreet": "2212 Sherman Ave #2075409",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 1,
+      "baths": 1,
+      "area": 670,
+      "latLong": {
+        "latitude": 42.058323,
+        "longitude": -87.68235
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "15 days ago",
+            "contentType": "timeOnInfo"
+          }
+        ],
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 2062456660,
+          "streetAddress": "2212 Sherman Ave #2075409",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.058323,
+          "longitude": -87.68235,
+          "price": 1595,
+          "datePriceChanged": 1780297200000,
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "livingArea": 670,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 15,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 1714,
+          "listing_sub_type": {},
+          "priceReduction": "$65 (Jun 1)",
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 1595,
+          "priceChange": -65,
+          "timeOnZillow": 1309170000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 2075409",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "c8c1dfcc67e4c9bd2dee40d7dcedbb4d"
+          },
+          {
+            "photoKey": "44a5445b648e9059f5c37a8388c6b8b7"
+          },
+          {
+            "photoKey": "c3ec70f89d0678b742bdb505c5d02067"
+          },
+          {
+            "photoKey": "0f38add6bd7acba089bc597fe537e0bb"
+          },
+          {
+            "photoKey": "e9e999677e876daf4546bc4ddf0111b6"
+          },
+          {
+            "photoKey": "f8db76b5495276d275ece67901b61210"
+          },
+          {
+            "photoKey": "b8fd5efd2fac9a306981b250b721cbf8"
+          },
+          {
+            "photoKey": "84ecae9db90528a69f79f424e9809cc9"
+          },
+          {
+            "photoKey": "4496d1406b59e97317c243d02249e88c"
+          },
+          {
+            "photoKey": "3a409942a7e75993e71f96ec36eb93e8"
+          },
+          {
+            "photoKey": "83058690ab52e61e152771ae153898c8"
+          },
+          {
+            "photoKey": "fea3a78c218b4a7d1e858ebf9d9f684c"
+          },
+          {
+            "photoKey": "f0d73bde1af8fcbab3f693a225fea789"
+          },
+          {
+            "photoKey": "4e36bf811633a4c051706621d432c128"
+          },
+          {
+            "photoKey": "55580031583b888d12942d9f945c05f0"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/930-936-judson-ave-evanston/5XjKDC/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "930-936 Judson Ave, Evanston, IL",
+    "zpid": "42.03515--87.67668",
+    "raw": {
+      "zpid": "42.03515--87.67668",
+      "id": "42.03515--87.67668",
+      "providerListingId": "4fnqwh78dtnbe",
+      "imgSrc": "https://photos.zillowstatic.com/fp/532a54b4eaa0c07253302015bf9c6512-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/930-936-judson-ave-evanston/5XjKDC/",
+      "statusType": "FOR_RENT",
+      "statusText": "930-936 Judson Ave, Evanston",
+      "address": "930-936 Judson Ave, Evanston, IL",
+      "addressStreet": "930-936 Judson Ave # 934-W1",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,695+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,895+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,395+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001464802,
+      "latLong": {
+        "latitude": 42.03515,
+        "longitude": -87.67668
+      },
+      "buildingName": "930-936 Judson Ave, Evanston",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "532a54b4eaa0c07253302015bf9c6512"
+          },
+          {
+            "photoKey": "b65eb56785fcbe083e173f9bea192996"
+          },
+          {
+            "photoKey": "3738cf7c5b35b2fd68c580f0b5aaf3e1"
+          },
+          {
+            "photoKey": "a340566dc713b1f5d2b0b1f8b08ee159"
+          },
+          {
+            "photoKey": "0fcbde8f304f6a8a6f045be950b0170e"
+          },
+          {
+            "photoKey": "4cd0e3564286a4c93aeba26e82f8d34a"
+          },
+          {
+            "photoKey": "18d548f83efe6754c961d4c2ac3fb916"
+          },
+          {
+            "photoKey": "fdc2cdeaa719f3508f8ecf1de43c5243"
+          },
+          {
+            "photoKey": "9a311f50a70c0d55725cded04715bccf"
+          },
+          {
+            "photoKey": "59cb349d220511e3080d2e6d8b1d7b10"
+          },
+          {
+            "photoKey": "4962f57ffea190e4d9d07a0a888265c0"
+          },
+          {
+            "photoKey": "bd321ce3441331635800ef1ce3fbdeca"
+          },
+          {
+            "photoKey": "be95da2d53ad51b357f5fab653e58ba5"
+          },
+          {
+            "photoKey": "55d3dbca952395a2ba0b937c427f3d70"
+          },
+          {
+            "photoKey": "7d1ea05433859f5d36d9a37bd0d671fb"
+          },
+          {
+            "photoKey": "088a271bb6b79166211328a9107c6dca"
+          },
+          {
+            "photoKey": "88c53c4c208ec97dee7c620a10de57dd"
+          },
+          {
+            "photoKey": "7c40c64dad4ea68feecd9c6cf8eafbb5"
+          },
+          {
+            "photoKey": "48faa9654b6fd7ec78595353472e6201"
+          },
+          {
+            "photoKey": "2f45f7f26897a6e60216b783793e6810"
+          },
+          {
+            "photoKey": "dc00308244c8c911e9049b8dc054dc66"
+          },
+          {
+            "photoKey": "d14f1f15c451137016f23b415f2f09a5"
+          },
+          {
+            "photoKey": "2cd25788e6e3923c1ccb34ea5c2cd204"
+          },
+          {
+            "photoKey": "0d2c49807fc04fbf761cab5da3f8b46d"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 3,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/2030-greenwood-st/C4QtTy/",
+    "price": "$2,850/mo",
+    "beds": 2,
+    "baths": 2,
+    "area": 1200,
+    "address": "2030 Greenwood St, 2030 Greenwood St #307, Evanston, IL 60201",
+    "zpid": "2057444362",
+    "raw": {
+      "zpid": "2057444362",
+      "palsId": "100066001_6d0106697c47f333f19cf0de66ede739be4c7fecc6c687d6746508c8b8e46fe8",
+      "id": "2057444362",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "2c38m73fqne5y",
+      "imgSrc": "https://photos.zillowstatic.com/fp/d31fb349c57050fa046e9d3024829b59-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/2030-greenwood-st/C4QtTy/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$2,850/mo",
+      "unformattedPrice": 2850,
+      "address": "2030 Greenwood St, 2030 Greenwood St #307, Evanston, IL 60201",
+      "addressStreet": "2030 Greenwood St #307",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 2,
+      "baths": 2,
+      "area": 1200,
+      "latLong": {
+        "latitude": 42.042187,
+        "longitude": -87.70204
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "9 days ago",
+            "contentType": "timeOnInfo"
+          }
+        ],
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 2057444362,
+          "streetAddress": "2030 Greenwood St #307",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.042187,
+          "longitude": -87.70204,
+          "price": 2850,
+          "bathrooms": 2,
+          "bedrooms": 2,
+          "livingArea": 1200,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 9,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 2819,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 2850,
+          "timeOnZillow": 834165000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 307",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "availabilityDate": "2026-08-05 00:00:00",
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "d31fb349c57050fa046e9d3024829b59"
+          },
+          {
+            "photoKey": "a6af9732207c0b1a84ca2d1d4f1a2df3"
+          },
+          {
+            "photoKey": "c1042a8dedc81ec4f2064b9758bb57db"
+          },
+          {
+            "photoKey": "0eb4ac9a3abc5fda5f3e1f82855eda89"
+          },
+          {
+            "photoKey": "93c0593601db3fd3ec54c0baf3774e3e"
+          },
+          {
+            "photoKey": "a2b38152c40db493c60e8f1c3d9a5616"
+          },
+          {
+            "photoKey": "e7d518eff34010b97322e04bea43d639"
+          },
+          {
+            "photoKey": "a892d92e1e731fc4804a0c61a90d344c"
+          },
+          {
+            "photoKey": "69e7ca25e3960e0cbbbd94db66528f4a"
+          },
+          {
+            "photoKey": "e452f0b200ec8e80485f7b97d75daba5"
+          },
+          {
+            "photoKey": "df07391722b39c4e6d5206cc25cc2f91"
+          },
+          {
+            "photoKey": "fe96b60297356fb9a4461765bf30d582"
+          },
+          {
+            "photoKey": "d0e83f844ea8155fb2261150b9f5b306"
+          },
+          {
+            "photoKey": "b497679a79e3ffe1713d7f311320c353"
+          },
+          {
+            "photoKey": "ed94d4b24adc1b24fb2c45edfa38c498"
+          },
+          {
+            "photoKey": "852617a719d66bdcad6a0df3e8ebcd90"
+          },
+          {
+            "photoKey": "2e6f2720f488fcfd143f79725d1ff64e"
+          },
+          {
+            "photoKey": "f5a332e102e9c8862ea4137ef00514ab"
+          },
+          {
+            "photoKey": "80c75ac30b2cb4ffcfa0364e590e875b"
+          },
+          {
+            "photoKey": "9bc390bdc87a816cce4a217c6ba99a4f"
+          },
+          {
+            "photoKey": "8d1804f213b3bc6b8c4eb292f46a092b"
+          },
+          {
+            "photoKey": "f081db596a346718d9bff1855d1bf5c0"
+          },
+          {
+            "photoKey": "3e3d1d588d27579dcd2fc7e6e14cf3d7"
+          },
+          {
+            "photoKey": "45ea2bdb541dbde7ebc1ab0aa55c4ccb"
+          },
+          {
+            "photoKey": "74843f1008eca16278dd75fedaf4a2d1"
+          },
+          {
+            "photoKey": "71cb3260876c797c431c83ac248f8958"
+          },
+          {
+            "photoKey": "883ce2064842eca70e6fca075f1e19e1"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 2,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1121-church-st./5XjMLY/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1121 Church St, Evanston, IL",
+    "zpid": "42.048767--87.687965",
+    "raw": {
+      "zpid": "42.048767--87.687965",
+      "id": "42.048767--87.687965",
+      "providerListingId": "169u19trvm5eh",
+      "imgSrc": "https://photos.zillowstatic.com/fp/5b1471ae9c25f5c006978b88309446b7-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1121-church-st./5XjMLY/",
+      "statusType": "FOR_RENT",
+      "statusText": "1121 Church St.",
+      "address": "1121 Church St, Evanston, IL",
+      "addressStreet": "1121 Church St   Apt 404",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,825+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001469916,
+      "latLong": {
+        "latitude": 42.048767,
+        "longitude": -87.687965
+      },
+      "buildingName": "1121 Church St.",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "5b1471ae9c25f5c006978b88309446b7"
+          },
+          {
+            "photoKey": "18511c76c332932b16b87fe5c4baad30"
+          },
+          {
+            "photoKey": "e14856fcc3cd0d014142556e9b646935"
+          },
+          {
+            "photoKey": "6c26f9b16f2efc482d52b632ef5e9a4f"
+          },
+          {
+            "photoKey": "118318b434dcadbde4115a539b620a1e"
+          },
+          {
+            "photoKey": "323648443279ca1a6d8a6a9c7af8176c"
+          },
+          {
+            "photoKey": "1c3233504ede779fcb042eea17737001"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 3,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/828-noyes-st/CkGHX5/",
+    "price": "$2,000/mo",
+    "beds": 0,
+    "baths": 1,
+    "area": 501,
+    "address": "828 Noyes St, 828 Noyes St APT 314, Evanston, IL 60201",
+    "zpid": "463114288",
+    "raw": {
+      "zpid": "463114288",
+      "palsId": "100066001_796a0a9a296ffda134cc4b3c3b937f89d08a54ce208e137fdee77d3e895db7b4",
+      "id": "463114288",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "3f92xh1kgbqcm",
+      "imgSrc": "https://photos.zillowstatic.com/fp/9f20acf8aa2d40347c0765aba164fb13-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/828-noyes-st/CkGHX5/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$2,000/mo",
+      "unformattedPrice": 2000,
+      "address": "828 Noyes St, 828 Noyes St APT 314, Evanston, IL 60201",
+      "addressStreet": "828 Noyes St APT 314",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 0,
+      "baths": 1,
+      "area": 501,
+      "latLong": {
+        "latitude": 42.057957,
+        "longitude": -87.683136
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "23 hours ago",
+            "contentType": "timeOnInfo"
+          }
+        ],
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 463114288,
+          "streetAddress": "828 Noyes St APT 314",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.057957,
+          "longitude": -87.683136,
+          "price": 2000,
+          "bathrooms": 1,
+          "bedrooms": 0,
+          "livingArea": 501,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 0,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 2000,
+          "timeOnZillow": 85073000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "Apt 314",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "availabilityDate": "2026-07-01 00:00:00",
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "9f20acf8aa2d40347c0765aba164fb13"
+          },
+          {
+            "photoKey": "a9c2a3d05adf4271988115c0cfc6d031"
+          },
+          {
+            "photoKey": "45fc37f303ceb51c53e0b7e73bb0464d"
+          },
+          {
+            "photoKey": "5615eb02ae488c2f5ceabb8e87b98e51"
+          },
+          {
+            "photoKey": "c34003e25f9ee3da8c1bc6834b6f04e4"
+          },
+          {
+            "photoKey": "95b6706a27acc6a46fd5bf2d3aaeb838"
+          },
+          {
+            "photoKey": "9c291c0bdc4bff7c92433c6d2bd67014"
+          },
+          {
+            "photoKey": "cc8724a164315cf7534434671bc32831"
+          },
+          {
+            "photoKey": "9e25e2167c0afa4f9cbed8d850b49543"
+          },
+          {
+            "photoKey": "85a453d775056ef2191e751ae2bc729d"
+          },
+          {
+            "photoKey": "9e6f802a33efbad3d1d42b25526da205"
+          },
+          {
+            "photoKey": "8cf3ccfaab876138578eab9183737f9f"
+          },
+          {
+            "photoKey": "0eb501a26df8604aa2cf183173ca653d"
+          },
+          {
+            "photoKey": "ff11909704ec1e15a19df0e60db27903"
+          },
+          {
+            "photoKey": "7c79a401aacae825fea668092c85c6fb"
+          },
+          {
+            "photoKey": "2cc93c4d5e23f2f11384c8e70ee0068d"
+          },
+          {
+            "photoKey": "0dee361a95304a9ee1500872e90b59dd"
+          },
+          {
+            "photoKey": "403b78318296fafe3e687b8d5f464888"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/2121-ridge-avenue/5XxX3q/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "2121 Ridge Ave, Evanston, IL",
+    "zpid": "42.056328--87.68622",
+    "raw": {
+      "zpid": "42.056328--87.68622",
+      "id": "42.056328--87.68622",
+      "providerListingId": "3r2ch1ezdm69d",
+      "imgSrc": "https://photos.zillowstatic.com/fp/8e92352cdd0d13c64c53380be0106d86-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/2121-ridge-avenue/5XxX3q/",
+      "statusType": "FOR_RENT",
+      "statusText": "2121",
+      "address": "2121 Ridge Ave, Evanston, IL",
+      "addressStreet": "2121 Ridge Ave # 2121-27-1A",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$2,195+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$3,595+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1002784942,
+      "latLong": {
+        "latitude": 42.056328,
+        "longitude": -87.68622
+      },
+      "buildingName": "2121",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": true,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "8e92352cdd0d13c64c53380be0106d86"
+          },
+          {
+            "photoKey": "dbc797d96c5880a5f9f25537eb569ef6"
+          },
+          {
+            "photoKey": "344b22f729b7a51f933cbcf4aea9c129"
+          },
+          {
+            "photoKey": "26115e551982e74394dcc2c6c42e34f3"
+          },
+          {
+            "photoKey": "3a69f3c62769a8791ce6e431faa52327"
+          },
+          {
+            "photoKey": "b6ab308e49b3b6c19e7eabf5acd214c2"
+          },
+          {
+            "photoKey": "082bf80952579fe17e91c46576291449"
+          },
+          {
+            "photoKey": "fb4452bb855c8ded72621f7a9b39fa40"
+          },
+          {
+            "photoKey": "c0feb66308e9c578fbce3aaa30fc7013"
+          },
+          {
+            "photoKey": "9cfc5b2c9f6c7dbf5f4348e66f475bd8"
+          },
+          {
+            "photoKey": "96e83ef83a9c52b82111392620da8454"
+          },
+          {
+            "photoKey": "a5c738dd24dae1d11983aa9a86f71340"
+          },
+          {
+            "photoKey": "31e643f9436d2735f300fcdf0f5266f2"
+          },
+          {
+            "photoKey": "df783d706a42d4400d0acef40baf3eb6"
+          },
+          {
+            "photoKey": "5dbae4e481cc4c0f17f53b7a5515c7b2"
+          },
+          {
+            "photoKey": "ec7d0488e198e6194fe41dae70c401d3"
+          },
+          {
+            "photoKey": "e19dc49b5cf2cf3734aebd61bb2ec7fc"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 4,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/tapestry-station/CkCRRy/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "740 Main St, Evanston, IL",
+    "zpid": "42.03388--87.68206",
+    "raw": {
+      "zpid": "42.03388--87.68206",
+      "id": "42.03388--87.68206",
+      "providerListingId": "3mvhfes621dcr",
+      "imgSrc": "https://photos.zillowstatic.com/fp/081dbde5fa87b9daaa1e2528b5f7ff97-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/tapestry-station/CkCRRy/",
+      "statusType": "FOR_RENT",
+      "statusText": "Tapestry Station",
+      "address": "740 Main St, Evanston, IL",
+      "addressStreet": "740 Main St # 206",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,875+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,250+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$3,000+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2750920415,
+      "latLong": {
+        "latitude": 42.03388,
+        "longitude": -87.68206
+      },
+      "buildingName": "Tapestry Station",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "081dbde5fa87b9daaa1e2528b5f7ff97"
+          },
+          {
+            "photoKey": "f78e582e66060bdb93742cac4a77e36c"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 28,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": true,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/825-main-st/CkBdMr/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "825 Main St, Evanston, IL",
+    "zpid": "42.034157--87.68326",
+    "raw": {
+      "zpid": "42.034157--87.68326",
+      "id": "42.034157--87.68326",
+      "providerListingId": "2xjp761vucs0m",
+      "imgSrc": "https://photos.zillowstatic.com/fp/c0ded904c3037a5fcc1587a6f70d8284-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/825-main-st/CkBdMr/",
+      "statusType": "FOR_RENT",
+      "statusText": "825 Main St",
+      "address": "825 Main St, Evanston, IL",
+      "addressStreet": "825 Main St # 204",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,425+",
+          "beds": "0",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2750826574,
+      "latLong": {
+        "latitude": 42.034157,
+        "longitude": -87.68326
+      },
+      "buildingName": "825 Main St",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "c0ded904c3037a5fcc1587a6f70d8284"
+          },
+          {
+            "photoKey": "43fdfc1091ccf495bf5a9ce5d6d38b29"
+          },
+          {
+            "photoKey": "86fc9def5688342071911dc6cb42a293"
+          },
+          {
+            "photoKey": "48d26fe9988286435b8350f8c5605d7e"
+          },
+          {
+            "photoKey": "13926725aa5eaf9368de150fd8e8b569"
+          },
+          {
+            "photoKey": "0dfb5a20f86828bc075dd5c858c9aae1"
+          },
+          {
+            "photoKey": "9e88f6f38c567c7a2daa06304b493702"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 5,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/810-32-dempster-1245-elmwood/5XmPpY/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "810 Dempster St, Evanston, IL",
+    "zpid": "42.041073--87.682755",
+    "raw": {
+      "zpid": "42.041073--87.682755",
+      "id": "42.041073--87.682755",
+      "providerListingId": "158z51pax8rj3",
+      "imgSrc": "https://photos.zillowstatic.com/fp/d1f73403b66e1abc0a96fd5f1622bbd3-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/810-32-dempster-1245-elmwood/5XmPpY/",
+      "statusType": "FOR_RENT",
+      "statusText": "810-32 Dempster/1245 Elmwood",
+      "address": "810 Dempster St, Evanston, IL",
+      "addressStreet": "810 Dempster St   # 112",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,445+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,615+",
+          "beds": "1",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001711143,
+      "latLong": {
+        "latitude": 42.041073,
+        "longitude": -87.682755
+      },
+      "buildingName": "810-32 Dempster/1245 Elmwood",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "d1f73403b66e1abc0a96fd5f1622bbd3"
+          },
+          {
+            "photoKey": "73ac1ed1560b20e7beb7861a79f47c7f"
+          },
+          {
+            "photoKey": "77dc7a873cf3a7e5301578805233f55a"
+          },
+          {
+            "photoKey": "1674fc639bcd7b3a45cac7581c2e2aec"
+          },
+          {
+            "photoKey": "b4bbce50822103b0be5eb5e49814ef84"
+          },
+          {
+            "photoKey": "7e3b18986272916a52f7b2218dd27952"
+          },
+          {
+            "photoKey": "79b27f4a22f4aaaf6fa82ccba935c533"
+          },
+          {
+            "photoKey": "613b8d19fcd457362d5b79766caa9a88"
+          },
+          {
+            "photoKey": "a22566ee31d72739a61d3011d0cdaaa1"
+          },
+          {
+            "photoKey": "62f79bf8bb4ee009701840e6e75114b5"
+          },
+          {
+            "photoKey": "c4a883abeb37325d2f342c2e99249b44"
+          },
+          {
+            "photoKey": "27c1c0d32c163482b18bd47ddddc645a"
+          },
+          {
+            "photoKey": "302771fd8035cdc827ea1b683e3446d0"
+          },
+          {
+            "photoKey": "e33b5a2797b36d61141d1b5e2f66f46d"
+          },
+          {
+            "photoKey": "d4e365e13fdbcaeb6e071fd829778685"
+          },
+          {
+            "photoKey": "c47f3f0a150ac63ce3c9044a8998b7ad"
+          },
+          {
+            "photoKey": "3ba784298044bf72790cd138638f0e74"
+          },
+          {
+            "photoKey": "f51a038c38faee5cc702ec5b376bd84d"
+          },
+          {
+            "photoKey": "8e8475db188ae85e534bfe13c4c0d209"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 4,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/618-hinman/Cjf6vq/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "618 Hinman Ave, Evanston, IL",
+    "zpid": "42.029137--87.67728",
+    "raw": {
+      "zpid": "42.029137--87.67728",
+      "id": "42.029137--87.67728",
+      "providerListingId": "17h80m6hjreg",
+      "imgSrc": "https://photos.zillowstatic.com/fp/0df208ce12921d41550ac721d0e3fc45-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/618-hinman/Cjf6vq/",
+      "statusType": "FOR_RENT",
+      "statusText": "618 Hinman",
+      "address": "618 Hinman Ave, Evanston, IL",
+      "addressStreet": "618 Hinman Ave # 3B-2Ba",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,595+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,245+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2747821844,
+      "latLong": {
+        "latitude": 42.029137,
+        "longitude": -87.67728
+      },
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "Updated yesterday",
+            "contentType": "timeOnInfo"
+          }
+        ]
+      },
+      "buildingName": "618 Hinman",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "0df208ce12921d41550ac721d0e3fc45"
+          },
+          {
+            "photoKey": "8bb93d643dfc6a744f24ab7f7bbe00b1"
+          },
+          {
+            "photoKey": "57836469119c431ed8579ed38c65ddfa"
+          },
+          {
+            "photoKey": "a8078aba9ae4724bb9d866910bf4ae62"
+          },
+          {
+            "photoKey": "f043f5e986018910528aec16c144f280"
+          },
+          {
+            "photoKey": "cf0d012ce541488c6cf93c757c91ce8a"
+          },
+          {
+            "photoKey": "a7d20f7e6b67233453df61d4e80b79ad"
+          },
+          {
+            "photoKey": "669edf4b18fb427eba2036218602581f"
+          },
+          {
+            "photoKey": "b09687aa1adbc84a29e8e1a567c9a864"
+          },
+          {
+            "photoKey": "98383f5af4caf35ca4d7f460a05efed2"
+          },
+          {
+            "photoKey": "7ca23e266243fb3713eaebffd759f53c"
+          },
+          {
+            "photoKey": "8bf8f5368f1af103043fa0792127f35f"
+          },
+          {
+            "photoKey": "103fb811c262504b981e8dc0c6470bad"
+          },
+          {
+            "photoKey": "364fb4def1616806b2f400ae9c1d9af5"
+          },
+          {
+            "photoKey": "4c0f8a1ee319e915d142579d7a29643f"
+          },
+          {
+            "photoKey": "ad5d32dba8b7d69a3991e0e39f4a89e3"
+          },
+          {
+            "photoKey": "a9810b67799be5b3f7fa22850ecd1dae"
+          },
+          {
+            "photoKey": "3119cfc2f3079ab75be243e433cc7535"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/834-40-judson-ave/ChVsD2/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "834 Judson Ave, Evanston, IL",
+    "zpid": "42.033615--87.67629",
+    "raw": {
+      "zpid": "42.033615--87.67629",
+      "id": "42.033615--87.67629",
+      "providerListingId": "24h53vv2bhajv",
+      "imgSrc": "https://photos.zillowstatic.com/fp/63fa6ffa23d23b6d0c46fc26d78c4bdc-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/834-40-judson-ave/ChVsD2/",
+      "statusType": "FOR_RENT",
+      "statusText": "834-40 Judson Ave",
+      "address": "834 Judson Ave, Evanston, IL",
+      "addressStreet": "834 Judson Ave # 838-1B",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$2,295+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,895+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$3,595+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2741205383,
+      "latLong": {
+        "latitude": 42.033615,
+        "longitude": -87.67629
+      },
+      "buildingName": "834-40 Judson Ave",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "63fa6ffa23d23b6d0c46fc26d78c4bdc"
+          },
+          {
+            "photoKey": "8419d4e926d79e8bf8dddf2c5ffd2a38"
+          },
+          {
+            "photoKey": "41847f1851049eb78c665f94e3923d25"
+          },
+          {
+            "photoKey": "0279519ab78330b0c261fdde95e425c2"
+          },
+          {
+            "photoKey": "f3f830e43bc2af62d0c8407f0f60a99b"
+          },
+          {
+            "photoKey": "03303e1c2b4c2fc968c8c0d82e62e6c8"
+          },
+          {
+            "photoKey": "d23c4eccb4b523cc416bb74b30764b7c"
+          },
+          {
+            "photoKey": "d56a4531406aeb4d8edec3ce16d2555c"
+          },
+          {
+            "photoKey": "73ec4d4a4e657bff74109998fdd41ce3"
+          },
+          {
+            "photoKey": "8013d70626651b0cc83e2c8cbf157adb"
+          },
+          {
+            "photoKey": "2c55ec84188246062ba9940e156e9e3f"
+          },
+          {
+            "photoKey": "8960ffa26783fe34e0397035d8d6e527"
+          },
+          {
+            "photoKey": "230b2f6324de0a12ccf259266485fd48"
+          },
+          {
+            "photoKey": "19095d566c262ea4e977c451aac07ca7"
+          },
+          {
+            "photoKey": "fae7bd3072f80d92ba264120fd8713e9"
+          },
+          {
+            "photoKey": "06fd05e32b24dbe20ab4117233070462"
+          },
+          {
+            "photoKey": "c1de2aaf8c407a06eb65a0218eb3f4a7"
+          },
+          {
+            "photoKey": "7df9fa180562e2b7616c3166e598f681"
+          },
+          {
+            "photoKey": "e569057519eda8ad7ca70c85bb278318"
+          },
+          {
+            "photoKey": "2cb2b80af54de78749a7a4d4eea43086"
+          },
+          {
+            "photoKey": "60f4517e454ff03a670390a0af89fdc3"
+          },
+          {
+            "photoKey": "de627723a57f92d77573ad321f2587e5"
+          },
+          {
+            "photoKey": "66324c5801309c65d7f09fd03d0fff14"
+          },
+          {
+            "photoKey": "d92239286cf32fea258fcbdc90a9a3d3"
+          },
+          {
+            "photoKey": "043fa889482b1f9c7145ee28665bd980"
+          },
+          {
+            "photoKey": "015e590afb82d4cd4de017847c2f3c06"
+          },
+          {
+            "photoKey": "8d1926da695f4199fbf0fc296f51dac1"
+          },
+          {
+            "photoKey": "73e6b9a5e0fbe803126a6940d9d635bd"
+          },
+          {
+            "photoKey": "623aae9088e21ec1b17752806388af4a"
+          },
+          {
+            "photoKey": "42f78c166b4ab1980f59d7039393afa0"
+          },
+          {
+            "photoKey": "309d91911244afb68cc1029d3886e6ef"
+          },
+          {
+            "photoKey": "21c3c240fe0210cc5c41022c3604b8ea"
+          },
+          {
+            "photoKey": "6d3b19cddc76a5a57780a4b95ece4d62"
+          },
+          {
+            "photoKey": "501e8a75f2ea071f9547323b4ef35e90"
+          },
+          {
+            "photoKey": "c09c43f4204b9e56a2d8f05ff69d7183"
+          },
+          {
+            "photoKey": "73d28d58daf8c9712e974e11d4c3361a"
+          },
+          {
+            "photoKey": "2dedba6e5bd1bc553d6200719c4ca482"
+          },
+          {
+            "photoKey": "24c56b7f1addc6f0e9895323c84bf8a6"
+          },
+          {
+            "photoKey": "622e95d83aaca7efd9a8dbbaad5e413a"
+          },
+          {
+            "photoKey": "dbe1229ab5968718969749aff295c257"
+          },
+          {
+            "photoKey": "08e313aec335e638b2673c222ad9ee5c"
+          },
+          {
+            "photoKey": "768f34a8cdfaf7ecdb32cbce75ff62f8"
+          },
+          {
+            "photoKey": "6786da453cd551c710977feed42b2502"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 4,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/1576-oak/5XxWwj/",
+    "price": "$2,175/mo",
+    "beds": 2,
+    "baths": 1,
+    "area": null,
+    "address": "1576 Oak, 1576 Oak Ave #1100-3, Evanston, IL 60201",
+    "zpid": "460196850",
+    "raw": {
+      "zpid": "460196850",
+      "palsId": "100066001_378c9a1b720a813a4a5cbe3f0877928e18fe17e18a9a4324d2e03ff467956fd9",
+      "id": "460196850",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "3163yga8ydwgv",
+      "imgSrc": "https://photos.zillowstatic.com/fp/ef157d0df218b8239280c9b730ca4c8d-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/1576-oak/5XxWwj/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$2,175/mo",
+      "unformattedPrice": 2175,
+      "address": "1576 Oak, 1576 Oak Ave #1100-3, Evanston, IL 60201",
+      "addressStreet": "1576 Oak Ave #1100-3",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 2,
+      "baths": 1,
+      "latLong": {
+        "latitude": 42.046654,
+        "longitude": -87.687355
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 460196850,
+          "streetAddress": "1576 Oak Ave #1100-3",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.046654,
+          "longitude": -87.687355,
+          "price": 2175,
+          "datePriceChanged": 1781074800000,
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 128,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 2069,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 2175,
+          "priceChange": 180,
+          "timeOnZillow": 11073455000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 1100-3",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "availabilityDate": "2026-08-01 00:00:00",
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "ef157d0df218b8239280c9b730ca4c8d"
+          },
+          {
+            "photoKey": "4c71e4885f8e2315cdb73fd152ede3b3"
+          },
+          {
+            "photoKey": "8d1d4f52f1f34cf07ece7948622d8f1d"
+          },
+          {
+            "photoKey": "a472d13aa2c8a4d350acd384b8ef5aea"
+          },
+          {
+            "photoKey": "e68508202cec04c66c3e0eb58980f592"
+          },
+          {
+            "photoKey": "591644766fe389820c0678e529d0960c"
+          },
+          {
+            "photoKey": "f05d1a4d468dc3dab3af5a2cdec6aef2"
+          },
+          {
+            "photoKey": "eeea0c7bf1a8d5b16e0481a7fdeb88d9"
+          },
+          {
+            "photoKey": "2ac401c33bbe2025c600e56172e266a8"
+          },
+          {
+            "photoKey": "fa592ce80562bca64359607386bd4d3a"
+          },
+          {
+            "photoKey": "b326d104946b86b025f6c01719b3de86"
+          },
+          {
+            "photoKey": "058e7767428ada337f2a6338d963bced"
+          },
+          {
+            "photoKey": "c60db19b5973eba5c63ffe7525b59f60"
+          },
+          {
+            "photoKey": "ea51d23e7346421b1981f46d83ff98c5"
+          },
+          {
+            "photoKey": "9d47c602f58b64efaead57d0daf40cb5"
+          },
+          {
+            "photoKey": "fcecf6e5f2f1130dba07cbfe2c541f5f"
+          },
+          {
+            "photoKey": "e008c83edb3534b97aee0ae296503b3d"
+          },
+          {
+            "photoKey": "16a6cda1d29fe1266ddd22bba812300c"
+          },
+          {
+            "photoKey": "fc938242c96f231f1365a3684687295b"
+          },
+          {
+            "photoKey": "9d6c695ebca176e7782e4ebb4d2b4350"
+          },
+          {
+            "photoKey": "5b00e79910e54dcb39e3e744287c8885"
+          },
+          {
+            "photoKey": "68d77437398bc4bf370a0695c59741d1"
+          },
+          {
+            "photoKey": "d9532666a5b45ceea2fe9753d1e7b8a2"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1400-chicago-ave/5XjMG8/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1400 Chicago Ave, Evanston, IL",
+    "zpid": "42.04283--87.681",
+    "raw": {
+      "zpid": "42.04283--87.681",
+      "id": "42.04283--87.681",
+      "providerListingId": "10htb7nn6zn34",
+      "imgSrc": "https://photos.zillowstatic.com/fp/65a24638b124ce95ee4bc7d915406da7-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1400-chicago-ave/5XjMG8/",
+      "statusType": "FOR_RENT",
+      "statusText": "1400 Chicago Ave",
+      "address": "1400 Chicago Ave, Evanston, IL",
+      "addressStreet": "1400 Chicago Ave Apt 505",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,200+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,650+",
+          "beds": "1",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001469699,
+      "latLong": {
+        "latitude": 42.04283,
+        "longitude": -87.681
+      },
+      "buildingName": "1400 Chicago Ave",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "65a24638b124ce95ee4bc7d915406da7"
+          },
+          {
+            "photoKey": "063a26ae189e48c36225266e439eaaa8"
+          },
+          {
+            "photoKey": "7d8cde7803917b1d15e111512c430d46"
+          },
+          {
+            "photoKey": "f1afa0889315289d5d04ceec1c0cc327"
+          },
+          {
+            "photoKey": "4c7afbc2cb585ec5f69c37e67130d13b"
+          },
+          {
+            "photoKey": "3dc4c8445b4c554006b64f5630322e8e"
+          },
+          {
+            "photoKey": "ffa4add6ded501b6e2c2e4a48664679e"
+          },
+          {
+            "photoKey": "4b1b010d0fba97358103653c38b874f3"
+          },
+          {
+            "photoKey": "bbefcc8a67fbb9053ae651b228dde37e"
+          },
+          {
+            "photoKey": "9f5c33b2a0e53ee59c3033a94ee338de"
+          },
+          {
+            "photoKey": "cd62c817245f7305ce0e95d8fa5a50c5"
+          },
+          {
+            "photoKey": "ca62c5d7a3f0bdcaea576efdfc5d2133"
+          },
+          {
+            "photoKey": "16a22afd84650f173531db7c81391a22"
+          },
+          {
+            "photoKey": "c004cb945c531886fb0ff1b8bc05504d"
+          },
+          {
+            "photoKey": "803f99d88eca636f15d57e556afeac34"
+          },
+          {
+            "photoKey": "9fef4b7f8f63b1b24418238c4e69a5e4"
+          },
+          {
+            "photoKey": "a24efe6fe879c7785bdd2d0efaa59f40"
+          },
+          {
+            "photoKey": "5662a07b773bbcb9fb195b528c4fd87d"
+          },
+          {
+            "photoKey": "d8137f6385d264f1fc82a75e4b1f8200"
+          },
+          {
+            "photoKey": "4573713fadd6b77e6d822c1c7cc0ce8c"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 8,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": true,
+      "minBaseRent": 1200,
+      "maxBaseRent": 1800,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/704-710-hinman-ave/CgxJrN/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "704 Hinman Ave, Evanston, IL",
+    "zpid": "42.030506--87.677536",
+    "raw": {
+      "zpid": "42.030506--87.677536",
+      "id": "42.030506--87.677536",
+      "providerListingId": "32v8r56c8g343",
+      "imgSrc": "https://photos.zillowstatic.com/fp/583980517df390d2effc8aa4e9f282aa-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/704-710-hinman-ave/CgxJrN/",
+      "statusType": "FOR_RENT",
+      "statusText": "704-710 Hinman Ave",
+      "address": "704 Hinman Ave, Evanston, IL",
+      "addressStreet": "704 Hinman Ave # 2B-1Ba-900Sqft",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,485+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,700+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2737963169,
+      "latLong": {
+        "latitude": 42.030506,
+        "longitude": -87.677536
+      },
+      "buildingName": "704-710 Hinman Ave",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "583980517df390d2effc8aa4e9f282aa"
+          },
+          {
+            "photoKey": "b78c7e0e746fa8e3435e211147625463"
+          },
+          {
+            "photoKey": "e8d2ccd5434cefb75d7d54cb73f80347"
+          },
+          {
+            "photoKey": "5a20a4efc7dbeed7332e5bb91145aae3"
+          },
+          {
+            "photoKey": "dd309c009075ac3ec127cd55432b2b9f"
+          },
+          {
+            "photoKey": "40e9b4a43a092b42810494331ff5376d"
+          },
+          {
+            "photoKey": "313f328a081e2bd1613d00b44ddfcb93"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/2213-2223-ridge-apartments/CjjC8K/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "2213 Ridge Ave, Evanston, IL",
+    "zpid": "42.058014--87.68558",
+    "raw": {
+      "zpid": "42.058014--87.68558",
+      "id": "42.058014--87.68558",
+      "providerListingId": "2g1rw6au0cney",
+      "imgSrc": "https://photos.zillowstatic.com/fp/35043c75455b1713c1bacac93561782d-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/2213-2223-ridge-apartments/CjjC8K/",
+      "statusType": "FOR_RENT",
+      "statusText": "2213-2223 Ridge Apartments",
+      "address": "2213 Ridge Ave, Evanston, IL",
+      "addressStreet": "2213 Ridge Ave # 2B-1Ba-820Sqft",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,840+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,840+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2748184909,
+      "latLong": {
+        "latitude": 42.058014,
+        "longitude": -87.68558
+      },
+      "buildingName": "2213-2223 Ridge Apartments",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "35043c75455b1713c1bacac93561782d"
+          },
+          {
+            "photoKey": "ca4a5c3fd7ec1dd89d488f492a862d44"
+          },
+          {
+            "photoKey": "ffd32f17bc2d604e795531eae2e957e0"
+          },
+          {
+            "photoKey": "8639b815f803749fd978a5a0dedd4a04"
+          },
+          {
+            "photoKey": "7c9c660c1694f8c635659c4bcfd3826a"
+          },
+          {
+            "photoKey": "0b79dde8e8bbff5dcb4d5ebb51d3e5ed"
+          },
+          {
+            "photoKey": "ef6218c515094ee24a867e95419f75f3"
+          },
+          {
+            "photoKey": "92a90d250ceebff015d95d0ad25b2154"
+          },
+          {
+            "photoKey": "4062592a9cf2b46f7701bbec94393478"
+          },
+          {
+            "photoKey": "28cf7be21975c9282b1dbc80e25d737f"
+          },
+          {
+            "photoKey": "45b3b2217cc422f8a122e8d1dfdd946e"
+          },
+          {
+            "photoKey": "65c538992dc04391676e6917233b99d8"
+          },
+          {
+            "photoKey": "741aff6b61357a85b35c0f59edc1d9db"
+          },
+          {
+            "photoKey": "599efa0714ca3b17b5474c3f20dfc9b5"
+          },
+          {
+            "photoKey": "95a0a589b69bbbcb66df58e53cc9f8d2"
+          },
+          {
+            "photoKey": "29dd4b7e65c5fd0c72242438ddb4e932"
+          },
+          {
+            "photoKey": "0830ac53e4519edc08a2d6fdb67dba30"
+          },
+          {
+            "photoKey": "ffae946dfa2ac6c8ad5e52abedcc9478"
+          },
+          {
+            "photoKey": "2020c2ad9eb6fa5f3d72b765f0a47ac9"
+          },
+          {
+            "photoKey": "aef247e40cac291cee951dfd8ead2ef1"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/1627-45-ridge-ave./5XjSrN/",
+    "price": "$1,315+/mo",
+    "beds": 1,
+    "baths": 1,
+    "area": 700,
+    "address": "1627-45 Ridge Ave., 1627 Ridge Ave, Evanston, IL 60201",
+    "zpid": "458304935",
+    "raw": {
+      "zpid": "458304935",
+      "palsId": "100066001_6e383c5cca1c4a1e2efcb738f1ee2fb53bb8f584ac546f287440aa178123e14e",
+      "id": "458304935",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "gwfm5gbmhzh1",
+      "imgSrc": "https://photos.zillowstatic.com/fp/c69a59e0726dee8eb9abed14a07ff736-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/1627-45-ridge-ave./5XjSrN/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$1,315+/mo",
+      "unformattedPrice": 1315,
+      "address": "1627-45 Ridge Ave., 1627 Ridge Ave, Evanston, IL 60201",
+      "addressStreet": "1627 Ridge Ave #2075391",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 1,
+      "baths": 1,
+      "area": 700,
+      "latLong": {
+        "latitude": 42.048233,
+        "longitude": -87.688194
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "21 hours ago",
+            "contentType": "timeOnInfo"
+          }
+        ],
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 458304935,
+          "streetAddress": "1627 Ridge Ave #2075391",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.048233,
+          "longitude": -87.688194,
+          "price": 1315,
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "livingArea": 700,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 0,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 1678,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 1315,
+          "timeOnZillow": 79121000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 2075391",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "c69a59e0726dee8eb9abed14a07ff736"
+          },
+          {
+            "photoKey": "8c3dfd3c2d010220800b4dad0828df7b"
+          },
+          {
+            "photoKey": "a039fabd525a3c26a6fc3c16aa060056"
+          },
+          {
+            "photoKey": "3cb62297616ed6e54eea1079948bb458"
+          },
+          {
+            "photoKey": "f4c0ab41f801a8f48f9f2904ec138f20"
+          },
+          {
+            "photoKey": "ba5d95d8b9106b4dc015e74a750433bc"
+          },
+          {
+            "photoKey": "63c94a2215ee1c2f0fd1571926bff393"
+          },
+          {
+            "photoKey": "e529827c3211085cabdc4779d49fd09f"
+          },
+          {
+            "photoKey": "4d3929217b0a13994c980c1ae366c1a3"
+          },
+          {
+            "photoKey": "7ad5a03bc70c8648e05b07e99d9c91fd"
+          },
+          {
+            "photoKey": "6398ab9a89c5e98a13bcb9057b29010b"
+          },
+          {
+            "photoKey": "6d7d51c9204b99e6fe08b0f926778af6"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1615-25-ridge-ave./CpYwK7/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1615 Ridge Ave, Evanston, IL",
+    "zpid": "42.047997--87.688225",
+    "raw": {
+      "zpid": "42.047997--87.688225",
+      "id": "42.047997--87.688225",
+      "providerListingId": "3hmv11ng6cc0q",
+      "imgSrc": "https://photos.zillowstatic.com/fp/7236bd0f5afc4dca66142af82d041415-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1615-25-ridge-ave./CpYwK7/",
+      "statusType": "FOR_RENT",
+      "statusText": "1615-25 Ridge Ave.",
+      "address": "1615 Ridge Ave, Evanston, IL",
+      "addressStreet": "1615 Ridge Ave  # 1-1615-I",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,795+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$3,150+",
+          "beds": "3",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,895+",
+          "beds": "4",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2770389788,
+      "latLong": {
+        "latitude": 42.047997,
+        "longitude": -87.688225
+      },
+      "buildingName": "1615-25 Ridge Ave.",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "7236bd0f5afc4dca66142af82d041415"
+          },
+          {
+            "photoKey": "cf4c9292e28a6a0a8205824641a243f5"
+          },
+          {
+            "photoKey": "077a4d7b9ee4f42f170a7fdffafab680"
+          },
+          {
+            "photoKey": "6974b157fd21aa2c9d857818b758b1f7"
+          },
+          {
+            "photoKey": "52658a27fd0a931dc031849aa30d05cc"
+          },
+          {
+            "photoKey": "2b9ec541da3ab08231fee0447b60be5d"
+          },
+          {
+            "photoKey": "5271158aeade935951752ce4ae1b0220"
+          },
+          {
+            "photoKey": "4977cef09c904ed5002ddab211853680"
+          },
+          {
+            "photoKey": "cf5fc3214f9f57d92e196c6ec7948857"
+          },
+          {
+            "photoKey": "6b3b6179ec5071d0e3e1b28823814cac"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 5,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1000-hinman/CgzCgM/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1000-1010 Hinman Ave, Evanston, IL",
+    "zpid": "42.03839--87.678764",
+    "raw": {
+      "zpid": "42.03839--87.678764",
+      "id": "42.03839--87.678764",
+      "providerListingId": "30x6a4hgrtu8r",
+      "imgSrc": "https://photos.zillowstatic.com/fp/562996b432581132289fea358bc5620f-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1000-hinman/CgzCgM/",
+      "statusType": "FOR_RENT",
+      "statusText": "1000 Hinman",
+      "address": "1000-1010 Hinman Ave, Evanston, IL",
+      "addressStreet": "1000-1010 Hinman Ave # 509-1",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,495+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,895+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2738186069,
+      "latLong": {
+        "latitude": 42.03839,
+        "longitude": -87.678764
+      },
+      "buildingName": "1000 Hinman",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "562996b432581132289fea358bc5620f"
+          },
+          {
+            "photoKey": "2e532a5a4d11c216bc531bda0618c112"
+          },
+          {
+            "photoKey": "8f68f9ab69629edef6e35e40adda1ab6"
+          },
+          {
+            "photoKey": "b8e1bdb81b5caf8bb03b5e335b065582"
+          },
+          {
+            "photoKey": "d910fa9d6c9118c93406e2da4cdecda8"
+          },
+          {
+            "photoKey": "2c5952e8c5c531bef2b5af9a3c646bfa"
+          },
+          {
+            "photoKey": "bcf1e38e8ba6de9fa258a77d6b892c68"
+          },
+          {
+            "photoKey": "235b872bac8790598935c9cdba6acf5b"
+          },
+          {
+            "photoKey": "3938d3e4b3964ee74895e8eb502d8804"
+          },
+          {
+            "photoKey": "d9d0a7f810654b4ec688a192709b098d"
+          },
+          {
+            "photoKey": "4c6a925b7ab89b6f412bacefd2cb6152"
+          },
+          {
+            "photoKey": "99c6c3bb15528e6ca48f50817114522b"
+          },
+          {
+            "photoKey": "983d71394e24d67ae1cdc4eaee9eb18e"
+          },
+          {
+            "photoKey": "a32213e8271f4c33f7cc621f5f181d80"
+          },
+          {
+            "photoKey": "c3c572d52ef085ec7312bc32ff204cd5"
+          },
+          {
+            "photoKey": "8b810f390444f2071ce151628af3ccd7"
+          },
+          {
+            "photoKey": "9381c991e6eb8433857d9f91c74c0a57"
+          },
+          {
+            "photoKey": "4c0669923c0463dfeff0a3b0ac13b771"
+          },
+          {
+            "photoKey": "4d161ecbc68f668b94e58b8db5bf72fd"
+          },
+          {
+            "photoKey": "d1fbd52cc4481c675ded4042a32b5948"
+          },
+          {
+            "photoKey": "f254ed730985595172d4d78238a20a03"
+          },
+          {
+            "photoKey": "6477fc4adcea976659b22a9f821296b6"
+          },
+          {
+            "photoKey": "7a5b902c82269e9d80dc16b8f1469ea4"
+          },
+          {
+            "photoKey": "b73fecec65fc44f4c799fb4a2b1cd635"
+          },
+          {
+            "photoKey": "9c6c10c4599c765082ec93a0c12e040e"
+          },
+          {
+            "photoKey": "093adb2d474cd1a2d15ae5cdf4ff6d40"
+          },
+          {
+            "photoKey": "c874b2341d141f0a463c19b7fbc716da"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 7,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/1509-hinman-ave/5XxWtp/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1509 Hinman Ave, Evanston, IL",
+    "zpid": "42.04485--87.67798",
+    "raw": {
+      "zpid": "42.04485--87.67798",
+      "id": "42.04485--87.67798",
+      "providerListingId": "2w18rf0ykv8js",
+      "imgSrc": "https://photos.zillowstatic.com/fp/c1822416dd45922954b6edfab46bef5a-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/1509-hinman-ave/5XxWtp/",
+      "statusType": "FOR_RENT",
+      "statusText": "1509 Hinman Ave",
+      "address": "1509 Hinman Ave, Evanston, IL",
+      "addressStreet": "1509 Hinman Ave # 1509-13-2S",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$2,255+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1002784598,
+      "latLong": {
+        "latitude": 42.04485,
+        "longitude": -87.67798
+      },
+      "buildingName": "1509 Hinman Ave",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "c1822416dd45922954b6edfab46bef5a"
+          },
+          {
+            "photoKey": "30b1ba2fd1b88f0aa14e1a6d3556250a"
+          },
+          {
+            "photoKey": "a8e6016bcfff2aa7fe92eb84a2292ce9"
+          },
+          {
+            "photoKey": "c0749e7441a81aaa476c31c6b6d21d78"
+          },
+          {
+            "photoKey": "32e3f63671c3363a74417f1e0901bad9"
+          },
+          {
+            "photoKey": "ae150a8ce3a1eeeb413d2a404d511d81"
+          },
+          {
+            "photoKey": "cbc79919a6fb2857db08ceab42975544"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 3,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/oak-crest/5XjrX9/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1570 Oak Ave, Evanston, IL",
+    "zpid": "42.04646--87.687355",
+    "raw": {
+      "zpid": "42.04646--87.687355",
+      "id": "42.04646--87.687355",
+      "providerListingId": "1jd1znwwmab5e",
+      "imgSrc": "https://photos.zillowstatic.com/fp/7dcb4c48f153a9ccfe77dedebd4480b8-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/oak-crest/5XjrX9/",
+      "statusType": "FOR_RENT",
+      "statusText": "Oak Crest",
+      "address": "1570 Oak Ave, Evanston, IL",
+      "addressStreet": "1570 Oak Ave Apt 601",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,225+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,970+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001528010,
+      "latLong": {
+        "latitude": 42.04646,
+        "longitude": -87.687355
+      },
+      "buildingName": "Oak Crest",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "7dcb4c48f153a9ccfe77dedebd4480b8"
+          },
+          {
+            "photoKey": "75950abd41cb238480e647aca9907072"
+          },
+          {
+            "photoKey": "c639b8bbcda8c62c151d4dac210ce7c8"
+          },
+          {
+            "photoKey": "8447ba5302962302ee150a19883f7f87"
+          },
+          {
+            "photoKey": "ec06a04971be4f59372c4c09b976f9f9"
+          },
+          {
+            "photoKey": "51b7ad9c367971667394b85163354f74"
+          },
+          {
+            "photoKey": "2686c6d61306c4230778e7e5c741931d"
+          },
+          {
+            "photoKey": "290c3efecec570dde45c7779c0878afe"
+          },
+          {
+            "photoKey": "7f5c3bf8e51e1c08b4c614862b5d822b"
+          },
+          {
+            "photoKey": "21da59caa61e85720a158f2e527f3a18"
+          },
+          {
+            "photoKey": "34451da5880d51f6dfab7ab62d1988bd"
+          },
+          {
+            "photoKey": "f6ee010187f3fb94ab037230a0b101c7"
+          },
+          {
+            "photoKey": "71c963f16379bb55ecc50533a618d504"
+          },
+          {
+            "photoKey": "cf967189c10e981e848bdaa63534fc07"
+          },
+          {
+            "photoKey": "4cc521282a472b22b42bfbb3afcba929"
+          },
+          {
+            "photoKey": "3f6c76d546186e0c867ffb12e172e946"
+          },
+          {
+            "photoKey": "793b7fd03e156b4835bb1cc9d1b07889"
+          },
+          {
+            "photoKey": "20c385e2250d7f9092e0e2cf9d3667b4"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 6,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/2200-10-sherman-ave./5XjMLf/",
+    "price": "$2,195+/mo",
+    "beds": 2,
+    "baths": 1,
+    "area": 895,
+    "address": "2200-10 Sherman Ave., 2200 Sherman Ave, Evanston, IL 60201",
+    "zpid": "2062966131",
+    "raw": {
+      "zpid": "2062966131",
+      "palsId": "100066001_ddc7202c98fa838a0af9d57390bf7b49ce7d6fc1f9003c2d63e8a21aed89412f",
+      "id": "2062966131",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "3mzh7p9eme5ce",
+      "imgSrc": "https://photos.zillowstatic.com/fp/4263919049420a47860a63155173456f-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/2200-10-sherman-ave./5XjMLf/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$2,195+/mo",
+      "unformattedPrice": 2195,
+      "address": "2200-10 Sherman Ave., 2200 Sherman Ave, Evanston, IL 60201",
+      "addressStreet": "2200 Sherman Ave #2075400",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 2,
+      "baths": 1,
+      "area": 895,
+      "latLong": {
+        "latitude": 42.057804,
+        "longitude": -87.68139
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 2062966131,
+          "streetAddress": "2200 Sherman Ave #2075400",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.057804,
+          "longitude": -87.68139,
+          "price": 2195,
+          "bathrooms": 1,
+          "bedrooms": 2,
+          "livingArea": 895,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 99,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 2242,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 2195,
+          "timeOnZillow": 8553853000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 2075400",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "4263919049420a47860a63155173456f"
+          },
+          {
+            "photoKey": "e97b3679f275f3ceb4bf4938c17ea77b"
+          },
+          {
+            "photoKey": "b984f812de32d021d1914934b756aad3"
+          },
+          {
+            "photoKey": "d9dc5162ad964af23b249e5a4f62b268"
+          },
+          {
+            "photoKey": "7c0e043f727f5a7afafd3a364f32f052"
+          },
+          {
+            "photoKey": "3cf704fe99d83bdb153a87ffc8f97eea"
+          },
+          {
+            "photoKey": "731c805c89fd651ab4eae3f253deb432"
+          },
+          {
+            "photoKey": "cece80f04b6d9427c3e210f84b14ac51"
+          },
+          {
+            "photoKey": "8ccb97e8e71289570d8df45e5c4b485c"
+          },
+          {
+            "photoKey": "b757340525864747c3f080809ed2e6f2"
+          },
+          {
+            "photoKey": "5ff40da4188abe495a64c64702e7fc27"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/2108-18-sherman-ave/CqH7fy/",
+    "price": "$1,895/mo",
+    "beds": 1,
+    "baths": 1,
+    "area": 775,
+    "address": "2108-18 Sherman Ave, 2108-18 Sherman Ave #2110-3E, Evanston, IL 60201",
+    "zpid": "443099826",
+    "raw": {
+      "zpid": "443099826",
+      "palsId": "100066001_0927410d2c8c7ea81c597e31e87dd6b590ae8318c5507aae923f10e89b6ce72a",
+      "id": "443099826",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "4yvepwrg1qqbm",
+      "imgSrc": "https://photos.zillowstatic.com/fp/e4f11493ae9e03bd30612a0071f85e7a-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/2108-18-sherman-ave/CqH7fy/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$1,895/mo",
+      "unformattedPrice": 1895,
+      "address": "2108-18 Sherman Ave, 2108-18 Sherman Ave #2110-3E, Evanston, IL 60201",
+      "addressStreet": "2108-18 Sherman Ave #2110-3E",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 1,
+      "baths": 1,
+      "area": 775,
+      "latLong": {
+        "latitude": 42.056316,
+        "longitude": -87.68221
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "9 days ago",
+            "contentType": "timeOnInfo"
+          }
+        ],
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 443099826,
+          "streetAddress": "2108-18 Sherman Ave #2110-3E",
+          "zipcode": "60201",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.056316,
+          "longitude": -87.68221,
+          "price": 1895,
+          "bathrooms": 1,
+          "bedrooms": 1,
+          "livingArea": 775,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 9,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 1222,
+          "listing_sub_type": {},
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 1895,
+          "timeOnZillow": 783959000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 2110-3E",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "availabilityDate": "2026-08-01 00:00:00",
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "e4f11493ae9e03bd30612a0071f85e7a"
+          },
+          {
+            "photoKey": "d1953b8aaee06beb72db7ba4e2acc6da"
+          },
+          {
+            "photoKey": "54e786f514d32acad6abed0dcdb97b52"
+          },
+          {
+            "photoKey": "dd3455fb4c44d28f8e184e709006a732"
+          },
+          {
+            "photoKey": "77e3f7d8f1686d528765ea7e2d78ee65"
+          },
+          {
+            "photoKey": "831073adf0c64c4dd13d64b291aa493a"
+          },
+          {
+            "photoKey": "f3f8ff58cad20133ac22102d861772a4"
+          },
+          {
+            "photoKey": "da477a8d7958349ba4f9aeceb8baa085"
+          },
+          {
+            "photoKey": "0d28110deda897df01bf30423def8831"
+          },
+          {
+            "photoKey": "9b5fc40b311260b729ff6433c45b92ed"
+          },
+          {
+            "photoKey": "85fa9a99f0fa061427915716c094ab11"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/549-607-sheridan-rd./CqNzQH/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "549 Sheridan Rd, Evanston, IL",
+    "zpid": "42.028336--87.67013",
+    "raw": {
+      "zpid": "42.028336--87.67013",
+      "id": "42.028336--87.67013",
+      "providerListingId": "55jg29ec97qdr",
+      "imgSrc": "https://photos.zillowstatic.com/fp/83ce213a936cce47638923d74abc8f8c-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/549-607-sheridan-rd./CqNzQH/",
+      "statusType": "FOR_RENT",
+      "statusText": "549-607 Sheridan Rd.",
+      "address": "549 Sheridan Rd, Evanston, IL",
+      "addressStreet": "549 Sheridan Rd # 551-D1",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,795+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,800+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2775103204,
+      "latLong": {
+        "latitude": 42.028336,
+        "longitude": -87.67013
+      },
+      "buildingName": "549-607 Sheridan Rd.",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "83ce213a936cce47638923d74abc8f8c"
+          },
+          {
+            "photoKey": "200cfa80cdbbac7a50a426bb6812bbb0"
+          },
+          {
+            "photoKey": "8397f6ffda3453cae716868662478335"
+          },
+          {
+            "photoKey": "d7e705e727939458f580bdbc11908973"
+          },
+          {
+            "photoKey": "dd888a8637e6a6cca34df1f97e75ca9b"
+          },
+          {
+            "photoKey": "65786447b9272c8b38994d0c5e112d38"
+          },
+          {
+            "photoKey": "ad5630a0fe240ee612c3913586ea4250"
+          },
+          {
+            "photoKey": "0f450e7802c27342cc90b587883788e9"
+          },
+          {
+            "photoKey": "2f5d36208232706455c1c1bdc35851e6"
+          },
+          {
+            "photoKey": "6ae78214a9e1cc42ecc269cf5f97216d"
+          },
+          {
+            "photoKey": "6bbf728a94cce6ccbaa354dc5145442e"
+          },
+          {
+            "photoKey": "0ee945013e09df8d51a44db2df762bc0"
+          },
+          {
+            "photoKey": "6a06074de6d184b88f2b3fcf58f8d8fb"
+          },
+          {
+            "photoKey": "e757c955e2ad3e398f8782acde4339ba"
+          },
+          {
+            "photoKey": "60bd4d8e36437737ef9e55fa7504e146"
+          },
+          {
+            "photoKey": "c627141efdf3f47390d50fd94caa20a6"
+          },
+          {
+            "photoKey": "a2a389828689f46e43548ba30c818d7b"
+          },
+          {
+            "photoKey": "d570c14c69babdd57db440fac63f6566"
+          },
+          {
+            "photoKey": "72ce9f7373fe2390b74dcf5a4bf04bcf"
+          },
+          {
+            "photoKey": "dfec48d49fc66aaa45daa0a53bca3e67"
+          },
+          {
+            "photoKey": "cbf9accc40c1da11ac69cee9cb29eeca"
+          },
+          {
+            "photoKey": "aa7cf1430b9dd79eeb434ad0002192f9"
+          },
+          {
+            "photoKey": "e37b4757744fe6bf266410038a5d49db"
+          },
+          {
+            "photoKey": "bca5c4719a69830109220c49ccf73a41"
+          },
+          {
+            "photoKey": "2beac200de5c897655aa840352a078e6"
+          },
+          {
+            "photoKey": "e1e4b623dc2efb05aee038303f92ee55"
+          },
+          {
+            "photoKey": "b0b6271eb57e24f1733bfd0f052cd54a"
+          },
+          {
+            "photoKey": "5df037ee4829fc03ee4c3b55ce38e525"
+          },
+          {
+            "photoKey": "b8918565ba41e63fdb1dd67e5a07d450"
+          },
+          {
+            "photoKey": "29ded0f9ce0f9cacec7da987e59172a5"
+          },
+          {
+            "photoKey": "7858462c8acaa4aad0bb3c201fc428b1"
+          },
+          {
+            "photoKey": "fe6f17d44e6389d4f13ec91f7bf548d3"
+          },
+          {
+            "photoKey": "6a122d3e1a83a0b34bcc7a5fd028ce25"
+          },
+          {
+            "photoKey": "9f7a4405cc995f0678995f5763ffb95b"
+          },
+          {
+            "photoKey": "319a972930a94ce7d4ae3ba517b7a810"
+          },
+          {
+            "photoKey": "9800981190c8218a14350a7f537a100a"
+          },
+          {
+            "photoKey": "9787b20d5db8c54b4a9813f8ded3a325"
+          },
+          {
+            "photoKey": "4c1a22330ac2597efa60ab73944b00b2"
+          },
+          {
+            "photoKey": "5e512eabea5d9f7a997626af9e17aa97"
+          },
+          {
+            "photoKey": "58f08e0a79455cf68967bb01adf5f3d2"
+          },
+          {
+            "photoKey": "9ac05be62369ac56f659b586c700a1e5"
+          },
+          {
+            "photoKey": "55e9a15db03808ae9410039280735b97"
+          },
+          {
+            "photoKey": "e2c120caac0c4244c640800a067cd62a"
+          },
+          {
+            "photoKey": "a318686d5a4b801bfe72664b06c77569"
+          },
+          {
+            "photoKey": "730e03daeba8f127dd0477481d2b5941"
+          },
+          {
+            "photoKey": "a058d22813132ad8b378701bdbd5278a"
+          },
+          {
+            "photoKey": "47e6e4b7054d9a7395f1e78cec2ecfcf"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 3,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/820-judson-apartments/Cmm9Tq/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "820 Judson Ave, Evanston, IL",
+    "zpid": "42.032738--87.67632",
+    "raw": {
+      "zpid": "42.032738--87.67632",
+      "id": "42.032738--87.67632",
+      "providerListingId": "1xdtzhtjr4ud9",
+      "imgSrc": "https://photos.zillowstatic.com/fp/cf872c64a176c954df80b9cb991ca7fe-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/820-judson-apartments/Cmm9Tq/",
+      "statusType": "FOR_RENT",
+      "statusText": "820 Judson Apartments",
+      "address": "820 Judson Ave, Evanston, IL",
+      "addressStreet": "820 Judson Ave # f09dde40c",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$1,655+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,335+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2759945865,
+      "latLong": {
+        "latitude": 42.032738,
+        "longitude": -87.67632
+      },
+      "buildingName": "820 Judson Apartments",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "cf872c64a176c954df80b9cb991ca7fe"
+          },
+          {
+            "photoKey": "b2fdd18c86ba70a30a6b636403f609f9"
+          },
+          {
+            "photoKey": "6829350a8ae3cd08107ad3c3309e39f0"
+          },
+          {
+            "photoKey": "55e78191f9aa42f1396803f88f1795e9"
+          },
+          {
+            "photoKey": "f3adcaeab6f85f60144e2c838c849265"
+          },
+          {
+            "photoKey": "1a58110b4d2c0383f47b71b2cf0e0eb6"
+          },
+          {
+            "photoKey": "5c7596c80d011b13cdf6b29eb2cd916c"
+          },
+          {
+            "photoKey": "aa0d08f0d02187e7084568c682e5c385"
+          },
+          {
+            "photoKey": "c255678b58f1c401b39ab1b8a8a98ffb"
+          },
+          {
+            "photoKey": "ee93abba65f4e8598901f64451ee5431"
+          },
+          {
+            "photoKey": "ba659defc1ef790b2224ed41d8bff97f"
+          },
+          {
+            "photoKey": "8d14bac6ae709f42acb064a72434b7ef"
+          },
+          {
+            "photoKey": "20ff68d6a68f9553dedc517aae1e8808"
+          },
+          {
+            "photoKey": "cc77cc5d14296ed24d3f060dc0e39009"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/929-michigan/5XjCLd/",
+    "price": "$2,395/mo",
+    "beds": 3,
+    "baths": 2,
+    "area": 1420,
+    "address": "929 Michigan, 929 Michigan Ave #935-2, Evanston, IL 60202",
+    "zpid": "458018571",
+    "raw": {
+      "zpid": "458018571",
+      "palsId": "100066001_5aa0beda0cc939215bd557235f83e9f1cc2354aa11ff0e418dc516522be94fdc",
+      "id": "458018571",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "3buvr99favyrv",
+      "imgSrc": "https://photos.zillowstatic.com/fp/977ed688a445e7892e3b7829b71a81ce-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/929-michigan/5XjCLd/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$2,395/mo",
+      "unformattedPrice": 2395,
+      "address": "929 Michigan, 929 Michigan Ave #935-2, Evanston, IL 60202",
+      "addressStreet": "929 Michigan Ave #935-2",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 3,
+      "baths": 2,
+      "area": 1420,
+      "latLong": {
+        "latitude": 42.035023,
+        "longitude": -87.673195
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 458018571,
+          "streetAddress": "929 Michigan Ave #935-2",
+          "zipcode": "60202",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.035023,
+          "longitude": -87.673195,
+          "price": 2395,
+          "datePriceChanged": 1765612800000,
+          "bathrooms": 2,
+          "bedrooms": 3,
+          "livingArea": 1420,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 216,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 2896,
+          "listing_sub_type": {},
+          "priceReduction": "",
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 2395,
+          "priceChange": -100,
+          "timeOnZillow": 18723705000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 935-2",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "977ed688a445e7892e3b7829b71a81ce"
+          },
+          {
+            "photoKey": "29db518bbfad5b0b63e43a29f189b45c"
+          },
+          {
+            "photoKey": "334a73f90f3a64272dba282a23340342"
+          },
+          {
+            "photoKey": "a70eeeb79aa669fd377448f7b2756d33"
+          },
+          {
+            "photoKey": "8c1b1e67e9977f22f5d7d74a7a380590"
+          },
+          {
+            "photoKey": "e06e61a6469a7d75f258cc6331dacebf"
+          },
+          {
+            "photoKey": "246d39ec81bde423bfea8067a1d1f540"
+          },
+          {
+            "photoKey": "e000a84ab8a279e0347cce9fc7109cc4"
+          },
+          {
+            "photoKey": "318c37b7beb5d108accabef4e1efb396"
+          },
+          {
+            "photoKey": "44eac1e8db3b1bd8aa55d33d404c0544"
+          },
+          {
+            "photoKey": "cea0aeab46af3019a7f9dcc2592ffb18"
+          },
+          {
+            "photoKey": "dc86fa900c96f093666512d5d35bd073"
+          },
+          {
+            "photoKey": "8fd7c0a41e7457b9c4ff2d560cb0f764"
+          },
+          {
+            "photoKey": "c527f16c5ccd81e3a1e9d5cca293bc22"
+          },
+          {
+            "photoKey": "ca78164bf5c1b34109d2e858c540d79d"
+          },
+          {
+            "photoKey": "76a697142d6e2e8689fae6d8a40cc265"
+          },
+          {
+            "photoKey": "14e1c45a440bf5ddd4525bb48d880c29"
+          },
+          {
+            "photoKey": "0bccdcb20eba5cf7129934c407aad14d"
+          },
+          {
+            "photoKey": "0e7b51ecb59d3ab0148276cf9dace5e8"
+          },
+          {
+            "photoKey": "1651d8cb5e1502aa75aace6e8526265e"
+          },
+          {
+            "photoKey": "6270db19fd0a5b13461f63d5e1c42812"
+          },
+          {
+            "photoKey": "7315f12fb0f57eb91ab755418386e190"
+          },
+          {
+            "photoKey": "93f036599f139793e8d665e29ba79883"
+          },
+          {
+            "photoKey": "f1680764acb04d8c8e5ae86b7d7ac42a"
+          },
+          {
+            "photoKey": "36196d5f7a392e0d5145781850485a13"
+          },
+          {
+            "photoKey": "846a5e2ca1bdd121c64ada2b9ee42137"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "halfBathroomCount": 0,
+        "fullBathroomCount": 2,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/2129-ridge-avenue/5YLCQc/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "2129 Ridge Ave, Evanston, IL",
+    "zpid": "42.056683--87.68609",
+    "raw": {
+      "zpid": "42.056683--87.68609",
+      "id": "42.056683--87.68609",
+      "providerListingId": "2755hvvbgch2k",
+      "imgSrc": "https://photos.zillowstatic.com/fp/081c32849e00d1db579aafb8e3d3dbf1-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/2129-ridge-avenue/5YLCQc/",
+      "statusType": "FOR_RENT",
+      "statusText": "2129",
+      "address": "2129 Ridge Ave, Evanston, IL",
+      "addressStreet": "2129 Ridge Ave # 2129-31-1I",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$2,195+",
+          "beds": "2",
+          "roomForRent": false
+        },
+        {
+          "price": "$3,195+",
+          "beds": "3",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1004980377,
+      "latLong": {
+        "latitude": 42.056683,
+        "longitude": -87.68609
+      },
+      "buildingName": "2129",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "081c32849e00d1db579aafb8e3d3dbf1"
+          },
+          {
+            "photoKey": "c9437738855192698f80c5fa41a997de"
+          },
+          {
+            "photoKey": "3dbfdf455a79759e67d473bb891b460b"
+          },
+          {
+            "photoKey": "4693f642b24cdfa6cf92eaf38192a425"
+          },
+          {
+            "photoKey": "f4d4a3dafa5cc9f1a0863591f0ecbb92"
+          },
+          {
+            "photoKey": "dee5c27767fc6bd693379b2f000900f7"
+          },
+          {
+            "photoKey": "6c73c02a1e7aa99cee0ff290db7938f2"
+          },
+          {
+            "photoKey": "8004be76bbf9616f8c1ca36eeccda3e4"
+          },
+          {
+            "photoKey": "5ccfda5f6af2a62fafc581ebe373c904"
+          },
+          {
+            "photoKey": "9bde84800cb34b9d57b2ada8d664b45a"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 6,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/albion-evanston/Cjk35c/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1500 Sherman Ave, Evanston, IL",
+    "zpid": "42.044872--87.682365",
+    "raw": {
+      "zpid": "42.044872--87.682365",
+      "id": "42.044872--87.682365",
+      "providerListingId": "11evb1kt65y27",
+      "imgSrc": "https://photos.zillowstatic.com/fp/034b1a3cc1a2b332fe3b73d8ed12c110-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/albion-evanston/Cjk35c/",
+      "statusType": "FOR_RENT",
+      "statusText": "Albion Evanston",
+      "address": "1500 Sherman Ave, Evanston, IL",
+      "addressStreet": "1500 Sherman Ave  # 902",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$2,360+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$2,968+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$4,319+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2748283218,
+      "latLong": {
+        "latitude": 42.044872,
+        "longitude": -87.682365
+      },
+      "listCardRecommendation": {
+        "flexFieldRecommendations": [
+          {
+            "displayString": "Updated yesterday",
+            "contentType": "timeOnInfo"
+          }
+        ]
+      },
+      "buildingName": "Albion Evanston",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "034b1a3cc1a2b332fe3b73d8ed12c110"
+          },
+          {
+            "photoKey": "dbe95c830b3afd807f02e8e985ffe4eb"
+          },
+          {
+            "photoKey": "c813f578741f02b7822c7699533af816"
+          },
+          {
+            "photoKey": "16a58f599d68746722e41a71bef24822"
+          },
+          {
+            "photoKey": "696f2d56ddc443f34082d5ce574b1ac9"
+          },
+          {
+            "photoKey": "39d22759dd25f8efc15af13688aabac2"
+          },
+          {
+            "photoKey": "1aefe563fbfcaf1acb873a7fd8a322d0"
+          },
+          {
+            "photoKey": "fac73ee66ab031314cb09384960481ee"
+          },
+          {
+            "photoKey": "272184cc025d05fed5227c8892342b19"
+          },
+          {
+            "photoKey": "c921bb737c23fa2aa71a28a916f3441c"
+          },
+          {
+            "photoKey": "d4311601fdf0b1f52175402131b23e6d"
+          },
+          {
+            "photoKey": "3f5a0c3da2a2df2bf1ba67eded507f24"
+          },
+          {
+            "photoKey": "b1cbc3753f91f495cdf49f5d729c1a22"
+          },
+          {
+            "photoKey": "2bfa6078d033a763fcd06afd2de1dc4f"
+          },
+          {
+            "photoKey": "fbb6ef2045e6e6f0bd49e16c8d91738b"
+          },
+          {
+            "photoKey": "d1d52378ba65c7c51eece464b8a16a74"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 34,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyPayPerLease"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": true,
+      "totalRequiredMonthlyMinFee": 16,
+      "totalRequiredMonthlyMaxFee": 16,
+      "minBaseRent": 2344,
+      "maxBaseRent": 4655,
+      "isInstantTourEnabled": true,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "https://www.zillow.com/apartments/evanston-il/1243-judson/CqnmFp/",
+    "price": "$2,695+/mo",
+    "beds": 3,
+    "baths": 2,
+    "area": null,
+    "address": "1243 Judson, 1243 Judson Ave #22b17cc7b, Evanston, IL 60202",
+    "zpid": "462076048",
+    "raw": {
+      "zpid": "462076048",
+      "palsId": "100066001_a67a4857893ce4570ea6f081cea1f545e50acba4e191724f0716c6b6ea25d450",
+      "id": "462076048",
+      "rawHomeStatusCd": "ForRent",
+      "marketingStatusSimplifiedCd": "For Rent",
+      "providerListingId": "1f9f72edcjqca",
+      "imgSrc": "https://photos.zillowstatic.com/fp/2ea8d1aad6407c0764979185c381c0cc-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "https://www.zillow.com/apartments/evanston-il/1243-judson/CqnmFp/",
+      "statusType": "FOR_RENT",
+      "statusText": "Apartment for rent",
+      "countryCurrency": "$",
+      "price": "$2,695+/mo",
+      "unformattedPrice": 2695,
+      "address": "1243 Judson, 1243 Judson Ave #22b17cc7b, Evanston, IL 60202",
+      "addressStreet": "1243 Judson Ave #22b17cc7b",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "isUndisclosedAddress": false,
+      "shouldShowRequestOnPrice": false,
+      "beds": 3,
+      "baths": 2,
+      "latLong": {
+        "latitude": 42.04091,
+        "longitude": -87.67654
+      },
+      "isZillowOwned": false,
+      "listCardRecommendation": {
+        "ctaRecommendations": [
+          {
+            "displayString": "Request a tour",
+            "contentType": "REQUEST_A_TOUR"
+          }
+        ]
+      },
+      "hdpData": {
+        "homeInfo": {
+          "zpid": 462076048,
+          "streetAddress": "1243 Judson Ave #22b17cc7b",
+          "zipcode": "60202",
+          "city": "Evanston",
+          "state": "IL",
+          "latitude": 42.04091,
+          "longitude": -87.67654,
+          "price": 2695,
+          "datePriceChanged": 1779087600000,
+          "bathrooms": 2,
+          "bedrooms": 3,
+          "homeType": "APARTMENT",
+          "homeStatus": "FOR_RENT",
+          "daysOnZillow": 42,
+          "isFeatured": true,
+          "shouldHighlight": false,
+          "isRentalWithBasePrice": false,
+          "rentZestimate": 3136,
+          "listing_sub_type": {},
+          "priceReduction": "$160 (May 18)",
+          "isUnmappable": false,
+          "isPreforeclosureAuction": false,
+          "homeStatusForHDP": "FOR_RENT",
+          "priceForHDP": 2695,
+          "priceChange": -160,
+          "timeOnZillow": 3659145000,
+          "isNonOwnerOccupied": true,
+          "isPremierBuilder": false,
+          "isZillowOwned": false,
+          "currency": "USD",
+          "country": "USA",
+          "unit": "# 22b17cc7b",
+          "isShowcaseListing": false
+        }
+      },
+      "isUserClaimingOwner": false,
+      "isUserConfirmedClaim": false,
+      "pgapt": "ForRent",
+      "sgapt": "For Rent",
+      "shouldShowZestimateAsPrice": false,
+      "has3DModel": false,
+      "hasVideo": false,
+      "isHomeRec": false,
+      "hasAdditionalAttributions": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "2ea8d1aad6407c0764979185c381c0cc"
+          },
+          {
+            "photoKey": "672053fed27fd8165253ae9e84e34569"
+          },
+          {
+            "photoKey": "228d2b8ca2ec9db744222ddfff6365c0"
+          },
+          {
+            "photoKey": "c7ce16f210afb813f859bcb5a2501fbe"
+          },
+          {
+            "photoKey": "e21faa619da994188528a27699300022"
+          },
+          {
+            "photoKey": "f4827e2457b145fabc6800252537d7f9"
+          },
+          {
+            "photoKey": "700e9519308e98103ad5176a0f9eb286"
+          },
+          {
+            "photoKey": "a1b7ef8f01b927567af18d353b6ef03f"
+          },
+          {
+            "photoKey": "1b41586fc5b8712f8004bfeb40331140"
+          },
+          {
+            "photoKey": "577ec54da5f4d7306ba67817b4eb737e"
+          },
+          {
+            "photoKey": "baca3a180bd3c5491bb47497feaa758d"
+          },
+          {
+            "photoKey": "bd214eb364fa512b8aa964fa115b6655"
+          },
+          {
+            "photoKey": "8ef2b857206adc06b40b3b8e41bc93cf"
+          },
+          {
+            "photoKey": "ab46ce18310dc2617d9c9d9a5eab3306"
+          },
+          {
+            "photoKey": "4fce3a30dc39d28f5c4a3c4fd1802cfc"
+          },
+          {
+            "photoKey": "8d2fe7dd73a7b801426a26a2ee4efb6f"
+          },
+          {
+            "photoKey": "fd441c33c29a7bfdd8072b93ef8cca91"
+          },
+          {
+            "photoKey": "37213ce6046e959a6e98639fad726920"
+          },
+          {
+            "photoKey": "f295432d3247c73c4895ed6827b64235"
+          },
+          {
+            "photoKey": "f99aa05ae80833c1ce2efb02118af2e2"
+          },
+          {
+            "photoKey": "fa0ad20994985a658432bdf3b7f2395c"
+          },
+          {
+            "photoKey": "28e7fb4054077ec4d90f666b5ac6738a"
+          },
+          {
+            "photoKey": "6bcc518812dbcccaedd05dd9c1526242"
+          },
+          {
+            "photoKey": "a034cbe3f2e33cd0832e05fda3caa6a3"
+          },
+          {
+            "photoKey": "067a1360d3200534cec8f37e6e82a352"
+          },
+          {
+            "photoKey": "89bf1b8e2cc545ec4d885fa04637328f"
+          },
+          {
+            "photoKey": "bac70097981b05c5310402eb7d3f0889"
+          },
+          {
+            "photoKey": "a6176d4417ba5dfdbe04a58e2936d962"
+          },
+          {
+            "photoKey": "ea07b1ad1515a6fec63d1fb1f1e1ce4a"
+          },
+          {
+            "photoKey": "5c6f26334e26b9a105c82905f2da878d"
+          },
+          {
+            "photoKey": "ea2f698b5372433fbe0599f948ebf20f"
+          },
+          {
+            "photoKey": "6d87da86a66ab8d77d6f85853bd6cc20"
+          },
+          {
+            "photoKey": "062ce3dc62c1fee992f531255b669f8f"
+          },
+          {
+            "photoKey": "dd4f0b68063edc573536fc33d1b78b8b"
+          },
+          {
+            "photoKey": "131cf10e722c3a9857c47cf82c3221e7"
+          },
+          {
+            "photoKey": "414e44a466f34f40613df11edc49a4db"
+          },
+          {
+            "photoKey": "871068aa2fdadb13392c4d21c64c343a"
+          },
+          {
+            "photoKey": "c542a7002fc3d8c6e730075fecf922be"
+          },
+          {
+            "photoKey": "7fe935875f483f2a43ed0fa37d0c9516"
+          },
+          {
+            "photoKey": "09f32091a3c73874a1548605ae28cd54"
+          },
+          {
+            "photoKey": "922ea30dbb10a9830443893a13ea8647"
+          },
+          {
+            "photoKey": "8cf50ad9811e4a4ba4434f18d3ed56f3"
+          },
+          {
+            "photoKey": "50c9bde359dd050d57e0753ee1f07adc"
+          },
+          {
+            "photoKey": "629dcdf6dbd0a552e9533709d3de8470"
+          },
+          {
+            "photoKey": "624a315a61479de5fafa6c6358f938bf"
+          },
+          {
+            "photoKey": "ab13f05a7c2f5ea2eef929fe2ec7039c"
+          },
+          {
+            "photoKey": "0eb9c18adcbdb5a942bb0d379a7ebdc9"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "rooms": [],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isPaidBuilderNewConstruction": false,
+      "factsAndFeatures": {
+        "halfBathroomCount": 1,
+        "fullBathroomCount": 1,
+        "hasFireplace": false,
+        "hasAirConditioning": false,
+        "hasSpa": false,
+        "hasPool": false
+      }
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/617-grove-st/5XjNYX/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "617 Grove St, Evanston, IL",
+    "zpid": "42.04557--87.68123",
+    "raw": {
+      "zpid": "42.04557--87.68123",
+      "id": "42.04557--87.68123",
+      "providerListingId": "477dhcque95zj",
+      "imgSrc": "https://photos.zillowstatic.com/fp/a13f94f3804d10eec7200858df635921-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/617-grove-st/5XjNYX/",
+      "statusType": "FOR_RENT",
+      "statusText": "617 Grove St",
+      "address": "617 Grove St, Evanston, IL",
+      "addressStreet": "617 Grove St # 9e094ed0c",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$1,335+",
+          "beds": "0",
+          "roomForRent": false
+        },
+        {
+          "price": "$1,775+",
+          "beds": "1",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 1001472855,
+      "latLong": {
+        "latitude": 42.04557,
+        "longitude": -87.68123
+      },
+      "buildingName": "617 Grove St",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "a13f94f3804d10eec7200858df635921"
+          },
+          {
+            "photoKey": "dedf9393a1834e46c4fc92e5cf610087"
+          },
+          {
+            "photoKey": "5830cab39cbf52bc87052052ec5ef350"
+          },
+          {
+            "photoKey": "f0a5801d51c850c21709682f28431964"
+          },
+          {
+            "photoKey": "b183933941c38a6566471c273c91b981"
+          },
+          {
+            "photoKey": "2b78e65fc24f0b6efec76f0bb4ada47d"
+          },
+          {
+            "photoKey": "f28814eb8ced1e0cd39a8b63b68fca83"
+          },
+          {
+            "photoKey": "98a9ad4932939f51c2738a77b97c0e87"
+          },
+          {
+            "photoKey": "ff155ec7beee14b85d74c231fa02e6c1"
+          },
+          {
+            "photoKey": "181e1a06140a136fa7457863a4cc796e"
+          },
+          {
+            "photoKey": "a2fd6bf5a567f31f861da1543bd6c6cc"
+          },
+          {
+            "photoKey": "f9f60220d2d19bf0c6d59e625500ae3a"
+          },
+          {
+            "photoKey": "d27b76ffde1f97ef4729a36a7cb8545d"
+          },
+          {
+            "photoKey": "e6037ade1945f6eb396f54737e2e8837"
+          },
+          {
+            "photoKey": "4474c004db6ff42b7be1ec45f50fbd18"
+          },
+          {
+            "photoKey": "5f2eba4c7673ec80afbcb44ca231fcb8"
+          },
+          {
+            "photoKey": "dfffa1883d533237193657fbb06106b5"
+          },
+          {
+            "photoKey": "6059594e93e965f83c7d155393b77106"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 3,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/lodge-evanston/ChGyRJ/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "1700 Oak Ave, Evanston, IL",
+    "zpid": "42.04854--87.68682",
+    "raw": {
+      "zpid": "42.04854--87.68682",
+      "id": "42.04854--87.68682",
+      "providerListingId": "4dmvztfjhumbn",
+      "imgSrc": "https://photos.zillowstatic.com/fp/bc6f580cdde0d91a823a72759a9abad1-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/lodge-evanston/ChGyRJ/",
+      "statusType": "FOR_RENT",
+      "statusText": "Lodge Evanston",
+      "address": "1700 Oak Ave, Evanston, IL",
+      "addressStreet": "1700 Oak Ave # 8",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60201",
+      "units": [
+        {
+          "price": "$2,575+",
+          "beds": "1",
+          "roomForRent": false
+        },
+        {
+          "price": "$3,350+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2739806153,
+      "latLong": {
+        "latitude": 42.04854,
+        "longitude": -87.68682
+      },
+      "buildingName": "Lodge Evanston",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "bc6f580cdde0d91a823a72759a9abad1"
+          },
+          {
+            "photoKey": "73921bcd025313482dc4dec5aead0996"
+          },
+          {
+            "photoKey": "6d5655ca55756f4408c754c01346deb7"
+          },
+          {
+            "photoKey": "6b83a381ffac3782372d49e4ce27f8b4"
+          },
+          {
+            "photoKey": "0446849a96f5389f51c254bc5b971098"
+          },
+          {
+            "photoKey": "3482f74f27ec5675e3bee342c2743f16"
+          },
+          {
+            "photoKey": "0cd19a21ee83479d02205d378d288b4a"
+          },
+          {
+            "photoKey": "750e63c6cf31ea65d96bcf2b4505d51a"
+          },
+          {
+            "photoKey": "5fa352c451fefbcebb9b94a5e447a3ad"
+          },
+          {
+            "photoKey": "b2643550e9a2f61d544ad853aa54c7c5"
+          },
+          {
+            "photoKey": "0bea53a364792d0ace606e507e48cc9b"
+          },
+          {
+            "photoKey": "a70ab6a60272096b46e1c24f369776a3"
+          },
+          {
+            "photoKey": "da74a918f008941e5f36e54f837664c9"
+          },
+          {
+            "photoKey": "4e64c174484355faea8a30a09114b3ff"
+          },
+          {
+            "photoKey": "a3de560ffb0f46088abddc4e3f16a087"
+          },
+          {
+            "photoKey": "d642afe436e53a22853cfea98933735e"
+          },
+          {
+            "photoKey": "825b933965ac75952fd311a391b981ba"
+          },
+          {
+            "photoKey": "d5e5abdebe09b454fb229cc65cdaabb3"
+          },
+          {
+            "photoKey": "e65f30f8647939ccae71cefa5abc1008"
+          },
+          {
+            "photoKey": "ee3e0466e013f3f1175d148e905aef51"
+          },
+          {
+            "photoKey": "d269d0837ad79838737f434c871f5c27"
+          },
+          {
+            "photoKey": "c464668f35f655b5924585b8b7e9031f"
+          },
+          {
+            "photoKey": "e35096058f48039da313550d12462044"
+          },
+          {
+            "photoKey": "b0b6b5e8e16e1e876da4dbe335776905"
+          },
+          {
+            "photoKey": "795ae210ff6927f1507ff99eb3be9fca"
+          },
+          {
+            "photoKey": "f4b86521f5a893c5bb1ad2680cfd67ec"
+          },
+          {
+            "photoKey": "1db02c5c4c92955a867e21c2139a3508"
+          },
+          {
+            "photoKey": "7a3a21efa69a1803cc4a5f0826406fa9"
+          },
+          {
+            "photoKey": "7597c5149cf4e12c377027b55fa90f38"
+          },
+          {
+            "photoKey": "08bc6cffb498c46b0bd2afec9a3a33e7"
+          },
+          {
+            "photoKey": "2f28d69dd11ae424f5e385d2a646ad98"
+          },
+          {
+            "photoKey": "b461b00627b2f0be1b621da474b265f4"
+          },
+          {
+            "photoKey": "e32211ad4acaeff7b76741029d13dd77"
+          },
+          {
+            "photoKey": "25d3830cc11c23f5f7f9b41905697e99"
+          },
+          {
+            "photoKey": "9d3e2a51ac3dd3f56d4a27a3c3fc7437"
+          },
+          {
+            "photoKey": "937e145faf71ed03d30ed50977dc00f1"
+          },
+          {
+            "photoKey": "cbf6fb1845a8bf2a427b2101b3626924"
+          },
+          {
+            "photoKey": "8c40ae679d19cf27c3b1fcf78b0907dd"
+          },
+          {
+            "photoKey": "07957ef7f51f3d96d128c94363c21943"
+          },
+          {
+            "photoKey": "7ac1b4f5b594ff458df8917863346537"
+          },
+          {
+            "photoKey": "01a2750bff57ae1cc0d5a124ea9a2568"
+          },
+          {
+            "photoKey": "b10f321a5d3804e98fb8492dbb932946"
+          },
+          {
+            "photoKey": "23b62cddc27066b54381e2e2467ec2f8"
+          },
+          {
+            "photoKey": "3cd1591729c2186e07a7001ce1b96037"
+          },
+          {
+            "photoKey": "194ae7d16e91e2248930e959df9d0d3c"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 11,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "zillowRentalManager",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": false,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  },
+  {
+    "url": "/apartments/evanston-il/hinman-court-condos/CrbL6R/",
+    "price": null,
+    "beds": null,
+    "baths": null,
+    "area": null,
+    "address": "632 Hinman Ave, Evanston, IL",
+    "zpid": "42.029724--87.67737",
+    "raw": {
+      "zpid": "42.029724--87.67737",
+      "id": "42.029724--87.67737",
+      "providerListingId": "4trsx5x5549hm",
+      "imgSrc": "https://photos.zillowstatic.com/fp/4b6d20060e5305fb87252c478f2f3f8e-p_e.jpg",
+      "hasImage": true,
+      "detailUrl": "/apartments/evanston-il/hinman-court-condos/CrbL6R/",
+      "statusType": "FOR_RENT",
+      "statusText": "Hinman Court Condos",
+      "address": "632 Hinman Ave, Evanston, IL",
+      "addressStreet": "632 Hinman Ave # 638-2H",
+      "addressCity": "Evanston",
+      "addressState": "IL",
+      "addressZipcode": "60202",
+      "units": [
+        {
+          "price": "$2,400+",
+          "beds": "2",
+          "roomForRent": false
+        }
+      ],
+      "shouldShowRequestOnPrice": false,
+      "lotId": 2782084536,
+      "latLong": {
+        "latitude": 42.029724,
+        "longitude": -87.67737
+      },
+      "buildingName": "Hinman Court Condos",
+      "isBuilding": true,
+      "canSaveBuilding": true,
+      "has3DModel": false,
+      "isFeaturedListing": true,
+      "isShowcaseListing": false,
+      "list": true,
+      "relaxed": false,
+      "carouselPhotosComposable": {
+        "baseUrl": "https://photos.zillowstatic.com/fp/{photoKey}-p_e.jpg",
+        "communityBaseUrl": null,
+        "photoData": [
+          {
+            "photoKey": "4b6d20060e5305fb87252c478f2f3f8e"
+          },
+          {
+            "photoKey": "5d4fcc34f861551a7277792e684c025e"
+          },
+          {
+            "photoKey": "a3edcac97ab8d6d4629ff4c400ab9b03"
+          },
+          {
+            "photoKey": "40b53742aa8ac1891c8be844e23b37bb"
+          },
+          {
+            "photoKey": "fea65fba4ba045186dcaae5d835b8057"
+          },
+          {
+            "photoKey": "5c909c79eb54f940d88831be56a50db7"
+          },
+          {
+            "photoKey": "a4f3ddeb11d2266eeece5fff7285b63b"
+          },
+          {
+            "photoKey": "30e54e3af154a26998a3acc60eec7338"
+          },
+          {
+            "photoKey": "ca015c6f684a825ed42e4deb9f3ad68a"
+          },
+          {
+            "photoKey": "ab796ff18316586a6f6ee6c63aee3de6"
+          },
+          {
+            "photoKey": "d87cbd0fba42cc183ec39b83981d1ac5"
+          },
+          {
+            "photoKey": "e21ea166a703b98295ce0a55b233e534"
+          },
+          {
+            "photoKey": "a7f8ced8587bef138f04c2a37908f7a7"
+          },
+          {
+            "photoKey": "81acaf865063c6f1f94f15e9d91df5b7"
+          },
+          {
+            "photoKey": "623aa4706d8fdb68b0b7a54710fe73e5"
+          },
+          {
+            "photoKey": "a135d48fb20fb75cc3b596357e8fcb92"
+          },
+          {
+            "photoKey": "4226f4f416dfd90eccec7e111d6779bc"
+          },
+          {
+            "photoKey": "43e8d4b59fb6ce44708fb91870853733"
+          },
+          {
+            "photoKey": "4a1d3ab86a8b05863da528b732a199cf"
+          },
+          {
+            "photoKey": "803e16c8599abd750cfdcd34eefd405b"
+          },
+          {
+            "photoKey": "99f1b750b102ef414f8c1e7cd00ee5ab"
+          },
+          {
+            "photoKey": "f9cccb570d1a604356ce38eafb923904"
+          },
+          {
+            "photoKey": "0337099005e5c04445b6050e84f3257d"
+          },
+          {
+            "photoKey": "07635e0d84299e37003731ae3931f3a0"
+          },
+          {
+            "photoKey": "168de3d22372943259a0cb290590c110"
+          },
+          {
+            "photoKey": "b6eb16945725fbfd4040de839ae99be8"
+          },
+          {
+            "photoKey": "6eccd6bc9db29e53cad99ee0ea8a7655"
+          },
+          {
+            "photoKey": "5c056f1d58303fcd1e07286a5c92ad83"
+          },
+          {
+            "photoKey": "20cb172a18539a350a4916890e065032"
+          },
+          {
+            "photoKey": "cfc6bfb9ac57f6b04220c03fcda4b5fe"
+          },
+          {
+            "photoKey": "42c8f7d58cf0693c395ed2a054f0c148"
+          },
+          {
+            "photoKey": "8412724d38e3b7e1859a7d5c80cd1c68"
+          },
+          {
+            "photoKey": "256577dd54c823ee2e3edb70d5b87782"
+          },
+          {
+            "photoKey": "b566f1d3165626efc072d1bf299031fe"
+          },
+          {
+            "photoKey": "032f14a09ab0dfb02857e972fbf296da"
+          },
+          {
+            "photoKey": "fec304afe1b8555015d90f68c6744b84"
+          },
+          {
+            "photoKey": "c8c210380561785c336ba9d79146dc09"
+          },
+          {
+            "photoKey": "9e93d9bac61f8ddae39cb2c592f09ca5"
+          },
+          {
+            "photoKey": "c765795d56cbace585cf64811ac07555"
+          },
+          {
+            "photoKey": "9d9c51b0f7e894e1f9eac650d6481187"
+          },
+          {
+            "photoKey": "aa820dc3abe91536f2b268693bfdaed9"
+          },
+          {
+            "photoKey": "d716071a211797fc318199faf428db33"
+          },
+          {
+            "photoKey": "d602734c4e3de22ad2e1542628d3324b"
+          },
+          {
+            "photoKey": "52cc9207535919ac4e520b7fefdc9021"
+          },
+          {
+            "photoKey": "b5547c05823bc9932df55b63f4a3861f"
+          },
+          {
+            "photoKey": "e71090c2c41d8fca457e126043daf6dd"
+          },
+          {
+            "photoKey": "64c248df50e75040bf1d1edb90e552cc"
+          },
+          {
+            "photoKey": "37e596671468244afa9bef888c3a3534"
+          }
+        ],
+        "communityPhotoData": null,
+        "isStaticUrls": false
+      },
+      "availabilityCount": 2,
+      "marketingTreatments": [
+        "trustedListing",
+        "paid",
+        "multiFamilySalesListing",
+        "paidOrUnpaidMultifamily",
+        "paidMultifamily",
+        "multifamilyBasePackage"
+      ],
+      "listPriceIncludesRequiredMonthlyFees": false,
+      "isInstantTourEnabled": true,
+      "isContactable": true,
+      "isPaidBuilderNewConstruction": false
+    }
+  }
+]
