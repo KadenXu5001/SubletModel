@@ -6,151 +6,49 @@
   <title>Evanston Housing Price Predictor</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f5f5f3;
-      color: #1a1a1a;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 48px 16px;
+      background: #f5f5f3; color: #1a1a1a;
+      min-height: 100vh; display: flex; flex-direction: column;
+      align-items: center; padding: 48px 16px;
     }
-
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    header h1 {
-      font-size: 28px;
-      font-weight: 600;
-      letter-spacing: -0.5px;
-    }
-    header p {
-      margin-top: 6px;
-      font-size: 15px;
-      color: #666;
-    }
-
-    .stats {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      margin-top: 16px;
-    }
-    .stat {
-      background: #fff;
-      border: 1px solid #e5e5e5;
-      border-radius: 8px;
-      padding: 10px 20px;
-      text-align: center;
-    }
+    header { text-align: center; margin-bottom: 40px; }
+    header h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.5px; }
+    header p  { margin-top: 6px; font-size: 15px; color: #666; }
+    .stats { display: flex; gap: 12px; justify-content: center; margin-top: 16px; }
+    .stat { background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; padding: 10px 20px; text-align: center; }
     .stat-label { font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 0.5px; }
     .stat-value { font-size: 18px; font-weight: 600; margin-top: 2px; }
-
-    .card {
-      background: #fff;
-      border: 1px solid #e5e5e5;
-      border-radius: 12px;
-      padding: 32px;
-      width: 100%;
-      max-width: 520px;
-    }
-
+    .card { background: #fff; border: 1px solid #e5e5e5; border-radius: 12px; padding: 32px; width: 100%; max-width: 440px; }
     .field { margin-bottom: 20px; }
-    label {
-      display: block;
-      font-size: 13px;
-      font-weight: 500;
-      color: #555;
-      margin-bottom: 6px;
+    label { display: block; font-size: 13px; font-weight: 500; color: #555; margin-bottom: 6px; }
+    input {
+      width: 100%; padding: 10px 12px; border: 1px solid #ddd;
+      border-radius: 8px; font-size: 15px; color: #1a1a1a;
+      background: #fafafa; transition: border-color 0.15s;
     }
-
-    input, select {
-      width: 100%;
-      padding: 10px 12px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      font-size: 15px;
-      color: #1a1a1a;
-      background: #fafafa;
-      transition: border-color 0.15s;
-      appearance: none;
-    }
-    input:focus, select:focus {
-      outline: none;
-      border-color: #4a7c6f;
-      background: #fff;
-    }
-
+    input:focus { outline: none; border-color: #4a7c6f; background: #fff; }
     .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-
-    .toggle-group {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-    }
-    .toggle-group input[type="radio"] { display: none; }
-    .toggle-group label {
-      display: block;
-      padding: 10px;
-      text-align: center;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 14px;
-      font-weight: 400;
-      color: #555;
-      background: #fafafa;
-      transition: all 0.15s;
-      margin: 0;
-    }
-    .toggle-group input[type="radio"]:checked + label {
-      background: #4a7c6f;
-      color: #fff;
-      border-color: #4a7c6f;
-      font-weight: 500;
-    }
-
     button[type="submit"] {
-      width: 100%;
-      padding: 13px;
-      background: #1a1a1a;
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      font-size: 15px;
-      font-weight: 500;
-      cursor: pointer;
-      margin-top: 8px;
-      transition: background 0.15s;
+      width: 100%; padding: 13px; background: #1a1a1a; color: #fff;
+      border: none; border-radius: 8px; font-size: 15px; font-weight: 500;
+      cursor: pointer; margin-top: 8px; transition: background 0.15s;
     }
-    button[type="submit"]:hover { background: #333; }
+    button[type="submit"]:hover  { background: #333; }
     button[type="submit"]:active { background: #000; transform: scale(0.99); }
-
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
     .result {
-      margin-top: 20px;
-      padding: 20px;
-      background: #f0f7f5;
-      border: 1px solid #c8e0da;
-      border-radius: 10px;
-      text-align: center;
-      display: none;
+      margin-top: 20px; padding: 20px;
+      background: #f0f7f5; border: 1px solid #c8e0da;
+      border-radius: 10px; text-align: center; display: none;
     }
     .result-label { font-size: 12px; color: #4a7c6f; text-transform: uppercase; letter-spacing: 0.6px; font-weight: 500; }
     .result-price { font-size: 38px; font-weight: 700; color: #1a1a1a; margin-top: 4px; letter-spacing: -1px; }
     .result-sub   { font-size: 13px; color: #888; margin-top: 4px; }
-
     .error {
-      margin-top: 16px;
-      padding: 12px 16px;
-      background: #fff0f0;
-      border: 1px solid #fcc;
-      border-radius: 8px;
-      font-size: 13px;
-      color: #c00;
-      display: none;
+      margin-top: 16px; padding: 12px 16px;
+      background: #fff0f0; border: 1px solid #fcc;
+      border-radius: 8px; font-size: 13px; color: #c00; display: none;
     }
   </style>
 </head>
@@ -158,7 +56,7 @@
 
   <header>
     <h1>Evanston Housing Price Predictor</h1>
-    <p>XGBoost model trained on Evanston sublet listings</p>
+    <p>XGBoost model trained on Zillow listings</p>
     <div class="stats">
       <div class="stat">
         <div class="stat-label">Avg Error (MAE)</div>
@@ -172,48 +70,14 @@
   </header>
 
   <div class="card">
-    <div class="field">
-      <label>Listing type</label>
-      <div class="toggle-group">
-        <input type="radio" name="listing_type" id="type_room" value="Private Room" checked>
-        <label for="type_room">Private room</label>
-        <input type="radio" name="listing_type" id="type_unit" value="Entire Unit">
-        <label for="type_unit">Entire unit</label>
-      </div>
-    </div>
-
     <div class="row">
       <div class="field">
-        <label for="bedrooms">Bedrooms</label>
-        <input type="number" id="bedrooms" min="0" max="10" value="2" />
+        <label for="beds">Bedrooms</label>
+        <input type="number" id="beds" min="0" max="10" value="1" />
       </div>
       <div class="field">
-        <label for="bathrooms">Bathrooms</label>
-        <input type="number" id="bathrooms" min="0.5" max="5" step="0.5" value="1" />
-      </div>
-    </div>
-
-    <div class="field">
-      <label for="roommates">Total roommates</label>
-      <input type="number" id="roommates" min="0" max="10" value="1" />
-    </div>
-
-    <div class="field">
-      <label for="location">Location</label>
-      <select id="location">
-        {% for loc in locations %}
-        <option value="{{ loc }}">{{ loc }}</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div class="field">
-      <label>Furnished?</label>
-      <div class="toggle-group">
-        <input type="radio" name="furnished" id="furn_yes" value="true" checked>
-        <label for="furn_yes">Furnished</label>
-        <input type="radio" name="furnished" id="furn_no" value="false">
-        <label for="furn_no">Unfurnished</label>
+        <label for="baths">Bathrooms</label>
+        <input type="number" id="baths" min="0.5" max="5" step="0.5" value="1" />
       </div>
     </div>
 
@@ -230,31 +94,21 @@
   <script>
     async function predict() {
       const btn = document.querySelector("button[type='submit']");
-      btn.textContent = "Predicting…";
-      btn.disabled = true;
-
+      btn.textContent = "Predicting…"; btn.disabled = true;
       document.getElementById("result").style.display = "none";
-      document.getElementById("error").style.display = "none";
-
-      const payload = {
-        listing_type: document.querySelector("input[name='listing_type']:checked").value,
-        bedrooms:     document.getElementById("bedrooms").value,
-        bathrooms:    document.getElementById("bathrooms").value,
-        roommates:    document.getElementById("roommates").value,
-        location:     document.getElementById("location").value,
-        furnished:    document.querySelector("input[name='furnished']:checked").value,
-      };
+      document.getElementById("error").style.display  = "none";
 
       try {
         const res  = await fetch("/predict", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
+          body: JSON.stringify({
+            beds:  document.getElementById("beds").value,
+            baths: document.getElementById("baths").value,
+          }),
         });
         const data = await res.json();
-
         if (data.error) throw new Error(data.error);
-
         const fmt = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
         document.getElementById("price-display").textContent = fmt.format(data.price);
         document.getElementById("result").style.display = "block";
@@ -262,8 +116,7 @@
         document.getElementById("error").textContent = "Error: " + err.message;
         document.getElementById("error").style.display = "block";
       } finally {
-        btn.textContent = "Predict price";
-        btn.disabled = false;
+        btn.textContent = "Predict price"; btn.disabled = false;
       }
     }
   </script>
