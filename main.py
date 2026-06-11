@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
 
 # ── Load ──────────────────────────────────────────
-df = pd.read_csv("data/mock_dataset.csv")
+df = pd.read_csv("data/mock_fb_dataset.csv")
 
 # ── Feature Engineering ───────────────────────────
 df["is_furnished"]   = (df["Furnished_Status"] == "Furnished").astype(int)
