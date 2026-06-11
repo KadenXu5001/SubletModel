@@ -1,5 +1,6 @@
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -29,23 +30,35 @@ def normalize_baths(value):
     return 1 if value in (None, "") else value
 
 
-def format_price(raw_listing: dict) -> str:
+def numeric_price(value) -> int | None:
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return int(value)
+
+    match = re.search(r"[\d,]+", str(value))
+    if not match:
+        return None
+
+    return int(match.group(0).replace(",", ""))
+
+
+def format_price(raw_listing: dict) -> int | str:
     price = raw_listing.get("price")
-    if price is not None:
-        return str(price)
+    numeric = numeric_price(price)
+    if numeric is not None:
+        return numeric
 
     unformatted = raw_listing.get("unformattedPrice")
     if unformatted is not None:
-        currency = raw_listing.get("countryCurrency", "$")
-        return f"{currency}{unformatted}"
+        return int(unformatted)
 
     home_info = raw_listing.get("hdpData", {}).get("homeInfo", {})
     home_price = home_info.get("priceForHDP", home_info.get("price"))
     if home_price is None:
         return ""
 
-    currency = raw_listing.get("countryCurrency", "$")
-    return f"{currency}{home_price}"
+    return int(home_price)
 
 
 def format_address(raw_listing: dict) -> str:
@@ -95,7 +108,7 @@ def unit_rows(listing: dict) -> list[dict]:
                 "beds": first_non_null(unit.get("beds"), base_row["beds"]),
                 "baths": base_row["baths"],
                 "address": base_row["address"],
-                "price": first_non_null(unit.get("price"), base_row["price"]),
+                "price": first_non_null(numeric_price(unit.get("price")), base_row["price"]),
                 "area": base_row["area"],
             }
         )
