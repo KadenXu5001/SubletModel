@@ -1,0 +1,410 @@
+url,beds,baths,address,price,area
+https://www.zillow.com/apartments/evanston-il/860-hinman/5XjRWb/,0,1,"860 Hinman, 860 Hinman Ave #095169ad6, Evanston, IL 60202","$1,145+/mo",
+https://www.zillow.com/apartments/evanston-il/810-clark-st/CkFGy2/,1,1,"810 Clark St, Evanston, IL","$1,970+",
+https://www.zillow.com/apartments/evanston-il/810-clark-st/CkFGy2/,2,1,"810 Clark St, Evanston, IL","$2,560+",
+https://www.zillow.com/apartments/evanston-il/2210-22-maple-ave./5XjSyc/,2,1,"2210-22 Maple Ave., 2210 Maple Ave #1010-212, Evanston, IL 60201","$1,995/mo",750
+https://www.zillow.com/apartments/evanston-il/1320-chicago/5XjMKz/,1,1,"1320 Chicago, 1320 Chicago Ave, Evanston, IL 60201","$1,590+/mo",506
+https://www.zillow.com/apartments/evanston-il/910-judson/CkFTT6/,2,2,"910 Judson, 910 Judson Ave #912-3A, Evanston, IL 60202","$2,195/mo",1150
+https://www.zillow.com/apartments/evanston-il/1303-maple/5XjQvs/,2,1,"1303 Maple Ave, Evanston, IL","$1,995+",
+https://www.zillow.com/apartments/evanston-il/1303-maple/5XjQvs/,3,1,"1303 Maple Ave, Evanston, IL","$2,395+",
+https://www.zillow.com/apartments/evanston-il/presidential-apartments/Cmp956/,0,1,"800 Hinman Ave, Evanston, IL","$1,585+",
+https://www.zillow.com/apartments/evanston-il/presidential-apartments/Cmp956/,1,1,"800 Hinman Ave, Evanston, IL","$1,825+",
+https://www.zillow.com/apartments/evanston-il/1100-church/CkQ7Yv/,2,1,"1100 Church St, Evanston, IL","$2,395+",
+https://www.zillow.com/apartments/evanston-il/1100-church/CkQ7Yv/,3,1,"1100 Church St, Evanston, IL","$3,295+",
+https://www.zillow.com/apartments/evanston-il/1410-chicago/5XjTmV/,1,1,"1410 Chicago Ave, Evanston, IL","$1,745+",
+https://www.zillow.com/apartments/evanston-il/1410-chicago/5XjTmV/,3,1,"1410 Chicago Ave, Evanston, IL","$2,795+",
+https://www.zillow.com/apartments/evanston-il/1313-21-oak-ave/CgtGN9/,1,1,"1313-21 Oak Ave, Evanston, IL","$1,895+",
+https://www.zillow.com/apartments/evanston-il/1313-21-oak-ave/CgtGN9/,2,1,"1313-21 Oak Ave, Evanston, IL","$2,050+",
+https://www.zillow.com/apartments/evanston-il/2212-26-sherman-ave./5XjLrc/,1,1,"2212-26 Sherman Ave., 2212 Sherman Ave, Evanston, IL 60201","$1,595+/mo",670
+https://www.zillow.com/apartments/evanston-il/930-936-judson-ave-evanston/5XjKDC/,1,1,"930-936 Judson Ave, Evanston, IL","$1,695+",
+https://www.zillow.com/apartments/evanston-il/930-936-judson-ave-evanston/5XjKDC/,2,1,"930-936 Judson Ave, Evanston, IL","$1,895+",
+https://www.zillow.com/apartments/evanston-il/930-936-judson-ave-evanston/5XjKDC/,3,1,"930-936 Judson Ave, Evanston, IL","$2,395+",
+https://www.zillow.com/apartments/evanston-il/2030-greenwood-st/C4QtTy/,2,2,"2030 Greenwood St, 2030 Greenwood St #307, Evanston, IL 60201","$2,850/mo",1200
+https://www.zillow.com/apartments/evanston-il/1121-church-st./5XjMLY/,2,1,"1121 Church St, Evanston, IL","$1,825+",
+https://www.zillow.com/apartments/evanston-il/828-noyes-st/CkGHX5/,0,1,"828 Noyes St, 828 Noyes St APT 314, Evanston, IL 60201","$2,000/mo",501
+https://www.zillow.com/apartments/evanston-il/2121-ridge-avenue/5XxX3q/,2,1,"2121 Ridge Ave, Evanston, IL","$2,195+",
+https://www.zillow.com/apartments/evanston-il/2121-ridge-avenue/5XxX3q/,3,1,"2121 Ridge Ave, Evanston, IL","$3,595+",
+https://www.zillow.com/apartments/evanston-il/tapestry-station/CkCRRy/,0,1,"740 Main St, Evanston, IL","$1,875+",
+https://www.zillow.com/apartments/evanston-il/tapestry-station/CkCRRy/,1,1,"740 Main St, Evanston, IL","$2,250+",
+https://www.zillow.com/apartments/evanston-il/tapestry-station/CkCRRy/,2,1,"740 Main St, Evanston, IL","$3,000+",
+https://www.zillow.com/apartments/evanston-il/825-main-st/CkBdMr/,0,1,"825 Main St, Evanston, IL","$1,425+",
+https://www.zillow.com/apartments/evanston-il/810-32-dempster-1245-elmwood/5XmPpY/,0,1,"810 Dempster St, Evanston, IL","$1,445+",
+https://www.zillow.com/apartments/evanston-il/810-32-dempster-1245-elmwood/5XmPpY/,1,1,"810 Dempster St, Evanston, IL","$1,615+",
+https://www.zillow.com/apartments/evanston-il/618-hinman/Cjf6vq/,1,1,"618 Hinman Ave, Evanston, IL","$1,595+",
+https://www.zillow.com/apartments/evanston-il/618-hinman/Cjf6vq/,3,1,"618 Hinman Ave, Evanston, IL","$2,245+",
+https://www.zillow.com/apartments/evanston-il/834-40-judson-ave/ChVsD2/,1,1,"834 Judson Ave, Evanston, IL","$2,295+",
+https://www.zillow.com/apartments/evanston-il/834-40-judson-ave/ChVsD2/,2,1,"834 Judson Ave, Evanston, IL","$2,895+",
+https://www.zillow.com/apartments/evanston-il/834-40-judson-ave/ChVsD2/,3,1,"834 Judson Ave, Evanston, IL","$3,595+",
+https://www.zillow.com/apartments/evanston-il/1576-oak/5XxWwj/,2,1,"1576 Oak, 1576 Oak Ave #1100-3, Evanston, IL 60201","$2,175/mo",
+https://www.zillow.com/apartments/evanston-il/1400-chicago-ave/5XjMG8/,0,1,"1400 Chicago Ave, Evanston, IL","$1,200+",
+https://www.zillow.com/apartments/evanston-il/1400-chicago-ave/5XjMG8/,1,1,"1400 Chicago Ave, Evanston, IL","$1,650+",
+https://www.zillow.com/apartments/evanston-il/704-710-hinman-ave/CgxJrN/,1,1,"704 Hinman Ave, Evanston, IL","$1,485+",
+https://www.zillow.com/apartments/evanston-il/704-710-hinman-ave/CgxJrN/,2,1,"704 Hinman Ave, Evanston, IL","$1,700+",
+https://www.zillow.com/apartments/evanston-il/2213-2223-ridge-apartments/CjjC8K/,1,1,"2213 Ridge Ave, Evanston, IL","$1,840+",
+https://www.zillow.com/apartments/evanston-il/2213-2223-ridge-apartments/CjjC8K/,2,1,"2213 Ridge Ave, Evanston, IL","$1,840+",
+https://www.zillow.com/apartments/evanston-il/1627-45-ridge-ave./5XjSrN/,1,1,"1627-45 Ridge Ave., 1627 Ridge Ave, Evanston, IL 60201","$1,315+/mo",700
+https://www.zillow.com/apartments/evanston-il/1615-25-ridge-ave./CpYwK7/,2,1,"1615 Ridge Ave, Evanston, IL","$1,795+",
+https://www.zillow.com/apartments/evanston-il/1615-25-ridge-ave./CpYwK7/,3,1,"1615 Ridge Ave, Evanston, IL","$3,150+",
+https://www.zillow.com/apartments/evanston-il/1615-25-ridge-ave./CpYwK7/,4,1,"1615 Ridge Ave, Evanston, IL","$2,895+",
+https://www.zillow.com/apartments/evanston-il/1000-hinman/CgzCgM/,0,1,"1000-1010 Hinman Ave, Evanston, IL","$1,495+",
+https://www.zillow.com/apartments/evanston-il/1000-hinman/CgzCgM/,2,1,"1000-1010 Hinman Ave, Evanston, IL","$1,895+",
+https://www.zillow.com/apartments/evanston-il/1509-hinman-ave/5XxWtp/,2,1,"1509 Hinman Ave, Evanston, IL","$2,255+",
+https://www.zillow.com/apartments/evanston-il/oak-crest/5XjrX9/,0,1,"1570 Oak Ave, Evanston, IL","$1,225+",
+https://www.zillow.com/apartments/evanston-il/oak-crest/5XjrX9/,2,1,"1570 Oak Ave, Evanston, IL","$1,970+",
+https://www.zillow.com/apartments/evanston-il/2200-10-sherman-ave./5XjMLf/,2,1,"2200-10 Sherman Ave., 2200 Sherman Ave, Evanston, IL 60201","$2,195+/mo",895
+https://www.zillow.com/apartments/evanston-il/2108-18-sherman-ave/CqH7fy/,1,1,"2108-18 Sherman Ave, 2108-18 Sherman Ave #2110-3E, Evanston, IL 60201","$1,895/mo",775
+https://www.zillow.com/apartments/evanston-il/549-607-sheridan-rd./CqNzQH/,1,1,"549 Sheridan Rd, Evanston, IL","$1,795+",
+https://www.zillow.com/apartments/evanston-il/549-607-sheridan-rd./CqNzQH/,2,1,"549 Sheridan Rd, Evanston, IL","$1,800+",
+https://www.zillow.com/apartments/evanston-il/820-judson-apartments/Cmm9Tq/,2,1,"820 Judson Ave, Evanston, IL","$1,655+",
+https://www.zillow.com/apartments/evanston-il/820-judson-apartments/Cmm9Tq/,3,1,"820 Judson Ave, Evanston, IL","$2,335+",
+https://www.zillow.com/apartments/evanston-il/929-michigan/5XjCLd/,3,2,"929 Michigan, 929 Michigan Ave #935-2, Evanston, IL 60202","$2,395/mo",1420
+https://www.zillow.com/apartments/evanston-il/2129-ridge-avenue/5YLCQc/,2,1,"2129 Ridge Ave, Evanston, IL","$2,195+",
+https://www.zillow.com/apartments/evanston-il/2129-ridge-avenue/5YLCQc/,3,1,"2129 Ridge Ave, Evanston, IL","$3,195+",
+https://www.zillow.com/apartments/evanston-il/albion-evanston/Cjk35c/,0,1,"1500 Sherman Ave, Evanston, IL","$2,360+",
+https://www.zillow.com/apartments/evanston-il/albion-evanston/Cjk35c/,1,1,"1500 Sherman Ave, Evanston, IL","$2,968+",
+https://www.zillow.com/apartments/evanston-il/albion-evanston/Cjk35c/,2,1,"1500 Sherman Ave, Evanston, IL","$4,319+",
+https://www.zillow.com/apartments/evanston-il/1243-judson/CqnmFp/,3,2,"1243 Judson, 1243 Judson Ave #22b17cc7b, Evanston, IL 60202","$2,695+/mo",
+https://www.zillow.com/apartments/evanston-il/617-grove-st/5XjNYX/,0,1,"617 Grove St, Evanston, IL","$1,335+",
+https://www.zillow.com/apartments/evanston-il/617-grove-st/5XjNYX/,1,1,"617 Grove St, Evanston, IL","$1,775+",
+https://www.zillow.com/apartments/evanston-il/lodge-evanston/ChGyRJ/,1,1,"1700 Oak Ave, Evanston, IL","$2,575+",
+https://www.zillow.com/apartments/evanston-il/lodge-evanston/ChGyRJ/,2,1,"1700 Oak Ave, Evanston, IL","$3,350+",
+https://www.zillow.com/apartments/evanston-il/hinman-court-condos/CrbL6R/,2,1,"632 Hinman Ave, Evanston, IL","$2,400+",
+https://www.zillow.com/apartments/evanston-il/1125-davis-st.-1603-11-ridge-ave./95xBvY/,3,1,"1125 Davis St, Evanston, IL","$3,050+",
+https://www.zillow.com/apartments/evanston-il/1125-davis-st.-1603-11-ridge-ave./95xBvY/,4,1,"1125 Davis St, Evanston, IL","$3,050+",
+https://www.zillow.com/apartments/evanston-il/1311-chicago-avenue-apartments/5XjMGW/,0,1,"1311 Chicago Ave, Evanston, IL","$1,215+",
+https://www.zillow.com/apartments/evanston-il/1311-chicago-avenue-apartments/5XjMGW/,1,1,"1311 Chicago Ave, Evanston, IL","$1,575+",
+https://www.zillow.com/apartments/evanston-il/996-main-st-apartments/5XjMLB/,0,1,"996 Main St, Evanston, IL","$1,165+",
+https://www.zillow.com/apartments/evanston-il/996-main-st-apartments/5XjMLB/,2,1,"996 Main St, Evanston, IL","$1,385+",
+https://www.zillow.com/apartments/evanston-il/hinman/CrcdtQ/,2,1,"555 Hinman Ave, Evanston, IL","$2,000+",
+https://www.zillow.com/apartments/evanston-il/2247-ridge-ave/5XxX4x/,1,1,"2247 Ridge Ave, Evanston, IL","$1,645+",
+https://www.zillow.com/apartments/evanston-il/2247-ridge-ave/5XxX4x/,2,1,"2247 Ridge Ave, Evanston, IL","$2,155+",
+https://www.zillow.com/apartments/evanston-il/hampton-parkway/CgGwFm/,1,1,"2730 Hampton Pkwy, Evanston, IL","$1,200+",
+https://www.zillow.com/apartments/evanston-il/hampton-parkway/CgGwFm/,2,1,"2730 Hampton Pkwy, Evanston, IL","$1,400+",
+https://www.zillow.com/homedetails/1235-Ridge-Ave-Evanston-IL-60202/3565018_zpid/,4,2,"1235 Ridge Ave, Evanston, IL 60202","$3,500/mo",1600
+"https://www.zillow.com/b/building/42.055332,-87.68428_ll/",3,1,"915 Hamlin St, Evanston, IL","$4,800+",
+https://www.zillow.com/homedetails/1607-Simpson-St-2W-Evanston-IL-60201/2088868233_zpid/,2,1,"1607 Simpson St #2W, Evanston, IL 60201","$2,550/mo",1200
+https://www.zillow.com/homedetails/1239-Emerson-St-APT-2-Evanston-IL-60201/462367065_zpid/,3,2,"1239 Emerson St APT 2, Evanston, IL 60201","$3,300/mo",
+https://www.zillow.com/homedetails/1722-Grey-Ave-Evanston-IL-60201/3518244_zpid/,3,2,"1722 Grey Ave, Evanston, IL 60201","$2,300/mo",600
+https://www.zillow.com/homedetails/2002-Maple-Ave-Evanston-IL-60201/2073156857_zpid/,3,1,"2002 Maple Ave, Evanston, IL 60201","$2,750/mo",
+https://www.zillow.com/homedetails/203-Custer-Ave-APT-2-Evanston-IL-60202/65556774_zpid/,1,1,"203 Custer Ave APT 2, Evanston, IL 60202","$1,350/mo",750
+https://www.zillow.com/homedetails/1633-McDaniel-Ave-2-Evanston-IL-60201/462097377_zpid/,5,2,"1633 McDaniel Ave #2, Evanston, IL 60201","$3,900/mo",1750
+https://www.zillow.com/homedetails/1237-Emerson-St-A-Evanston-IL-60201/2079323912_zpid/,4,2,"1237 Emerson St #A, Evanston, IL 60201","$3,600/mo",1500
+https://www.zillow.com/homedetails/1303-Elmwood-Ave-101-Evanston-IL-60201/448854196_zpid/,1,1,"1303 Elmwood Ave #101, Evanston, IL 60201","$1,550/mo",
+https://www.zillow.com/apartments/evanston-il/914-crain-st./5XjkdP/,2,1,"914 Crain St, Evanston, IL","$2,100+",
+https://www.zillow.com/homedetails/804-Forest-Ave-APT-2-Evanston-IL-60202/3566936_zpid/,1,1,"804 Forest Ave APT 2, Evanston, IL 60202","$1,825/mo",
+https://www.zillow.com/homedetails/732-Mulford-St-APT-1-Evanston-IL-60202/2095141411_zpid/,3,1,"732 Mulford St APT 1, Evanston, IL 60202","$2,695/mo",
+https://www.zillow.com/homedetails/2722-Central-St-Evanston-IL-60201/3515332_zpid/,2,1,"2722 Central St, Evanston, IL 60201","$3,350/mo",
+https://www.zillow.com/apartments/chicago-il/530-w.-aldine/5XfWnm/,1,1,"312 Lee St, Evanston, IL","$2,195+",
+https://www.zillow.com/apartments/chicago-il/530-w.-aldine/5XfWnm/,2,1,"312 Lee St, Evanston, IL","$2,445+",
+https://www.zillow.com/b/320-lee-st-evanston-il-CkKCxQ/,1,1,"320 Lee St, Evanston, IL","$2,645+",
+https://www.zillow.com/b/320-lee-st-evanston-il-CkKCxQ/,2,1,"320 Lee St, Evanston, IL","$2,645+",
+https://www.zillow.com/b/1130-maple-ave-evanston-il-5XjMcJ/,1,1,"1130 Maple Ave, Evanston, IL","$2,295+",
+https://www.zillow.com/b/1130-maple-ave-evanston-il-5XjMcJ/,3,1,"1130 Maple Ave, Evanston, IL","$2,745+",
+https://www.zillow.com/b/909-elmwood-ave-evanston-il-5XjKDB/,0,1,"909 Elmwood Ave, Evanston, IL","$1,595+",
+https://www.zillow.com/b/909-elmwood-ave-evanston-il-5XjKDB/,1,1,"909 Elmwood Ave, Evanston, IL","$1,795+",
+https://www.zillow.com/homedetails/804-Seward-St-APT-1-Evanston-IL-60202/2125946661_zpid/,1,1,"804 Seward St APT 1, Evanston, IL 60202","$1,950/mo",
+https://www.zillow.com/b/912-reba-pl-evanston-il-5XjRZq/,1,1,"912 Reba Pl, Evanston, IL","$1,795+",
+https://www.zillow.com/homedetails/802-S-Sherman-Ave-2-Evanston-IL-60202/451004649_zpid/,1,1,"802 S Sherman Ave #2, Evanston, IL 60202","$1,995/mo",
+https://www.zillow.com/b/800-sherman-avenue-evanston-il-5XjTLS/,2,1,"800 Sherman Ave, Evanston, IL","$1,895+",
+"https://www.zillow.com/b/building/42.032616,-87.68237_ll/",1,1,"800 Washington St, Evanston, IL","$1,895+",
+https://www.zillow.com/homedetails/2100-Greenwood-St-UNIT-203-Evanston-IL-60201/2104721841_zpid/,1,2,"2100 Greenwood St Unit 203, Evanston, IL 60201","$3,097/mo",1500
+https://www.zillow.com/homedetails/156-Asbury-Ave-APT-4-Evanston-IL-60202/87727134_zpid/,1,1,"156 Asbury Ave APT 4, Evanston, IL 60202","$1,495/mo",650
+https://www.zillow.com/b/916-reba-pl-evanston-il-5XjRb5/,1,1,"916 Reba Pl, Evanston, IL","$1,795+",
+https://www.zillow.com/homedetails/832-Reba-Pl-1N-Evanston-IL-60202/2070069515_zpid/,1,1,"832 Reba Pl #1N, Evanston, IL 60202","$1,795/mo",
+https://www.zillow.com/homedetails/830-Reba-Pl-3S-Evanston-IL-60202/2070069516_zpid/,1,1,"830 Reba Pl #3S, Evanston, IL 60202","$1,850/mo",
+https://www.zillow.com/b/911-elmwood-ave-evanston-il-CpZNYQ/,0,1,"911 Elmwood Ave, Evanston, IL","$1,595+",
+https://www.zillow.com/b/911-elmwood-ave-evanston-il-CpZNYQ/,1,1,"911 Elmwood Ave, Evanston, IL","$1,695+",
+https://www.zillow.com/b/911-elmwood-ave-evanston-il-CpZNYQ/,2,1,"911 Elmwood Ave, Evanston, IL","$1,895+",
+https://www.zillow.com/homedetails/931-Forest-Ave-APT-2E-Evanston-IL-60202/2094982192_zpid/,1,1,"931 Forest Ave APT 2E, Evanston, IL 60202","$1,995/mo",
+https://www.zillow.com/b/918-reba-pl-evanston-il-5XjRZy/,1,1,"918 Reba Pl, Evanston, IL","$1,795+",
+https://www.zillow.com/b/910-reba-pl-evanston-il-5XmCXp/,1,1,"910 Reba Pl, Evanston, IL","$1,795+",
+https://www.zillow.com/b/834-reba-pl-evanston-il-CnCBJz/,1,1,"828 Reba Pl, Evanston, IL","$1,795+",
+https://www.zillow.com/homedetails/904-Seward-St-APT-3-Evanston-IL-60202/2120894007_zpid/,2,2,"904 Seward St APT 3, Evanston, IL 60202","$2,395/mo",
+https://www.zillow.com/b/1111-lake-st-evanston-il-5Y33d4/,2,1,"1111 Lake St, Evanston, IL","$2,295+",
+https://www.zillow.com/homedetails/1317-5-Oak-Ave-E3-Evanston-IL-60202/342625415_zpid/,1,1,"1317.5 Oak Ave #E3, Evanston, IL 60202","$1,895/mo",
+https://www.zillow.com/b/834-reba-pl-evanston-il-CnCBJz/,1,1,"834 Reba Pl, Evanston, IL","$1,795+",
+https://www.zillow.com/b/834-reba-pl-evanston-il-CnCBJz/,2,1,"834 Reba Pl, Evanston, IL","$2,150+",
+https://www.zillow.com/b/800-seward-st-evanston-il-9Vnqmb/,2,1,"800 Seward St, Evanston, IL","$2,195+",
+https://www.zillow.com/homedetails/1452-Oak-Ave-2S-Evanston-IL-60201/2062964313_zpid/,2,1,"1452 Oak Ave #2S, Evanston, IL 60201","$2,295/mo",
+https://www.zillow.com/homedetails/916-Crain-St-APT-1-Evanston-IL-60202/2093126124_zpid/,2,1,"916 Crain St APT 1, Evanston, IL 60202","$2,995/mo",
+https://www.zillow.com/homedetails/716-Reba-Pl-3S-Evanston-IL-60202/2062149430_zpid/,2,1,"716 Reba Pl #3S, Evanston, IL 60202","$2,000/mo",
+https://www.zillow.com/homedetails/914-Reba-Pl-APT-3-Evanston-IL-60202/2112301485_zpid/,1,1,"914 Reba Pl APT 3, Evanston, IL 60202","$1,695/mo",
+https://www.zillow.com/homedetails/1452-Oak-Ave-APT-2N-Evanston-IL-60201/2093225942_zpid/,2,1,"1452 Oak Ave APT 2N, Evanston, IL 60201","$2,295/mo",
+https://www.zillow.com/homedetails/548-Sherman-Ave-1-Evanston-IL-60202/2070185329_zpid/,1,1,"548 Sherman Ave #1, Evanston, IL 60202","$1,795/mo",
+https://www.zillow.com/homedetails/1005-Dewey-Ave-Evanston-IL-60202/3540830_zpid/,4,2,"1005 Dewey Ave, Evanston, IL 60202","$3,300/mo",1900
+https://www.zillow.com/b/314-lee-st-evanston-il-5XjrXT/,2,1,"314 Lee St, Evanston, IL","$2,620+",
+https://www.zillow.com/homedetails/1132-Maple-Ave-22-Evanston-IL-60202/462566476_zpid/,3,1,"1132 Maple Ave #22, Evanston, IL 60202","$2,745/mo",
+https://www.zillow.com/homedetails/432-Elmwood-Ave-2-Evanston-IL-60202/3569283_zpid/,1,1,"432 Elmwood Ave #2, Evanston, IL 60202","$1,445/mo",
+https://www.zillow.com/homedetails/618-Elmwood-Ave-APT-2-Evanston-IL-60202/89938449_zpid/,2,1,"618 Elmwood Ave APT 2, Evanston, IL 60202","$2,195/mo",
+https://www.zillow.com/homedetails/548-Elmwood-Ave-2-Evanston-IL-60202/2069238662_zpid/,2,1,"548 Elmwood Ave #2, Evanston, IL 60202","$1,825/mo",
+https://www.zillow.com/apartments/evanston-il/805-judson/5XjZHj/,2,1,"805 Judson Ave, Evanston, IL","$2,270+",
+https://www.zillow.com/homedetails/927-Forest-Ave-APT-2E-Evanston-IL-60202/2094078761_zpid/,3,1,"927 Forest Ave APT 2E, Evanston, IL 60202","$2,395/mo",
+https://www.zillow.com/homedetails/1107-Lake-St-3S-Evanston-IL-60201/2063149307_zpid/,3,2,"1107 Lake St #3S, Evanston, IL 60201","$2,495/mo",
+https://www.zillow.com/homedetails/2727-Central-St-APT-1S-Evanston-IL-60201/2086172100_zpid/,1,1,"2727 Central St APT 1S, Evanston, IL 60201","$1,695/mo",
+https://www.zillow.com/homedetails/854-Ridge-Ave-4-Evanston-IL-60202/2080093522_zpid/,3,2,"854 Ridge Ave #4, Evanston, IL 60202","$2,995/mo",1600
+https://www.zillow.com/homedetails/2122-Dewey-Ave-1-2-Evanston-IL-60201/2079471117_zpid/,3,2,"2122 Dewey Ave #1 & 2, Evanston, IL 60201","$3,288/mo",1893
+https://www.zillow.com/b/804-washington-st-evanston-il-CrCcVv/,2,1,"804 S Sherman Ave, Evanston, IL","$1,895+",
+https://www.zillow.com/homedetails/736-Hinman-Ave-APT-2E-Evanston-IL-60202/3567250_zpid/,1,1,"736 Hinman Ave APT 2E, Evanston, IL 60202","$2,450/mo",900
+https://www.zillow.com/homedetails/839-Mulford-St-APT-2-Evanston-IL-60202/2105459608_zpid/,1,1,"839 Mulford St APT 2, Evanston, IL 60202","$1,495/mo",
+https://www.zillow.com/homedetails/718-Reba-Pl-2N-Evanston-IL-60202/2077701401_zpid/,2,1,"718 Reba Pl #2N, Evanston, IL 60202","$2,195/mo",
+https://www.zillow.com/homedetails/1454-Oak-Ave-APT-3E-Evanston-IL-60201/2092697905_zpid/,1,1,"1454 Oak Ave APT 3E, Evanston, IL 60201","$1,895/mo",
+https://www.zillow.com/homedetails/801-Monroe-St-APT-3-Evanston-IL-60202/2102539984_zpid/,2,1,"801 Monroe St APT 3, Evanston, IL 60202","$2,025/mo",
+https://www.zillow.com/b/2151-ridge-ave-evanston-il-5Zqg5w/,3,1,"2151 Ridge Ave, Evanston, IL","$2,750+",
+https://www.zillow.com/b/2151-ridge-ave-evanston-il-5Zqg5w/,4,1,"2151 Ridge Ave, Evanston, IL","$4,600+",
+https://www.zillow.com/homedetails/822-Reba-Pl-APT-2N-Evanston-IL-60202/2063243898_zpid/,2,1,"822 Reba Pl APT 2N, Evanston, IL 60202","$1,695/mo",
+https://www.zillow.com/homedetails/801-Case-St-APT-1-Evanston-IL-60202/2080439902_zpid/,2,1,"801 Case St APT 1, Evanston, IL 60202","$1,695/mo",
+https://www.zillow.com/homedetails/1456-Oak-Ave-APT-3N-Evanston-IL-60201/2083066906_zpid/,2,1,"1456 Oak Ave APT 3N, Evanston, IL 60201","$2,195/mo",
+https://www.zillow.com/homedetails/902-Reba-Pl-APT-2-Evanston-IL-60202/89930649_zpid/,2,2,"902 Reba Pl APT 2, Evanston, IL 60202","$2,295/mo",
+https://www.zillow.com/b/945-judson-ave-evanston-il-5XjrXW/,2,1,"945 Judson Ave, Evanston, IL","$2,595+",
+https://www.zillow.com/b/558-elmwood-ave-evanston-il-CkZmtw/,2,1,"558 Elmwood Ave, Evanston, IL","$1,925+",
+https://www.zillow.com/homedetails/804-Washington-St-UNIT-3-Evanston-IL-60202/439576962_zpid/,2,1,"804 Washington St Unit 3, Evanston, IL 60202","$2,200/mo",
+https://www.zillow.com/b/907-elmwood-ave-evanston-il-5XjM43/,0,1,"907 Elmwood Ave, Evanston, IL","$1,595+",
+https://www.zillow.com/homedetails/943-Judson-Ave-APT-2-Evanston-IL-60202/2116162753_zpid/,2,1,"943 Judson Ave APT 2, Evanston, IL 60202","$2,085/mo",1100
+https://www.zillow.com/apartments/evanston-il/1233-chicago-ave./5XknbV/,1,1,"1233 Chicago Ave, Evanston, IL","$2,500+",
+https://www.zillow.com/apartments/evanston-il/1233-chicago-ave./5XknbV/,2,1,"1233 Chicago Ave, Evanston, IL","$1,900+",
+https://www.zillow.com/apartments/evanston-il/judson/CmPdKm/,3,2,"Judson, 918 Judson Ave #920-2, Evanston, IL 60202","$3,208/mo",
+https://www.zillow.com/homedetails/550-Elmwood-Ave-APT-1-Evanston-IL-60202/2111344613_zpid/,2,1,"550 Elmwood Ave APT 1, Evanston, IL 60202","$1,825/mo",
+https://www.zillow.com/apartments/evanston-il/805-judson/5XjZHj/,2,1,"805 Judson Ave, Evanston, IL","$2,270+",
+https://www.zillow.com/b/1132-maple-ave-evanston-il-5XjMcK/,3,1,"1132 Maple Ave, Evanston, IL","$2,745+",
+https://www.zillow.com/homedetails/3133-Central-St-Evanston-IL-60201/3374730_zpid/,3,2,"3133 Central St, Evanston, IL 60201","$3,300/mo",
+https://www.zillow.com/homedetails/1454-Oak-Ave-G-Evanston-IL-60201/2056466398_zpid/,1,1,"1454 Oak Ave #G, Evanston, IL 60201","$1,625/mo",
+https://www.zillow.com/homedetails/944-Asbury-Ave-Evanston-IL-60202/2062357275_zpid/,0,1,"944 Asbury Ave, Evanston, IL 60202","$1,195/mo",600
+https://www.zillow.com/apartments/evanston-il/2146-sherman-ave./5fvrYP/,2,1,"2146 Sherman Ave, Evanston, IL","$2,495+",
+https://www.zillow.com/apartments/evanston-il/716-20-clark-st./5Xy7Jc/,2,1,"716 Clark St, Evanston, IL","$2,900+",
+https://www.zillow.com/apartments/evanston-il/716-20-clark-st./5Xy7Jc/,3,1,"716 Clark St, Evanston, IL","$3,250+",
+https://www.zillow.com/apartments/evanston-il/716-20-clark-st./5Xy7Jc/,4,1,"716 Clark St, Evanston, IL","$3,995+",
+https://www.zillow.com/homedetails/943-945-Judson-Ave-45-1-Evanston-IL-60202/351232797_zpid/,2,1,"943-945 Judson Ave #45-1, Evanston, IL 60202","$2,595/mo",
+https://www.zillow.com/homedetails/1011-Howard-St-ID1032511P-Evanston-IL-60202/450851470_zpid/,2,1,"1011 Howard St #Id1032511p, Evanston, IL 60202","$2,049/mo",
+https://www.zillow.com/homedetails/230-Elmwood-Ave-APT-1S-Evanston-IL-60202/2090712014_zpid/,2,1,"230 Elmwood Ave APT 1S, Evanston, IL 60202","$1,795/mo",
+https://www.zillow.com/apartments/evanston-il/1703-13-ridge-ave./Cm55Tr/,3,1,"1703 Ridge Ave, Evanston, IL","$2,850+",
+https://www.zillow.com/apartments/evanston-il/1703-13-ridge-ave./Cm55Tr/,4,1,"1703 Ridge Ave, Evanston, IL","$2,950+",
+https://www.zillow.com/apartments/evanston-il/sure-man-llc/ChHtj7/,1,1,"834-38 Sherman Ave, Evanston, IL","$1,300+",
+https://www.zillow.com/homedetails/1001-W-Howard-St-ID1032507P-Evanston-IL-60202/450862378_zpid/,2,1,"1001 W Howard St #Id1032507p, Evanston, IL 60202","$1,766/mo",
+https://www.zillow.com/homedetails/1133-Maple-Ave-2-Evanston-IL-60202/463118920_zpid/,3,1,"1133 Maple Ave #2, Evanston, IL 60202","$2,745/mo",1000
+https://www.zillow.com/homedetails/301-Elmwood-Ave-APT-1S-Evanston-IL-60202/2101081918_zpid/,2,1,"301 Elmwood Ave APT 1S, Evanston, IL 60202","$1,850/mo",1000
+https://www.zillow.com/homedetails/408-Ridge-Ave-Evanston-IL-60202/2100909274_zpid/,0,1,"408 Ridge Ave, Evanston, IL 60202","$1,899/mo",
+https://www.zillow.com/homedetails/1414-Elmwood-Ave-APT-2B-Evanston-IL-60201/80812511_zpid/,2,2,"1414 Elmwood Ave APT 2B, Evanston, IL 60201","$2,850/mo",1000
+https://www.zillow.com/b/optima-horizons-evanston-il-5XjSPx/,1,1,"800 Elgin Rd, Evanston, IL","$2,350+",
+https://www.zillow.com/b/optima-horizons-evanston-il-5XjSPx/,2,1,"800 Elgin Rd, Evanston, IL","$3,500+",
+https://www.zillow.com/homedetails/1327-Washington-St-2-Evanston-IL-60202/2078514118_zpid/,2,1,"1327 Washington St #2, Evanston, IL 60202","$2,150/mo",1000
+https://www.zillow.com/homedetails/147-Dodge-Ave-APT-2-Evanston-IL-60202/451113609_zpid/,3,2,"147 Dodge Ave APT 2, Evanston, IL 60202","$3,195/mo",1540
+https://www.zillow.com/homedetails/710-Oakton-St-APT-306-Evanston-IL-60202/58358216_zpid/,2,2,"710 Oakton St APT 306, Evanston, IL 60202","$2,400/mo",1068
+https://www.zillow.com/homedetails/1720-N-Maple-St-1040-Evanston-IL-60201/463026111_zpid/,2,2,"1720 N Maple St #1040, Evanston, IL 60201","$3,600/mo",
+https://www.zillow.com/homedetails/1406-Brummel-St-1W-Evanston-IL-60202/462951931_zpid/,2,1,"1406 Brummel St #1W, Evanston, IL 60202","$1,700/mo",1000
+https://www.zillow.com/homedetails/825-Ridge-Ave-206-Evanston-IL-60202/450217669_zpid/,2,2,"825 Ridge Ave #206, Evanston, IL 60202","$2,150/mo",
+https://www.zillow.com/homedetails/1128-Florence-Ave-1E-Evanston-IL-60202/2078360989_zpid/,2,2,"1128 Florence Ave #1E, Evanston, IL 60202","$6,000/mo",1800
+https://www.zillow.com/homedetails/536-Sheridan-Rd-A-Evanston-IL-60202/462755451_zpid/,3,1,"536 Sheridan Rd #A, Evanston, IL 60202","$2,950/mo",1850
+https://www.zillow.com/homedetails/777-Hinman-Ave-APT-33-Evanston-IL-60202/2081829266_zpid/,2,2,"777 Hinman Ave APT 33, Evanston, IL 60202","$2,500/mo",905
+https://www.zillow.com/homedetails/2040-Sherman-Ave-APT-3C-Evanston-IL-60201/3563617_zpid/,2,1,"2040 Sherman Ave APT 3C, Evanston, IL 60201","$2,400/mo",1050
+https://www.zillow.com/b/1926-sherman-ave-evanston-il-BPb2Bs/,3,1,"1926 Sherman Ave, Evanston, IL","$3,075+",
+https://www.zillow.com/homedetails/1020-Austin-St-APT-1-Evanston-IL-60202/2105831360_zpid/,4,2,"1020 Austin St APT 1, Evanston, IL 60202","$3,800/mo",2400
+https://www.zillow.com/homedetails/141-Asbury-Ave-APT-3S-Evanston-IL-60202/54531692_zpid/,2,2,"141 Asbury Ave APT 3S, Evanston, IL 60202","$1,750/mo",1000
+https://www.zillow.com/homedetails/1111-Pitner-Ave-2-Evanston-IL-60202/458694540_zpid/,3,1,"1111 Pitner Ave #2, Evanston, IL 60202","$3,750/mo",1100
+https://www.zillow.com/b/340-ridge-ave-evanston-il-5j6ktZ/,2,1,"340 Ridge Ave, Evanston, IL","$1,800+",
+https://www.zillow.com/homedetails/831-Mulford-St-Evanston-IL-60202/2080598857_zpid/,2,1,"831 Mulford St, Evanston, IL 60202","$1,900/mo",1075
+https://www.zillow.com/b/1228-oak-ave-evanston-il-9HwDFj/,1,1,"1228 Oak Ave, Evanston, IL","$1,750+",
+https://www.zillow.com/b/1228-oak-ave-evanston-il-9HwDFj/,2,1,"1228 Oak Ave, Evanston, IL","$2,200+",
+https://www.zillow.com/homedetails/2144-Ashland-Ave-STE-3-Evanston-IL-60201/2083187755_zpid/,1,1,"2144 Ashland Ave Ste 3, Evanston, IL 60201","$2,350/mo",1150
+https://www.zillow.com/homedetails/1512-Dempster-St-Evanston-IL-60202/2068604044_zpid/,3,1,"1512 Dempster St, Evanston, IL 60202","$2,300/mo",
+https://www.zillow.com/homedetails/800-Judson-Ave-2-Evanston-IL-60202/462747396_zpid/,3,2,"800 Judson Ave #2, Evanston, IL 60202","$2,445/mo",1000
+https://www.zillow.com/b/2211-maple-ave-evanston-il-5fvrgz/,1,1,"2211 Maple Ave, Evanston, IL","$2,599+",
+https://www.zillow.com/b/2211-maple-ave-evanston-il-5fvrgz/,3,1,"2211 Maple Ave, Evanston, IL","$4,899+",
+https://www.zillow.com/homedetails/1911-Colfax-St-Evanston-IL-60201/3517278_zpid/,4,3,"1911 Colfax St, Evanston, IL 60201","$5,600/mo",
+https://www.zillow.com/homedetails/1940-Jackson-Ave-F1-Evanston-IL-60201/440378499_zpid/,2,1,"1940 Jackson Ave #F1, Evanston, IL 60201","$2,400/mo",800
+https://www.zillow.com/homedetails/900-Washington-St-2B-Evanston-IL-60202/2082685821_zpid/,3,2,"900 Washington St #2B, Evanston, IL 60202","$2,400/mo",1500
+https://www.zillow.com/homedetails/811-Chicago-Ave-Evanston-IL-60202/49916303_zpid/,2,2,"811 Chicago Ave, Evanston, IL 60202","$3,250/mo",1200
+https://www.zillow.com/homedetails/1236-Chicago-Ave-APT-301-Evanston-IL-60202/63691688_zpid/,2,1,"1236 Chicago Ave APT 301, Evanston, IL 60202","$2,995/mo",1200
+https://www.zillow.com/homedetails/1122-Sherman-Ave-UNIT-2-Evanston-IL-60202/462069835_zpid/,3,1,"1122 Sherman Ave Unit 2, Evanston, IL 60202","$2,900/mo",1040
+https://www.zillow.com/homedetails/739-W-Brummel-St-3-Evanston-IL-60202/462771989_zpid/,3,2,"739 W Brummel St #3, Evanston, IL 60202","$2,700/mo",2000
+https://www.zillow.com/homedetails/929-Washington-St-Evanston-IL-60202/3566199_zpid/,2,2,"929 Washington St, Evanston, IL 60202","$2,600/mo",1100
+https://www.zillow.com/homedetails/701-Oakton-St-APT-3-Evanston-IL-60202/2114255532_zpid/,1,1,"701 Oakton St APT 3, Evanston, IL 60202","$1,400/mo",
+https://www.zillow.com/homedetails/2018-Lake-St-APT-2-Evanston-IL-60201/455634383_zpid/,3,2,"2018 Lake St APT 2, Evanston, IL 60201","$3,600/mo",1600
+https://www.zillow.com/homedetails/810-Colfax-St-Evanston-IL-60201/3563305_zpid/,4,2,"810 Colfax St, Evanston, IL 60201","$5,500/mo",1815
+https://www.zillow.com/homedetails/2203-Central-St-UNIT-2-Evanston-IL-60201/3376245_zpid/,2,1,"2203 Central St Unit 2, Evanston, IL 60201","$2,150/mo",1050
+https://www.zillow.com/homedetails/114-South-Blvd-APT-2-Evanston-IL-60202/351458051_zpid/,3,2,"114 South Blvd APT 2, Evanston, IL 60202","$4,000/mo",1500
+https://www.zillow.com/homedetails/804-Elmwood-Ave-APT-3S-Evanston-IL-60202/2102596190_zpid/,1,1,"804 Elmwood Ave APT 3S, Evanston, IL 60202","$1,595/mo",900
+https://www.zillow.com/homedetails/1715-Dodge-Ave-B-Evanston-IL-60201/453043071_zpid/,2,1,"1715 Dodge Ave #B, Evanston, IL 60201","$2,100/mo",684
+https://www.zillow.com/homedetails/1805-Hovland-Ct-Evanston-IL-60201/3518325_zpid/,4,2,"1805 Hovland Ct, Evanston, IL 60201","$4,500/mo",2190
+https://www.zillow.com/homedetails/Evanston-IL-60201/463121938_zpid/,3,2,"(undisclosed Address), Evanston, IL 60201","$3,450/mo",1600
+https://www.zillow.com/homedetails/Evanston-IL-60201/463121975_zpid/,3,2,"(undisclosed Address), Evanston, IL 60201","$3,450/mo",1600
+https://www.zillow.com/b/1720-maple-ave-evanston-il-5Xj6MF/,1,1,"1720 Maple Ave, Evanston, IL","$2,450+",
+https://www.zillow.com/b/1720-maple-ave-evanston-il-5Xj6MF/,2,1,"1720 Maple Ave, Evanston, IL","$3,100+",
+https://www.zillow.com/homedetails/822-Michigan-Ave-Evanston-IL-60202/3567018_zpid/,3,2,"822 Michigan Ave, Evanston, IL 60202","$4,650/mo",2099
+https://www.zillow.com/homedetails/1105-Simpson-St-1-Evanston-IL-60201/2082048980_zpid/,3,2,"1105 Simpson St #1, Evanston, IL 60201","$3,600/mo",1200
+https://www.zillow.com/homedetails/8933-Ewing-Ave-APT-1-Evanston-IL-60203/461183790_zpid/,1,1,"8933 Ewing Ave APT 1, Evanston, IL 60203","$1,450/mo",900
+https://www.zillow.com/homedetails/1410-Central-St-APT-3W-Evanston-IL-60201/2101893087_zpid/,2,1,"1410 Central St APT 3W, Evanston, IL 60201","$2,300/mo",1000
+https://www.zillow.com/homedetails/1228-Forest-Ave-3-Evanston-IL-60202/2106599718_zpid/,3,2,"1228 Forest Ave #3, Evanston, IL 60202","$3,750/mo",2200
+https://www.zillow.com/homedetails/835-Seward-St-APT-L1-Evanston-IL-60202/462881983_zpid/,2,1,"835 Seward St APT L1, Evanston, IL 60202","$2,289/mo",
+https://www.zillow.com/homedetails/1918-Maple-Ave-SUITE-2-Evanston-IL-60201/2067786176_zpid/,3,2,"1918 Maple Ave Suite 2, Evanston, IL 60201","$4,500/mo",1800
+https://www.zillow.com/homedetails/817-Chicago-Ave-APT-1-Evanston-IL-60202/2146370977_zpid/,3,3,"817 Chicago Ave APT 1, Evanston, IL 60202","$3,650/mo",2400
+https://www.zillow.com/homedetails/2501-Green-Bay-Rd-403-A-Evanston-IL-60201/462710224_zpid/,3,2,"2501 Green Bay Rd #403-A, Evanston, IL 60201","$3,595/mo",1400
+https://www.zillow.com/homedetails/711-Emerson-St-2-Evanston-IL-60201/446670090_zpid/,4,2,"711 Emerson St #2, Evanston, IL 60201","$5,700/mo",2100
+https://www.zillow.com/homedetails/1920-Maple-Ave-2-Evanston-IL-60201/2112001792_zpid/,4,2,"1920 Maple Ave #2, Evanston, IL 60201","$5,500/mo",1000
+https://www.zillow.com/homedetails/807-Davis-St-UNIT-1307-Evanston-IL-60201/89905663_zpid/,2,2,"807 Davis St Unit 1307, Evanston, IL 60201","$3,950/mo",1278
+https://www.zillow.com/homedetails/1516-Hinman-Ave-APT-103-Evanston-IL-60201/3564677_zpid/,1,1,"1516 Hinman Ave APT 103, Evanston, IL 60201","$2,175/mo",600
+https://www.zillow.com/homedetails/608-Sherman-Ave-APT-1-Evanston-IL-60202/347898343_zpid/,2,1,"608 Sherman Ave APT 1, Evanston, IL 60202","$2,228/mo",
+https://www.zillow.com/homedetails/232-Callan-Ave-APT-1-Evanston-IL-60202/2124169889_zpid/,3,2,"232 Callan Ave APT 1, Evanston, IL 60202","$2,995/mo",1200
+https://www.zillow.com/b/830-judson-ave-evanston-il-5XnCTP/,2,1,"830 Judson Ave, Evanston, IL","$2,795+",
+https://www.zillow.com/homedetails/2611-Walnut-Ave-APT-2-Evanston-IL-60201/2067430549_zpid/,2,2,"2611 Walnut Ave APT 2, Evanston, IL 60201","$2,600/mo",1400
+https://www.zillow.com/homedetails/Evanston-IL-60202/454642964_zpid/,2,2,"(undisclosed Address), Evanston, IL 60202","$2,575/mo",1540
+https://www.zillow.com/homedetails/2727-Central-St-APT-2N-Evanston-IL-60201/456931651_zpid/,2,2,"2727 Central St APT 2N, Evanston, IL 60201","$1,895/mo",
+https://www.zillow.com/b/2206-maple-ave-evanston-il-9Hw8VG/,0,1,"2206 Maple Ave, Evanston, IL","$2,299+",
+https://www.zillow.com/b/2206-maple-ave-evanston-il-9Hw8VG/,2,1,"2206 Maple Ave, Evanston, IL","$3,400+",
+https://www.zillow.com/b/2206-maple-ave-evanston-il-9Hw8VG/,3,1,"2206 Maple Ave, Evanston, IL","$5,250+",
+https://www.zillow.com/b/2206-maple-ave-evanston-il-9Hw8VG/,4,1,"2206 Maple Ave, Evanston, IL","$5,750+",
+https://www.zillow.com/homedetails/9054-Bennett-Ave-2-Evanston-IL-60203/2080518754_zpid/,3,2,"9054 Bennett Ave #2, Evanston, IL 60203","$2,200/mo",1378
+https://www.zillow.com/homedetails/9237-Lincolnwood-Dr-Evanston-IL-60203/3520500_zpid/,7,2,"9237 Lincolnwood Dr, Evanston, IL 60203","$5,995/mo",2564
+https://www.zillow.com/homedetails/1720-Oak-Ave-UNIT-201-Evanston-IL-60202/87707553_zpid/,2,2,"1720 Oak Ave Unit 201, Evanston, IL 60202","$4,000/mo",1323
+https://www.zillow.com/b/1700-hinman-ave-evanston-il-5Xt8VK/,3,1,"1700 Hinman Ave, Evanston, IL","$3,400+",
+https://www.zillow.com/b/1700-hinman-ave-evanston-il-5Xt8VK/,4,1,"1700 Hinman Ave, Evanston, IL","$3,400+",
+https://www.zillow.com/homedetails/1916-Maple-Ave-UNIT-2-Evanston-IL-60201/2061569424_zpid/,3,2,"1916 Maple Ave Unit 2, Evanston, IL 60201","$4,200/mo",1400
+https://www.zillow.com/homedetails/1226-Sherman-Ave-APT-1S-Evanston-IL-60202/462880750_zpid/,1,1,"1226 Sherman Ave APT 1S, Evanston, IL 60202","$1,595/mo",750
+https://www.zillow.com/homedetails/2141-Dobson-St-Evanston-IL-60202/3542148_zpid/,3,2,"2141 Dobson St, Evanston, IL 60202","$3,250/mo",1700
+https://www.zillow.com/homedetails/522-Greenwood-St-GE-Evanston-IL-60201/462156900_zpid/,1,1,"522 Greenwood St #Ge, Evanston, IL 60201","$2,195/mo",850
+https://www.zillow.com/b/630-church-st-evanston-il-9HwBfT/,4,1,"630 Church St, Evanston, IL","$3,300+",
+"https://www.zillow.com/b/building/42.057144,-87.6859_ll/",2,1,"2147 Ridge Ave, Evanston, IL","$2,650+",
+"https://www.zillow.com/b/building/42.057144,-87.6859_ll/",4,1,"2147 Ridge Ave, Evanston, IL","$4,400+",
+https://www.zillow.com/homedetails/618-1-2-Church-St-Evanston-IL-60201/2075348428_zpid/,3,1,"618 1/2 Church St, Evanston, IL 60201","$2,700/mo",
+https://www.zillow.com/homedetails/1111-Church-St-APT-404-Evanston-IL-60201/3563876_zpid/,2,2,"1111 Church St APT 404, Evanston, IL 60201","$2,650/mo",1106
+https://www.zillow.com/homedetails/2114-Maple-Ave-UNIT-2-Evanston-IL-60201/461660181_zpid/,3,1,"2114 Maple Ave Unit 2, Evanston, IL 60201","$3,100/mo",
+https://www.zillow.com/homedetails/2725-27-Central-St-2N-Evanston-IL-60201/455235220_zpid/,1,1,"2725-27 Central St #2N, Evanston, IL 60201","$1,695/mo",800
+https://www.zillow.com/homedetails/1229-Leon-Pl-2-Evanston-IL-60201/2097700105_zpid/,3,1,"1229 Leon Pl #2, Evanston, IL 60201","$3,150/mo",1000
+https://www.zillow.com/homedetails/802-Dobson-St-APT-3-Evanston-IL-60202/65556752_zpid/,2,1,"802 Dobson St APT 3, Evanston, IL 60202","$2,200/mo",1200
+https://www.zillow.com/homedetails/1327-Church-St-CH-Evanston-IL-60201/449404474_zpid/,2,1,"1327 Church St #Ch, Evanston, IL 60201","$2,300/mo",
+https://www.zillow.com/homedetails/2311-Lake-St-Evanston-IL-60201/3518799_zpid/,2,1,"2311 Lake St, Evanston, IL 60201","$2,700/mo",1200
+https://www.zillow.com/homedetails/Evanston-IL-60202/461583555_zpid/,2,2,"(undisclosed Address), Evanston, IL 60202","$1,850/mo",1200
+https://www.zillow.com/homedetails/2404-Ridge-Ave-Evanston-IL-60201/2128610357_zpid/,1,2,"2404 Ridge Ave, Evanston, IL 60201","$4,900/mo",
+https://www.zillow.com/homedetails/801-Seward-St-APT-3-Evanston-IL-60202/2057908318_zpid/,3,1,"801 Seward St APT 3, Evanston, IL 60202","$2,610/mo",1100
+https://www.zillow.com/homedetails/1112-Garnett-Pl-UNIT-1-Evanston-IL-60201/460537395_zpid/,4,2,"1112 Garnett Pl Unit 1, Evanston, IL 60201","$4,350/mo",1200
+https://www.zillow.com/homedetails/1637-Orrington-Ave-203-Evanston-IL-60201/448390445_zpid/,2,1,"1637 Orrington Ave #203, Evanston, IL 60201","$1,877/mo",450
+https://www.zillow.com/homedetails/718-Simpson-St-3W-Evanston-IL-60201/460591804_zpid/,3,1,"718 Simpson St #3W, Evanston, IL 60201","$3,235/mo",
+https://www.zillow.com/homedetails/729-Seward-St-APT-1C-Evanston-IL-60202/462007555_zpid/,2,1,"729 Seward St APT 1C, Evanston, IL 60202","$1,895/mo",
+https://www.zillow.com/homedetails/1932-Maple-Ave-APT-A1-Evanston-IL-60201/2098849903_zpid/,3,1,"1932 Maple Ave APT A1, Evanston, IL 60201","$3,350/mo",
+https://www.zillow.com/homedetails/1726-Sherman-Ave-APT-2-Evanston-IL-60201/462431806_zpid/,1,1,"1726 Sherman Ave APT 2, Evanston, IL 60201","$1,500/mo",700
+"https://www.zillow.com/b/building/42.052975,-87.681175_ll/",2,1,"1927 Sherman Ave, Evanston, IL","$3,150+",
+https://www.zillow.com/homedetails/907-Washington-St-1A-Evanston-IL-60202/2071905945_zpid/,2,1,"907 Washington St #1A, Evanston, IL 60202","$1,745/mo",1000
+https://www.zillow.com/apartments/evanston-il/2500-green-bay/5ZndwH/,2,1,"2500 Green Bay Rd, Evanston, IL","$3,095+",
+https://www.zillow.com/apartments/evanston-il/2500-green-bay/5ZndwH/,3,1,"2500 Green Bay Rd, Evanston, IL","$3,595+",
+https://www.zillow.com/homedetails/1121-Leonard-Pl-3-Evanston-IL-60201/2072184493_zpid/,2,1,"1121 Leonard Pl #3, Evanston, IL 60201","$2,599/mo",1000
+https://www.zillow.com/homedetails/1512-Mulford-St-Evanston-IL-60202/3542620_zpid/,3,2,"1512 Mulford St, Evanston, IL 60202","$3,500/mo",
+https://www.zillow.com/b/312-20-lee-st-evanston-il-CkJzRn/,2,1,"312-20 Lee St, Evanston, IL","$2,445+",
+https://www.zillow.com/homedetails/228-Callan-Ave-Evanston-IL-60202/2093957983_zpid/,2,1,"228 Callan Ave, Evanston, IL 60202","$2,090/mo",
+https://www.zillow.com/homedetails/325-Kedzie-St-805-3-Evanston-IL-60202/462769973_zpid/,2,1,"325 Kedzie St #805-3, Evanston, IL 60202","$2,270/mo",
+https://www.zillow.com/homedetails/1009-Greenleaf-St-APT-1W-Evanston-IL-60202/3565162_zpid/,1,1,"1009 Greenleaf St APT 1W, Evanston, IL 60202","$2,000/mo",
+https://www.zillow.com/apartments/evanston-il/1001-davis-apartments/Cr6R58/,2,1,"1001 Davis Apartments, 1001 Davis St #1003-4, Evanston, IL 60201","$1,970/mo",1000
+https://www.zillow.com/homedetails/Evanston-IL-60202/2060160305_zpid/,3,2,"(undisclosed Address), Evanston, IL 60202","$6,000/mo",2000
+https://www.zillow.com/homedetails/Evanston-IL-60202/2098489878_zpid/,3,1,"(undisclosed Address), Evanston, IL 60202","$5,500/mo",1640
+https://www.zillow.com/homedetails/1921-Grey-Ave-APT-1-Evanston-IL-60201/2093289652_zpid/,3,1,"1921 Grey Ave APT 1, Evanston, IL 60201","$2,850/mo",
+https://www.zillow.com/homedetails/2140-Dobson-St-Evanston-IL-60202/3542198_zpid/,3,2,"2140 Dobson St, Evanston, IL 60202","$3,100/mo",
+https://www.zillow.com/homedetails/1119-Garnett-Pl-APT-3-Evanston-IL-60201/2059818138_zpid/,3,1,"1119 Garnett Pl APT 3, Evanston, IL 60201","$4,200/mo",16200
+https://www.zillow.com/homedetails/723-Dobson-St-APT-1-Evanston-IL-60202/2113408423_zpid/,3,2,"723 Dobson St APT 1, Evanston, IL 60202","$2,900/mo",1700
+https://www.zillow.com/apartments/evanston-il/1024-noyes-st./5Yy68q/,2,1,"1024 Noyes St, Evanston, IL","$2,000+",
+https://www.zillow.com/apartments/evanston-il/1024-noyes-st./5Yy68q/,3,1,"1024 Noyes St, Evanston, IL","$3,300+",
+https://www.zillow.com/homedetails/2750-Hampton-Pkwy-APT-P3-Evanston-IL-60201/63689764_zpid/,1,1,"2750 Hampton Pkwy APT P3, Evanston, IL 60201","$1,695/mo",779
+https://www.zillow.com/b/2766-hampton-pkwy-evanston-il-5XjZ2y/,1,1,"2766 Hampton Pkwy, Evanston, IL","$1,695+",
+https://www.zillow.com/b/2766-hampton-pkwy-evanston-il-5XjZ2y/,2,1,"2766 Hampton Pkwy, Evanston, IL","$2,540+",
+"https://www.zillow.com/b/building/42.06814,-87.691_ll/",1,1,"2752 Hampton Pkwy, Evanston, IL","$2,490+",
+"https://www.zillow.com/b/building/42.06814,-87.691_ll/",2,1,"2752 Hampton Pkwy, Evanston, IL","$1,630+",
+https://www.zillow.com/homedetails/1618-Payne-St-Evanston-IL-60201/2078010114_zpid/,2,1,"1618 Payne St, Evanston, IL 60201","$2,195/mo",1574
+https://www.zillow.com/apartments/evanston-il/1936-wesley/5Zq2h5/,3,1,"1936 Wesley, 1936 Wesley Ave APT 1B, Evanston, IL 60201","$2,100/mo",905
+https://www.zillow.com/homedetails/835-Judson-Ave-APT-101-Evanston-IL-60202/3566830_zpid/,2,2,"835 Judson Ave APT 101, Evanston, IL 60202","$2,095/mo",1100
+https://www.zillow.com/homedetails/2608-Bennett-Ave-APT-3W-Evanston-IL-60201/462415950_zpid/,2,1,"2608 Bennett Ave APT 3W, Evanston, IL 60201","$2,400/mo",1150
+https://www.zillow.com/apartments/evanston-il/823-hamlin/Cr6KVD/,3,2,"823 Hamlin, 823 Hamlin St, Evanston, IL 60201","$4,250/mo",
+https://www.zillow.com/apartments/evanston-il/2018-pratt/Cr6KVC/,5,2,"2018 Pratt, 2018 Pratt Ct, Evanston, IL 60201","$5,350/mo",1522
+https://www.zillow.com/homedetails/1121-Leonard-Pl-APT-2-Evanston-IL-60201/348745666_zpid/,3,1,"1121 Leonard Pl APT 2, Evanston, IL 60201","$3,950/mo",1350
+https://www.zillow.com/homedetails/822-Seward-St-APT-3B-Evanston-IL-60202/60260908_zpid/,2,1,"822 Seward St APT 3B, Evanston, IL 60202","$1,950/mo",
+https://www.zillow.com/homedetails/2157-Ridge-Ave-APT-1A-Evanston-IL-60201/2081951543_zpid/,4,2,"2157 Ridge Ave APT 1A, Evanston, IL 60201","$3,250/mo",
+https://www.zillow.com/homedetails/802-Dempster-St-APT-1A-Evanston-IL-60202/2100087264_zpid/,1,1,"802 Dempster St APT 1A, Evanston, IL 60202","$1,600/mo",525
+https://www.zillow.com/apartments/evanston-il/304-*2113-15-darrow-building*/BXtB7f/,2,1,"304 - *2113-15 Darrow Building*, 2113-15 Darrow Ave #20600401, Evanston, IL 60201","$1,750/mo",720
+https://www.zillow.com/homedetails/818-Noyes-St-APT-1C-Evanston-IL-60201/456064152_zpid/,2,1,"818 Noyes St APT 1C, Evanston, IL 60201","$1,670/mo",
+https://www.zillow.com/apartments/evanston-il/352-*sharff-apartments*/5fvsrs/,2,1,"352 - *Sharff Apartments*, 419 Ridge Ave #L, Evanston, IL 60202","$1,945/mo",1000
+https://www.zillow.com/apartments/evanston-il/816-simpson-st/5YC9qK/,2,1,"164 - 816 Simpson Street*, 816 Simpson St #17978576, Evanston, IL 60201","$1,900/mo",
+https://www.zillow.com/homedetails/811-Dobson-St-APT-1E-Evanston-IL-60202/2122652574_zpid/,2,1,"811 Dobson St APT 1E, Evanston, IL 60202","$2,195/mo",1800
+https://www.zillow.com/homedetails/1838-Ashland-Ave-APT-1F-Evanston-IL-60201/2119252882_zpid/,2,1,"1838 Ashland Ave APT 1F, Evanston, IL 60201","$2,100/mo",900
+https://www.zillow.com/homedetails/Evanston-IL-60202/3567608_zpid/,2,1,"(undisclosed Address), Evanston, IL 60202","$1,900/mo",900
+https://www.zillow.com/homedetails/2742-Hampton-Pkwy-APT-K2-Evanston-IL-60201/63689762_zpid/,1,1,"2742 Hampton Pkwy APT K2, Evanston, IL 60201","$1,200/mo",541
+https://www.zillow.com/apartments/evanston-il/361-*2620-central-street-llc*/5fvqny/,2,1,"2620 Central St, Evanston, IL","$2,095+",
+https://www.zillow.com/apartments/evanston-il/361-*2620-central-street-llc*/5fvqny/,3,1,"2620 Central St, Evanston, IL","$2,850+",
+https://www.zillow.com/apartments/evanston-il/907-washington/5XjZnJ/,2,1,"907 Washington St, Evanston, IL","$1,745+",
+https://www.zillow.com/apartments/evanston-il/1575-oak/5XjMVf/,0,1,"1575 Oak, 1575 Oak Ave APT 68, Evanston, IL 60201","$1,475/mo",
+https://www.zillow.com/apartments/evanston-il/1806-12-central/9Hw7Nr/,0,1,"1806-12 Central, 1806 Central St #9, Evanston, IL 60201","$1,395/mo",450
+https://www.zillow.com/apartments/evanston-il/2600-10-eastwood-ave/CnhWFY/,0,1,"2600-10 Eastwood Ave, Evanston, IL","$1,295+",
+https://www.zillow.com/apartments/evanston-il/941-chicago/Cjf6vn/,1,1,"941 Chicago, 941 Chicago Ave #Ed0a1eb81, Evanston, IL 60202","$1,595+/mo",
+https://www.zillow.com/apartments/evanston-il/725-washington-st/CrVKHv/,0,1,"725 Washington St, 725 Washington St APT 204, Evanston, IL 60202","$1,245/mo",350
+https://www.zillow.com/apartments/evanston-il/2306-central/BNgTxz/,1,1,"2306 Central, 2306-12 Central St #2306-3N, Evanston, IL 60201","$1,625/mo",700
+https://www.zillow.com/apartments/evanston-il/2605-prairie-1903-1911-central/5XjXxc/,0,1,"2605 Prairie/1903- 1911 Central, 1903 Central St #E436e6850, Evanston, IL 60201","$1,195+/mo",494
+https://www.zillow.com/apartments/evanston-il/493-sheridan-rd/5XmqsY/,3,4,"493 Sheridan Rd, 493 Sheridan Rd APT 201, Evanston, IL 60202","$4,250/mo",2550
+https://www.zillow.com/homedetails/Evanston-IL-60201/463125511_zpid/,3,2,"(undisclosed Address), Evanston, IL 60201","$3,450/mo",1600
+https://www.zillow.com/apartments/evanston-il/541-hinman/5XjKCJ/,1,1,"541 Hinman, 541 Hinman Ave APT G1, Evanston, IL 60202","$1,635/mo",1000
+https://www.zillow.com/apartments/evanston-il/801-dobson/Ck39XS/,1,1,"801 Dobson St, Evanston, IL","$1,600+",
+https://www.zillow.com/apartments/evanston-il/801-dobson/Ck39XS/,2,1,"801 Dobson St, Evanston, IL","$1,925+",
+https://www.zillow.com/apartments/evanston-il/1025-dempster-st/CgxJJ2/,1,1,"1025 Dempster St, 1025 Dempster St #0bc052e88, Evanston, IL 60201","$1,795+/mo",
+https://www.zillow.com/apartments/evanston-il/2527-jackson/5XjMKy/,1,1,"2527 Jackson, 2527 Jackson Ave, Evanston, IL 60201","$1,495+/mo",590
+https://www.zillow.com/apartments/evanston-il/2525-37-eastwood/BmKQDT/,2,1,"2525-37 Eastwood, 2525-37 Eastwood Ave #2B, Evanston, IL 60201","$1,795/mo",750
+https://www.zillow.com/apartments/evanston-il/the-gem-museum-suites/Cjn8fB/,1,1,"The GEM Museum Suites, 1555 Oak Ave #55b585941, Evanston, IL 60201","$2,500+/mo",
+https://www.zillow.com/apartments/evanston-il/amli-evanston/5Xk3zW/,1,1,"737 Chicago Ave, Evanston, IL","$2,548+",
+https://www.zillow.com/apartments/evanston-il/amli-evanston/5Xk3zW/,2,1,"737 Chicago Ave, Evanston, IL","$3,273+",
+https://www.zillow.com/apartments/evanston-il/the-park-evanston/5Xj9yQ/,0,1,"1630 Chicago Ave, Evanston, IL","$2,467+",
+https://www.zillow.com/apartments/evanston-il/the-park-evanston/5Xj9yQ/,1,1,"1630 Chicago Ave, Evanston, IL","$2,746+",
+https://www.zillow.com/apartments/evanston-il/the-park-evanston/5Xj9yQ/,2,1,"1630 Chicago Ave, Evanston, IL","$3,800+",
+https://www.zillow.com/apartments/evanston-il/1717-evanston/5XkjCw/,0,1,"1717 Ridge Ave, Evanston, IL","$2,426+",
+https://www.zillow.com/apartments/evanston-il/1717-evanston/5XkjCw/,1,1,"1717 Ridge Ave, Evanston, IL","$2,605+",
+https://www.zillow.com/apartments/evanston-il/1717-evanston/5XkjCw/,2,1,"1717 Ridge Ave, Evanston, IL","$3,776+",
+https://www.zillow.com/apartments/evanston-il/1717-evanston/5XkjCw/,3,1,"1717 Ridge Ave, Evanston, IL","$4,896+",
+https://www.zillow.com/apartments/evanston-il/central-station/5XkmZp/,0,1,"1720 Central St, Evanston, IL","$2,505+",
+https://www.zillow.com/apartments/evanston-il/central-station/5XkmZp/,1,1,"1720 Central St, Evanston, IL","$2,875+",
+https://www.zillow.com/apartments/evanston-il/central-station/5XkmZp/,2,1,"1720 Central St, Evanston, IL","$4,034+",
+https://www.zillow.com/apartments/evanston-il/1420-chicago/5XqzkH/,3,2,"1420 Chicago, 1420 Chicago Ave APT 2A, Evanston, IL 60201","$3,395/mo",
+https://www.zillow.com/b/1706-sherman-ave.-evanston-il-CjhL74/,0,1,"1706 Sherman Ave, Evanston, IL","$2,500+",
+https://www.zillow.com/b/1706-sherman-ave.-evanston-il-CjhL74/,1,1,"1706 Sherman Ave, Evanston, IL","$2,700+",
+https://www.zillow.com/b/1706-sherman-ave.-evanston-il-CjhL74/,2,1,"1706 Sherman Ave, Evanston, IL","$4,300+",
+https://www.zillow.com/b/1706-sherman-ave.-evanston-il-CjhL74/,3,1,"1706 Sherman Ave, Evanston, IL","$5,100+",
+https://www.zillow.com/apartments/evanston-il/550-sheridan-square/5hJ47z/,1,1,"550 Sheridan Sq, Evanston, IL","$3,250+",
+https://www.zillow.com/apartments/evanston-il/550-sheridan-square/5hJ47z/,2,1,"550 Sheridan Sq, Evanston, IL","$4,250+",
+https://www.zillow.com/apartments/evanston-il/1009-davis/CkBTbH/,0,1,"1009 Davis St, Evanston, IL","$1,450+",
+https://www.zillow.com/apartments/evanston-il/1009-davis/CkBTbH/,1,1,"1009 Davis St, Evanston, IL","$1,475+",
+https://www.zillow.com/apartments/evanston-il/carlson-building/CrkcWF/,0,1,"620 Church St, Evanston, IL","$1,200+",
+https://www.zillow.com/apartments/evanston-il/carlson-building/CrkcWF/,2,1,"620 Church St, Evanston, IL","$1,630+",
+https://www.zillow.com/apartments/evanston-il/carlson-building/CrkcWF/,3,1,"620 Church St, Evanston, IL","$2,700+",
+https://www.zillow.com/apartments/evanston-il/carlson-building/CrkcWF/,4,1,"620 Church St, Evanston, IL","$3,300+",
+https://www.zillow.com/apartments/evanston-il/evanston-place/5XjCsW/,0,1,"1715 Chicago Ave, Evanston, IL","$2,465+",
+https://www.zillow.com/apartments/evanston-il/evanston-place/5XjCsW/,1,1,"1715 Chicago Ave, Evanston, IL","$2,469+",
+https://www.zillow.com/apartments/evanston-il/evanston-place/5XjCsW/,2,1,"1715 Chicago Ave, Evanston, IL","$3,390+",
+https://www.zillow.com/apartments/evanston-il/evanston-place/5XjCsW/,3,1,"1715 Chicago Ave, Evanston, IL","$5,472+",
+https://www.zillow.com/apartments/evanston-il/temple-lofts/CqxffC/,1,1,"1453 Maple Ave, Evanston, IL","$3,395+",
+https://www.zillow.com/apartments/evanston-il/temple-lofts/CqxffC/,2,1,"1453 Maple Ave, Evanston, IL","$4,149+",
+https://www.zillow.com/apartments/evanston-il/cheltenham-court-mansions/CnFxkR/,2,1,"531-539 Hinman Ave, Evanston, IL","$2,595+",
+https://www.zillow.com/apartments/evanston-il/cheltenham-court-mansions/CnFxkR/,3,1,"531-539 Hinman Ave, Evanston, IL","$2,995+",
+https://www.zillow.com/apartments/evanston-il/605-hinman/5Ztc5t/,1,1,"610 Hinman Ave, Evanston, IL","$1,645+",
+https://www.zillow.com/apartments/evanston-il/605-hinman/5Ztc5t/,2,1,"610 Hinman Ave, Evanston, IL","$1,945+",
+https://www.zillow.com/apartments/evanston-il/605-hinman/5Ztc5t/,3,1,"610 Hinman Ave, Evanston, IL","$2,495+",
+https://www.zillow.com/apartments/evanston-il/800-810-michigan/CgxDRY/,1,1,"800 Michigan Ave, Evanston, IL","$1,695+",
+https://www.zillow.com/apartments/evanston-il/800-810-michigan/CgxDRY/,3,1,"800 Michigan Ave, Evanston, IL","$3,145+",
+https://www.zillow.com/apartments/evanston-il/evanston-gateway/CkCjrs/,1,1,"100 Chicago Ave, Evanston, IL","$2,100+",
+https://www.zillow.com/apartments/evanston-il/evanston-gateway/CkCjrs/,2,1,"100 Chicago Ave, Evanston, IL","$2,600+",
+https://www.zillow.com/apartments/evanston-il/the-main/65fxWc/,0,1,"847 Chicago Ave, Evanston, IL","$2,520+",
+https://www.zillow.com/apartments/evanston-il/the-main/65fxWc/,1,1,"847 Chicago Ave, Evanston, IL","$2,690+",
+https://www.zillow.com/apartments/evanston-il/the-main/65fxWc/,2,1,"847 Chicago Ave, Evanston, IL","$3,533+",
+https://www.zillow.com/apartments/evanston-il/the-main/65fxWc/,3,1,"847 Chicago Ave, Evanston, IL","$5,085+",
+https://www.zillow.com/apartments/evanston-il/114-clyde-ave/ChFrPm/,2,1,"114 Clyde Ave, Evanston, IL","$1,990+",
+https://www.zillow.com/apartments/evanston-il/avidor-evanston-55+-active-adult-homes/CkBfKB/,1,1,"1727 Oak Ave, Evanston, IL","$2,562+",
+https://www.zillow.com/apartments/evanston-il/avidor-evanston-55+-active-adult-homes/CkBfKB/,2,1,"1727 Oak Ave, Evanston, IL","$5,045+",
+https://www.zillow.com/apartments/evanston-il/1133-1139-oak-ave/CgqxLK/,1,1,"1133-39 Oak Ave, Evanston, IL","$2,550+",
+https://www.zillow.com/apartments/evanston-il/1133-1139-oak-ave/CgqxLK/,2,1,"1133-39 Oak Ave, Evanston, IL","$3,250+",
+https://www.zillow.com/apartments/evanston-il/2228-38-sherman-ave.-803-809-noyes-st./5XjWFr/,3,1,"2228-38 Sherman Ave. / 803-809 Noyes St., 2228 Sherman Ave N #2238-3, Evanston, IL 60201","$3,350/mo",1030
+https://www.zillow.com/apartments/evanston-il/1200-simpson-st/9Hw5L5/,3,1,"1200 Simpson St, 1200 Simpson St #2060-3N, Evanston, IL 60201","$2,695/mo",1200
+https://www.zillow.com/apartments/evanston-il/maeve-on-ridge/Ck2BP9/,0,1,"Maeve on Ridge, 1555 Ridge Ave #308, Evanston, IL 60201","$2,350/mo",603
+https://www.zillow.com/apartments/evanston-il/532-36-hinman/5XjMDK/,1,1,"532-36 Hinman, 532 Hinman Ave #536-N3, Evanston, IL 60202","$1,835/mo",670
+https://www.zillow.com/apartments/evanston-il/2201-07-maple-ave/ChKj74/,2,1,"2201-07 Maple Ave, Evanston, IL","$2,795+",
+https://www.zillow.com/apartments/evanston-il/2201-07-maple-ave/ChKj74/,3,1,"2201-07 Maple Ave, Evanston, IL","$3,950+",
+https://www.zillow.com/apartments/evanston-il/915-hinman/ChVqnG/,1,1,"915 Hinman, 913 Hinman Ave APT 2N, Evanston, IL 60202","$1,595/mo",650
+https://www.zillow.com/apartments/evanston-il/231-n-ridge-ave/5XjKpb/,1,1,"231 N Ridge Ave, 231 Ridge Ave #245-3, Evanston, IL 60202","$1,550/mo",900
+https://www.zillow.com/apartments/evanston-il/2321-central/CjjCSx/,2,1,"2321 Central, 2321 Central St #F5d3897aa, Evanston, IL 60201","$2,295+/mo",
+https://www.zillow.com/apartments/evanston-il/1235-elmwood/5XjMLC/,1,1,"1235 Elmwood, 1235 Elmwood Ave #1B-1Ba-910Sqft, Evanston, IL 60202","$1,895+/mo",950
+https://www.zillow.com/apartments/evanston-il/1134-44-maple-ave/CgtNk2/,1,1,"1134-44 Maple Ave, Evanston, IL","$2,645+",
+https://www.zillow.com/apartments/evanston-il/1134-44-maple-ave/CgtNk2/,3,1,"1134-44 Maple Ave, Evanston, IL","$3,795+",
+https://www.zillow.com/apartments/evanston-il/810-forest-ave-apartments/5XjSy2/,2,1,"810 Forest Ave Apartments, 810 Forest Ave #72659cc95, Evanston, IL 60202","$1,810+/mo",797
+https://www.zillow.com/apartments/evanston-il/2542-62-prairie-ave/Cknqs8/,0,1,"2542 Prairie Ave, Evanston, IL","$1,445+",
+https://www.zillow.com/apartments/evanston-il/2542-62-prairie-ave/Cknqs8/,1,1,"2542 Prairie Ave, Evanston, IL","$1,625+",
+https://www.zillow.com/apartments/evanston-il/917-925-hinman-ave./CpYsVc/,2,1,"917 Hinman Ave, Evanston, IL","$1,900+",
+https://www.zillow.com/apartments/evanston-il/1616-hinman/CkBR7B/,3,1,"1616 Hinman Ave, Evanston, IL","$3,450+",
