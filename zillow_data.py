@@ -111,60 +111,79 @@ def resolve_json_path() -> Path:
     )
 
 
-def build_listing_frame() -> pd.DataFrame:
+def resolve_csv_path() -> Path:
+    candidates = [
+        Path("data/zillow_evanston_all.csv"),
+        Path("fb_data/zillow_evanston_all.csv"),
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    raise FileNotFoundError(
+        "Could not find zillow_evanston_all.csv in data/ or fb_data/."
+    )
+
+
+def build_metadata_lookup() -> dict:
     json_path = resolve_json_path()
     listings = json.loads(json_path.read_text(encoding="utf-8"))
-    rows = []
+    lookup = {}
 
-    for listing_index, listing in enumerate(listings):
+    for listing in listings:
         raw = listing.get("raw", {})
         home_info = raw.get("hdpData", {}).get("homeInfo", {})
         lat_long = raw.get("latLong", {})
-        latitude = first_non_null(lat_long.get("latitude"), home_info.get("latitude"))
-        longitude = first_non_null(lat_long.get("longitude"), home_info.get("longitude"))
-        listing_key = first_non_null(raw.get("zpid"), raw.get("id"), listing.get("zpid"), listing_index)
-
-        base_row = {
-            "id": f"{listing_key}-0",
-            "url": normalize_url(first_non_null(raw.get("detailUrl"), listing.get("url"))),
-            "address": first_non_null(raw.get("address"), listing.get("address"), ""),
-            "display_price": first_non_null(raw.get("price"), listing.get("price"), ""),
+        normalized = normalize_url(first_non_null(raw.get("detailUrl"), listing.get("url")))
+        lookup[normalized] = {
             "image_url": first_photo_url(raw),
-            "beds": first_non_null(raw.get("beds"), home_info.get("bedrooms"), listing.get("beds")),
-            "baths": normalize_baths(
-                first_non_null(raw.get("baths"), home_info.get("bathrooms"), listing.get("baths"), 1)
-            ),
-            "area": first_non_null(raw.get("area"), home_info.get("livingArea"), listing.get("area")),
-            "price": first_non_null(
-                numeric_price(raw.get("price")),
-                raw.get("unformattedPrice"),
-                home_info.get("priceForHDP"),
-                home_info.get("price"),
-                numeric_price(listing.get("price")),
-            ),
-            "latitude": latitude,
-            "longitude": longitude,
-            "distance_from_northwestern_tech": distance_from_northwestern_tech(latitude, longitude),
-            "days_on_zillow": home_info.get("daysOnZillow"),
-            "rent_zestimate": home_info.get("rentZestimate"),
-            "zipcode": first_non_null(raw.get("addressZipcode"), home_info.get("zipcode")),
-            "home_type": home_info.get("homeType"),
-            "is_featured": int(bool(first_non_null(raw.get("isFeaturedListing"), home_info.get("isFeatured"), False))),
-            "has_units": int(bool(raw.get("units"))),
-            "has_home_info": int(bool(home_info)),
+            "latitude": first_non_null(lat_long.get("latitude"), home_info.get("latitude")),
+            "longitude": first_non_null(lat_long.get("longitude"), home_info.get("longitude")),
         }
 
-        units = raw.get("units")
-        if isinstance(units, list) and units:
-            for unit_index, unit in enumerate(units, start=1):
-                row = base_row.copy()
-                row["id"] = f"{listing_key}-{unit_index}"
-                row["beds"] = first_non_null(unit.get("beds"), row["beds"])
-                row["price"] = first_non_null(numeric_price(unit.get("price")), row["price"])
-                row["display_price"] = first_non_null(unit.get("price"), row["display_price"])
-                rows.append(row)
-        else:
-            rows.append(base_row)
+    return lookup
+
+
+def build_listing_frame() -> pd.DataFrame:
+    csv_path = resolve_csv_path()
+    csv_df = pd.read_csv(csv_path)
+    metadata_lookup = build_metadata_lookup()
+    rows = []
+
+    for row_index, csv_row in csv_df.iterrows():
+        normalized_url = normalize_url(csv_row.get("url"))
+        metadata = metadata_lookup.get(normalized_url, {})
+        latitude = metadata.get("latitude")
+        longitude = metadata.get("longitude")
+        csv_distance = csv_row.get("distance_from_northwestern_tech")
+        csv_image = csv_row.get("image_url")
+        parsed_distance = pd.to_numeric(csv_distance, errors="coerce")
+
+        rows.append(
+            {
+                "id": f"csv-{row_index}",
+                "url": normalized_url,
+                "address": first_non_null(csv_row.get("address"), ""),
+                "display_price": csv_row.get("price"),
+                "image_url": first_non_null(csv_image, metadata.get("image_url", ""), ""),
+                "beds": csv_row.get("beds"),
+                "baths": normalize_baths(csv_row.get("baths")),
+                "area": csv_row.get("area"),
+                "price": numeric_price(csv_row.get("price")),
+                "latitude": latitude,
+                "longitude": longitude,
+                "distance_from_northwestern_tech": first_non_null(
+                    parsed_distance if pd.notna(parsed_distance) else None,
+                    distance_from_northwestern_tech(latitude, longitude),
+                ),
+                "days_on_zillow": None,
+                "rent_zestimate": None,
+                "zipcode": "MISSING",
+                "home_type": "MISSING",
+                "is_featured": 0,
+                "has_units": 0,
+                "has_home_info": int(latitude is not None and longitude is not None),
+            }
+        )
 
     df = pd.DataFrame(rows)
     df["home_type"] = df["home_type"].fillna("MISSING")
