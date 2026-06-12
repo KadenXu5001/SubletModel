@@ -1,4 +1,4 @@
-# wildcat room finder
+# Wildcat Apartment Finder
 
 ## Contributors
 
@@ -7,6 +7,14 @@ Ethan Jared-Chan, Sandaru Balahewa, Kaden Xu, Andrew Elias
 ## Heroku link
 
 https://nu-apartment-finder-30c223e44676.herokuapp.com/
+
+## Youtube Demo
+
+https://youtu.be/8iHWPLlFhQ8
+
+## Presentation
+
+https://docs.google.com/presentation/d/1wz8PeCTB9rBxq86wsDBNK57bPQD4dPbOWfnOv7GHWAk/edit?usp=sharing
 
 ## Overview
 
