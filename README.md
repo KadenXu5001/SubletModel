@@ -1,5 +1,13 @@
 # wildcat room finder
 
+## Contributors
+
+Ethan Jared-Chan, Sandaru Balahewa, Kaden Xu, Andrew Elias
+
+## Heroku link
+
+https://nu-apartment-finder-30c223e44676.herokuapp.com/
+
 ## Overview
 
 `wildcat room finder` is a Northwestern-focused housing market map for Evanston listings. A Flask backend serves a trained rent model and graph-ready Zillow data, while a Vite + React frontend renders an interactive scatterplot where:
