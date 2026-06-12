@@ -3,7 +3,7 @@ export default function TopBarForm({ form, onChange, onSubmit, loading }) {
     <form className="topbar" onSubmit={onSubmit}>
       <div className="topbar__brand">
         <span className="topbar__eyebrow">Northwestern Market Map</span>
-        <h1 className="topbar__title">wildcat room finder</h1>
+        <h1 className="topbar__title">Wildcat Apartment finder</h1>
       </div>
 
       <div className="topbar__controls">

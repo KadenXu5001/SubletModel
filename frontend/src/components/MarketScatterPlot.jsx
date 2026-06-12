@@ -175,17 +175,6 @@ export default function MarketScatterPlot({ marketMap, selectedListing, onSelect
       <div className="chart-toolbar">
         <div className="chart-toolbar__hint">Scroll to zoom. Click a node to inspect it.</div>
         <div className="chart-toolbar__actions">
-          <button className="chart-toolbar__button" type="button" onClick={handleZoomIn}>
-            Zoom in
-          </button>
-          <button
-            className="chart-toolbar__button"
-            type="button"
-            onClick={handleZoomOut}
-            disabled={!canZoomOut}
-          >
-            Zoom out
-          </button>
           <button
             className="chart-toolbar__button chart-toolbar__button--ghost"
             type="button"
