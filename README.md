@@ -1,4 +1,4 @@
-# Northwestern Apartment Modeling 
+# Northwestern Rental Market Predictor
 
 ## Overview
 
