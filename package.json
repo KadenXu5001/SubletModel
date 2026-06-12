@@ -2,9 +2,9 @@
   "name": "wildcat-room-finder",
   "private": true,
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "scripts": {
-    "heroku-postbuild": "cd frontend && npm install && npm run build"
+    "heroku-postbuild": "cd frontend && npm ci --include=dev && npm run build"
   }
 }
