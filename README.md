@@ -14,8 +14,6 @@ A machine learning tool that predicts monthly rent prices for Evanston, IL housi
 
 `app.py` does the same at startup, then serves a web interface at `localhost:5000` where you can enter listing details and get a predicted monthly price.
 
-## Usage
-
 ### Setup
 
 ```bash
@@ -36,14 +34,3 @@ Then open [http://localhost:5000](http://localhost:5000) in your browser.
 ```bash
 python main.py
 ```
-
-## Features used
-
-| Feature | Description |
-|---|---|
-| Bedrooms | Number of bedrooms in the unit |
-| Bathrooms | Number of bathrooms |
-| Total roommates | Number of existing roommates |
-| Listing type | Private room vs. entire unit |
-| Location | Neighborhood area in Evanston |
-| Furnished | Whether the unit is furnished |

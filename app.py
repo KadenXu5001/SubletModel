@@ -7,20 +7,11 @@ from sklearn.metrics import mean_absolute_error, r2_score
 app = Flask(__name__)
 
 # ── Train model at startup ─────────────────────────
-df = pd.read_csv("data/mock_fb_dataset.csv")
+df = pd.read_csv("fb_data/zillow_evanston_all.csv")
 
-df["is_furnished"]   = (df["Furnished_Status"] == "Furnished").astype(int)
-df["is_entire_unit"] = (df["Listing_Type"] == "Entire Unit").astype(int)
-location_cat         = df["Location_Area"].astype("category")
-df["location_code"]  = location_cat.cat.codes
-LOCATION_MAP         = dict(enumerate(location_cat.cat.categories))  # code → name
-LOCATION_NAMES       = list(location_cat.cat.categories)             # for the UI
-
-FEATURES = ["Bedrooms_In_Unit", "Bathrooms", "Total_Roommates",
-            "is_furnished", "is_entire_unit", "location_code"]
-
+FEATURES = ["beds", "baths"]
 X = df[FEATURES]
-y = df["Price_USD"]
+y = df["price"]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -38,7 +29,6 @@ print(f"Model ready — MAE: ${MODEL_MAE:,.0f}  R²: {MODEL_R2:.3f}")
 @app.route("/")
 def index():
     return render_template("index.html",
-                           locations=LOCATION_NAMES,
                            mae=f"{MODEL_MAE:,.0f}",
                            r2=f"{MODEL_R2:.3f}")
 
@@ -47,18 +37,10 @@ def index():
 def predict():
     data = request.get_json()
     try:
-        location_name = data["location"]
-        location_code = LOCATION_NAMES.index(location_name) if location_name in LOCATION_NAMES else 0
-
         new = pd.DataFrame([{
-            "Bedrooms_In_Unit":  int(data["bedrooms"]),
-            "Bathrooms":         float(data["bathrooms"]),
-            "Total_Roommates":   int(data["roommates"]),
-            "is_furnished":      1 if data["furnished"] == "true" else 0,
-            "is_entire_unit":    1 if data["listing_type"] == "Entire Unit" else 0,
-            "location_code":     location_code,
+            "beds":  int(data["beds"]),
+            "baths": float(data["baths"]),
         }])
-
         price = float(model.predict(new)[0])
         return jsonify({"price": round(price, 2)})
     except Exception as e:
