@@ -3,12 +3,13 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 import pandas as pd
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 
 from zillow_data import distance_from_northwestern_tech, build_listing_frame
 
 
 MODEL_PATH = Path("models/zillow_evanston_model.pkl")
+FRONTEND_DIST = Path(__file__).parent / "frontend" / "dist"
 
 
 def load_artifact() -> dict:
@@ -114,17 +115,19 @@ def build_meta(df: pd.DataFrame) -> dict:
     }
 
 
-@app.route("/")
-def index():
-    return jsonify(
-        {
-            "name": "wildcat room finder api",
-            "status": "ok",
-            "endpoint": "/api/market-map",
-            "model_mae": round(float(MODEL_MAE), 2),
-            "model_r2": round(float(MODEL_R2), 3),
-        }
-    )
+def health_payload() -> dict:
+    return {
+        "name": "wildcat room finder api",
+        "status": "ok",
+        "endpoint": "/api/market-map",
+        "model_mae": round(float(MODEL_MAE), 2),
+        "model_r2": round(float(MODEL_R2), 3),
+    }
+
+
+@app.route("/api/health")
+def api_health():
+    return jsonify(health_payload())
 
 
 @app.route("/api/market-map", methods=["POST"])
@@ -151,6 +154,23 @@ def market_map():
         )
     except Exception as e:
         return jsonify({"error": str(e)}), 400
+
+
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_frontend(path: str):
+    if path.startswith("api/"):
+        return jsonify({"error": "Not found"}), 404
+
+    if not FRONTEND_DIST.is_dir():
+        return jsonify(health_payload())
+
+    if path:
+        asset = FRONTEND_DIST / path
+        if asset.is_file():
+            return send_from_directory(FRONTEND_DIST, path)
+
+    return send_from_directory(FRONTEND_DIST, "index.html")
 
 
 if __name__ == "__main__":

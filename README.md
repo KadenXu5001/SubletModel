@@ -65,5 +65,31 @@ To verify the React build locally:
 
 ```bash
 cd frontend
+npm install
 npm run build
+cd ..
+gunicorn app:app
+```
+
+Open `http://127.0.0.1:8000/` — you should see the scatterplot UI (not JSON).
+
+## Heroku deployment
+
+Production serves the built React app from Flask on `/`. API routes stay under `/api/*`; use `GET /api/health` for a health check.
+
+The root [`package.json`](package.json) runs `heroku-postbuild` to build `frontend/dist` during deploy. Configure the Heroku app with **Node first, then Python**:
+
+```bash
+heroku buildpacks:clear -a <app-name>
+heroku buildpacks:add -i 1 heroku/nodejs -a <app-name>
+heroku buildpacks:add -i 2 heroku/python -a <app-name>
+heroku config:set NPM_CONFIG_PRODUCTION=false -a <app-name>
+```
+
+`NPM_CONFIG_PRODUCTION=false` ensures Vite (a devDependency) is installed for the frontend build.
+
+Deploy:
+
+```bash
+git push heroku main
 ```
