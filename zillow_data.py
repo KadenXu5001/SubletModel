@@ -116,14 +116,16 @@ def build_listing_frame() -> pd.DataFrame:
     listings = json.loads(json_path.read_text(encoding="utf-8"))
     rows = []
 
-    for listing in listings:
+    for listing_index, listing in enumerate(listings):
         raw = listing.get("raw", {})
         home_info = raw.get("hdpData", {}).get("homeInfo", {})
         lat_long = raw.get("latLong", {})
         latitude = first_non_null(lat_long.get("latitude"), home_info.get("latitude"))
         longitude = first_non_null(lat_long.get("longitude"), home_info.get("longitude"))
+        listing_key = first_non_null(raw.get("zpid"), raw.get("id"), listing.get("zpid"), listing_index)
 
         base_row = {
+            "id": f"{listing_key}-0",
             "url": normalize_url(first_non_null(raw.get("detailUrl"), listing.get("url"))),
             "address": first_non_null(raw.get("address"), listing.get("address"), ""),
             "display_price": first_non_null(raw.get("price"), listing.get("price"), ""),
@@ -154,8 +156,9 @@ def build_listing_frame() -> pd.DataFrame:
 
         units = raw.get("units")
         if isinstance(units, list) and units:
-            for unit in units:
+            for unit_index, unit in enumerate(units, start=1):
                 row = base_row.copy()
+                row["id"] = f"{listing_key}-{unit_index}"
                 row["beds"] = first_non_null(unit.get("beds"), row["beds"])
                 row["price"] = first_non_null(numeric_price(unit.get("price")), row["price"])
                 row["display_price"] = first_non_null(unit.get("price"), row["display_price"])

@@ -1,36 +1,61 @@
-# Sublet Model
+# wildcat room finder
 
-## Contributors
-Ethan Chan, Sandaru Balehawa, Kaden Xu
+## Overview
 
-## Repository
-https://github.com/KadenXu5001/SubletModel
+`wildcat room finder` is a Northwestern-focused housing market map for Evanston listings. A Flask backend serves a trained rent model and graph-ready Zillow data, while a Vite + React frontend renders an interactive scatterplot where:
 
-## Description
+- `x` = square footage
+- `y` = monthly rent
+- point color = distance from Northwestern Tech
+- the highlighted target node = the user query
 
-A machine learning tool that predicts monthly rent prices for Evanston, IL housing listings. Trained on data scraped from Zillow and Facebook, it uses XGBoost to estimate price from listing features like bedrooms, bathrooms, location, and furnished status.
+Clicking a listing node opens a detail card with the Zillow photo, beds/baths, square footage, distance from Tech, and the Zillow link.
 
-`main.py` loads the dataset, engineers features, trains an XGBoost regression model, and prints MAE and R² to the terminal.
+## Backend setup
 
-`app.py` does the same at startup, then serves a web interface at `localhost:5000` where you can enter listing details and get a predicted monthly price.
-
-### Setup
+Install the Python dependencies:
 
 ```bash
-pip install flask xgboost scikit-learn pandas
+pip install flask pandas scikit-learn xgboost
 ```
 
-Place your dataset at `data/mock_dataset.csv` before running.
+Retrain the four-feature model:
 
-### Train the model and run the web app
+```bash
+python main.py
+```
+
+Run the Flask API on `http://127.0.0.1:5000`:
 
 ```bash
 python app.py
 ```
-Then open [http://localhost:5000](http://localhost:5000) in your browser.
 
-### Train the model only
+The main API endpoint is:
+
+```text
+POST /api/market-map
+```
+
+## Frontend setup
+
+From the repo root:
 
 ```bash
-python main.py
+cd frontend
+npm install
+npm run dev
+```
+
+The React app runs on `http://127.0.0.1:5173`.
+
+Vite proxies `/api/*` requests to the Flask backend on port `5000`, so both processes should be running during development.
+
+## Production-style frontend check
+
+To verify the React build locally:
+
+```bash
+cd frontend
+npm run build
 ```
