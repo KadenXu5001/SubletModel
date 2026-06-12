@@ -1,4 +1,4 @@
-# wildcat room finder
+# Northwestern Apartment Modeling 
 
 ## Overview
 
