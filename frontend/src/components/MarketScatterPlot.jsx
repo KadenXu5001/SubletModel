@@ -8,7 +8,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { bucketDistance, formatCurrency, formatDistance } from "../lib/marketMap";
+import { bucketBedrooms, formatCurrency } from "../lib/marketMap";
 
 function clampDomain(nextDomain, fullDomain) {
   const [fullMin, fullMax] = fullDomain;
@@ -46,7 +46,7 @@ function zoomAxis(domain, fullDomain, center, factor) {
 }
 
 function ListingDot({ cx, cy, payload, onSelect, selectedId }) {
-  const bucket = bucketDistance(payload.distance_from_northwestern_tech);
+  const bucket = bucketBedrooms(payload.beds);
   const isSelected = payload.id === selectedId;
 
   return (
@@ -84,8 +84,8 @@ function CustomTooltip({ active, payload }) {
     <div className="tooltip">
       <strong>{isTarget ? "Your target" : node.address}</strong>
       <span>{formatCurrency(node.price)}</span>
+      <span>{node.beds} bd / {node.baths} ba</span>
       <span>{node.area} sq ft</span>
-      <span>{formatDistance(node.distance_from_northwestern_tech)}</span>
     </div>
   );
 }

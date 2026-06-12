@@ -1,12 +1,12 @@
-export const DISTANCE_BUCKETS = [
-  { key: "near", label: "< 0.75 mi", max: 0.75, color: "#4e2a84" },
-  { key: "walk", label: "0.75 - 1.5 mi", max: 1.5, color: "#6f54a5" },
-  { key: "ride", label: "1.5 - 2.5 mi", max: 2.5, color: "#8f78bc" },
-  { key: "far", label: "2.5+ mi", max: Number.POSITIVE_INFINITY, color: "#b7a4dc" },
+export const BEDROOM_BUCKETS = [
+  { key: "studio", label: "Studio", match: (beds) => Number(beds) === 0, color: "#d94b4b" },
+  { key: "one", label: "1 bed", match: (beds) => Number(beds) === 1, color: "#4e2a84" },
+  { key: "two", label: "2 bed", match: (beds) => Number(beds) === 2, color: "#d16ba5" },
+  { key: "threePlus", label: "3+ bed", match: (beds) => Number(beds) >= 3, color: "#8e44ad" },
 ];
 
-export function bucketDistance(distance) {
-  return DISTANCE_BUCKETS.find((bucket) => distance <= bucket.max) ?? DISTANCE_BUCKETS.at(-1);
+export function bucketBedrooms(beds) {
+  return BEDROOM_BUCKETS.find((bucket) => bucket.match(beds)) ?? BEDROOM_BUCKETS.at(-1);
 }
 
 export function formatCurrency(value) {
