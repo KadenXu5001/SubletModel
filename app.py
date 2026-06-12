@@ -1,53 +1,36 @@
 import pickle
 from pathlib import Path
 from difflib import SequenceMatcher
-from math import asin, cos, radians, sin, sqrt
 
 from flask import Flask, jsonify, render_template, request
 import pandas as pd
 
-from zillow_data import build_listing_frame
+from zillow_data import (
+    NORTHWESTERN_TECH_NAME,
+    distance_from_northwestern_tech,
+    build_listing_frame,
+)
 
 
 MODEL_PATH = Path("models/zillow_evanston_model.pkl")
-NORTHWESTERN_TECH_NAME = "Northwestern Tech"
-NORTHWESTERN_TECH_LATITUDE = 42.0579
-NORTHWESTERN_TECH_LONGITUDE = -87.6752
 HIDDEN_FIELDS = {"zipcode", "home_type", "rent_zestimate"}
 FIELD_ORDER = [
     "beds",
     "baths",
     "area",
     "address_query",
-    "days_on_zillow",
-    "is_featured",
-    "has_units",
-    "has_home_info",
 ]
 FIELD_LABELS = {
     "beds": "Bedrooms",
     "baths": "Bathrooms",
     "area": "Square Footage",
     "address_query": "Address",
-    "latitude": "Latitude",
-    "longitude": "Longitude",
-    "days_on_zillow": "Days on Zillow",
-    "rent_zestimate": "Rent Zestimate",
-    "zipcode": "Zip Code",
-    "home_type": "Home Type",
-    "is_featured": "Featured Listing",
-    "has_units": "Has Multiple Units",
-    "has_home_info": "Has Zillow Home Details",
 }
 FIELD_HELP = {
     "beds": "Studio = 0.",
     "baths": "Use 0.5 steps if needed.",
     "area": "Square feet.",
-    "address_query": "Used to infer latitude and longitude.",
-    "days_on_zillow": "Optional.",
-    "is_featured": "Promoted listing.",
-    "has_units": "Multiple unit types.",
-    "has_home_info": "Detailed Zillow data.",
+    "address_query": "Used to infer distance from Northwestern Tech.",
 }
 
 
@@ -127,9 +110,7 @@ def build_field_specs() -> list[dict]:
 
 FIELD_SPECS = build_field_specs()
 VISIBLE_FIELDS = [spec["name"] for spec in FIELD_SPECS]
-COMPARABLE_FIELDS = [
-    field for field in VISIBLE_FIELDS if field in NUMERIC_FEATURES or field in BOOLEAN_FEATURES
-]
+MODEL_COMPARISON_FIELDS = list(FEATURES)
 
 
 def resolve_address_to_coordinates(address_query: str) -> tuple[float, float] | None:
@@ -180,18 +161,21 @@ def build_model_row(data: dict) -> dict:
     resolved_coordinates = resolve_address_to_coordinates(data.get("address_query", ""))
     if resolved_coordinates is not None:
         row["latitude"], row["longitude"] = resolved_coordinates
+        row["distance_from_northwestern_tech"] = distance_from_northwestern_tech(
+            row["latitude"], row["longitude"]
+        )
 
     return row
 
 
-def find_comparables(row: dict, predicted_price: float, limit: int = 4) -> list[dict]:
+def find_comparables(row: dict, predicted_price: float, limit: int = 4, offset: int = 0) -> tuple[list[dict], int]:
     df = LISTINGS_DF.copy()
     preferred_df = df[df["area"].notna() & df["image_url"].astype(str).ne("")].copy()
     if len(preferred_df) >= limit:
         df = preferred_df
     scored_columns = []
 
-    for feature in COMPARABLE_FIELDS:
+    for feature in MODEL_COMPARISON_FIELDS:
         if feature not in df.columns:
             continue
         if feature in NUMERIC_FEATURES:
@@ -210,35 +194,31 @@ def find_comparables(row: dict, predicted_price: float, limit: int = 4) -> list[
     if not price_spread or pd.isna(price_spread):
         price_spread = 1.0
     df["score_price"] = (df["price"].fillna(predicted_price) - predicted_price).abs() / price_spread
-    scored_columns.append("score_price")
 
-    df["similarity_score"] = df[scored_columns].mean(axis=1)
-    comps = df.sort_values(["similarity_score", "price"]).head(limit)
+    # The four prediction features are the main similarity signal.
+    df["feature_similarity_score"] = df[scored_columns].mean(axis=1)
+    # Price stays in the ranking, but only as a lighter tie-breaker.
+    df["similarity_score"] = (df["feature_similarity_score"] * 0.85) + (df["score_price"] * 0.15)
+    ranked = df.sort_values(["similarity_score", "feature_similarity_score", "price"]).reset_index(drop=True)
+    total_count = len(ranked)
+    comps = ranked.iloc[offset:offset + limit]
 
-    return [
-        {
-            "url": comp["url"],
-            "address": comp["address"],
-            "image_url": comp["image_url"],
-            "price": int(comp["price"]) if pd.notna(comp["price"]) else None,
-            "beds": float(comp["beds"]) if pd.notna(comp["beds"]) else None,
-            "baths": float(comp["baths"]) if pd.notna(comp["baths"]) else None,
-            "area": int(comp["area"]) if pd.notna(comp["area"]) else None,
-            "distance_from_northwestern_tech_mi": distance_to_northwestern_tech(comp),
-        }
-        for _, comp in comps.iterrows()
-    ]
-
-
-def haversine_miles(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
-    earth_radius_miles = 3958.8
-    dlat = radians(lat2 - lat1)
-    dlon = radians(lon2 - lon1)
-    lat1_rad = radians(lat1)
-    lat2_rad = radians(lat2)
-    a = sin(dlat / 2) ** 2 + cos(lat1_rad) * cos(lat2_rad) * sin(dlon / 2) ** 2
-    c = 2 * asin(sqrt(a))
-    return earth_radius_miles * c
+    return (
+        [
+            {
+                "url": comp["url"],
+                "address": comp["address"],
+                "image_url": comp["image_url"],
+                "price": int(comp["price"]) if pd.notna(comp["price"]) else None,
+                "beds": float(comp["beds"]) if pd.notna(comp["beds"]) else None,
+                "baths": float(comp["baths"]) if pd.notna(comp["baths"]) else None,
+                "area": int(comp["area"]) if pd.notna(comp["area"]) else None,
+                "distance_from_northwestern_tech_mi": distance_to_northwestern_tech(comp),
+            }
+            for _, comp in comps.iterrows()
+        ],
+        total_count,
+    )
 
 
 def distance_to_northwestern_tech(comp) -> float | None:
@@ -247,15 +227,8 @@ def distance_to_northwestern_tech(comp) -> float | None:
     if pd.isna(latitude) or pd.isna(longitude):
         return None
 
-    return round(
-        haversine_miles(
-            float(latitude),
-            float(longitude),
-            NORTHWESTERN_TECH_LATITUDE,
-            NORTHWESTERN_TECH_LONGITUDE,
-        ),
-        1,
-    )
+    distance = distance_from_northwestern_tech(float(latitude), float(longitude))
+    return None if distance is None else round(float(distance), 1)
 
 
 print(f"Model loaded — MAE: ${MODEL_MAE:,.0f}  R²: {MODEL_R2:.3f}")
@@ -277,14 +250,19 @@ def index():
 def predict():
     data = request.get_json() or {}
     try:
+        limit = int(data.get("limit", 4))
+        offset = int(data.get("offset", 0))
         row = build_model_row(data)
         new = pd.DataFrame([row])[FEATURES]
         price = float(model.predict(new)[0])
-        comparables = find_comparables(row, price)
+        comparables, total_count = find_comparables(row, price, limit=limit, offset=offset)
+        next_offset = offset + len(comparables)
         return jsonify(
             {
                 "price": round(price, 2),
                 "comparables": comparables,
+                "has_more": next_offset < total_count,
+                "next_offset": next_offset,
             }
         )
     except Exception as e:

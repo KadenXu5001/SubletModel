@@ -1,29 +1,23 @@
 import json
 import re
+from math import asin, cos, radians, sin, sqrt
 from pathlib import Path
 
 import pandas as pd
 
 
 BASE_URL = "https://www.zillow.com"
+NORTHWESTERN_TECH_NAME = "Northwestern Tech"
+NORTHWESTERN_TECH_LATITUDE = 42.0579
+NORTHWESTERN_TECH_LONGITUDE = -87.6752
 NUMERIC_FEATURES = [
     "beds",
     "baths",
     "area",
-    "latitude",
-    "longitude",
-    "days_on_zillow",
-    "rent_zestimate",
+    "distance_from_northwestern_tech",
 ]
-CATEGORICAL_FEATURES = [
-    "zipcode",
-    "home_type",
-]
-BOOLEAN_FEATURES = [
-    "is_featured",
-    "has_units",
-    "has_home_info",
-]
+CATEGORICAL_FEATURES = []
+BOOLEAN_FEATURES = []
 ALL_FEATURES = NUMERIC_FEATURES + CATEGORICAL_FEATURES + BOOLEAN_FEATURES
 
 
@@ -78,6 +72,32 @@ def first_photo_url(raw_listing):
     return ""
 
 
+def haversine_miles(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    earth_radius_miles = 3958.8
+    dlat = radians(lat2 - lat1)
+    dlon = radians(lon2 - lon1)
+    lat1_rad = radians(lat1)
+    lat2_rad = radians(lat2)
+    a = sin(dlat / 2) ** 2 + cos(lat1_rad) * cos(lat2_rad) * sin(dlon / 2) ** 2
+    c = 2 * asin(sqrt(a))
+    return earth_radius_miles * c
+
+
+def distance_from_northwestern_tech(latitude, longitude):
+    if latitude is None or longitude is None:
+        return None
+
+    return round(
+        haversine_miles(
+            float(latitude),
+            float(longitude),
+            NORTHWESTERN_TECH_LATITUDE,
+            NORTHWESTERN_TECH_LONGITUDE,
+        ),
+        3,
+    )
+
+
 def resolve_json_path() -> Path:
     candidates = [
         Path("data/zillow_evanston_all.json"),
@@ -100,6 +120,8 @@ def build_listing_frame() -> pd.DataFrame:
         raw = listing.get("raw", {})
         home_info = raw.get("hdpData", {}).get("homeInfo", {})
         lat_long = raw.get("latLong", {})
+        latitude = first_non_null(lat_long.get("latitude"), home_info.get("latitude"))
+        longitude = first_non_null(lat_long.get("longitude"), home_info.get("longitude"))
 
         base_row = {
             "url": normalize_url(first_non_null(raw.get("detailUrl"), listing.get("url"))),
@@ -118,8 +140,9 @@ def build_listing_frame() -> pd.DataFrame:
                 home_info.get("price"),
                 numeric_price(listing.get("price")),
             ),
-            "latitude": first_non_null(lat_long.get("latitude"), home_info.get("latitude")),
-            "longitude": first_non_null(lat_long.get("longitude"), home_info.get("longitude")),
+            "latitude": latitude,
+            "longitude": longitude,
+            "distance_from_northwestern_tech": distance_from_northwestern_tech(latitude, longitude),
             "days_on_zillow": home_info.get("daysOnZillow"),
             "rent_zestimate": home_info.get("rentZestimate"),
             "zipcode": first_non_null(raw.get("addressZipcode"), home_info.get("zipcode")),

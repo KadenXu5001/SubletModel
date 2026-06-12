@@ -86,10 +86,11 @@
 
     .hero h1 {
       margin: 0;
-      font-size: clamp(2.4rem, 5vw, 4.35rem);
-      line-height: 0.96;
+      font-size: clamp(0.95rem, 1.4vw, 1.15rem);
+      line-height: 1.05;
       letter-spacing: -0.05em;
-      max-width: 9ch;
+      max-width: 16ch;
+      text-transform: lowercase;
     }
 
     .hero p {
@@ -370,6 +371,50 @@
       gap: 14px;
     }
 
+    .more-wrap {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      margin-top: 4px;
+    }
+
+    .more-wrap.visible {
+      display: flex;
+    }
+
+    .more-button {
+      appearance: none;
+      border: 1px solid rgba(78, 42, 132, 0.18);
+      background: rgba(255,255,255,0.82);
+      color: var(--brand-dark);
+      border-radius: 999px;
+      padding: 12px 18px;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.18s, background 0.18s, border-color 0.18s;
+    }
+
+    .more-button:hover {
+      transform: translateY(-1px);
+      background: white;
+      border-color: rgba(78, 42, 132, 0.28);
+    }
+
+    .more-button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .page-indicator {
+      color: var(--muted);
+      font-size: 0.88rem;
+      min-width: 92px;
+      text-align: center;
+    }
+
     .comp-card {
       display: grid;
       grid-template-columns: 148px minmax(0, 1fr) auto;
@@ -530,7 +575,7 @@
       <div class="eyebrow">Evanston Rent Studio</div>
       <div class="hero-grid">
         <div>
-          <h1>Price an Evanston listing.</h1>
+          <h1>wildcat room finder</h1>
           <p>
             Enter the listing details, get a quote, and compare it to nearby Zillow matches.
           </p>
@@ -618,6 +663,11 @@
           </div>
 
           <div class="comp-list" id="comparable-list"></div>
+          <div class="more-wrap" id="more-wrap">
+            <button class="more-button" type="button" id="prev-button" onclick="showPreviousComparables()">Previous</button>
+            <div class="page-indicator" id="page-indicator">Page 1</div>
+            <button class="more-button" type="button" id="more-button" onclick="showMoreComparables()">Show more</button>
+          </div>
           <div class="error" id="error"></div>
         </div>
       </div>
@@ -625,6 +675,13 @@
   </div>
 
   <script>
+    let currentPayload = null;
+    let currentNextOffset = 0;
+    let currentOffset = 0;
+    let currentPage = 1;
+    let currentLimit = 4;
+    let currentHasMore = false;
+
     function formatCurrency(value) {
       return new Intl.NumberFormat("en-US", {
         style: "currency",
@@ -684,6 +741,82 @@
       });
     }
 
+    function updateMoreButton(hasMore) {
+      const wrap = document.getElementById("more-wrap");
+      const prevButton = document.getElementById("prev-button");
+      const moreButton = document.getElementById("more-button");
+      const indicator = document.getElementById("page-indicator");
+
+      currentHasMore = hasMore;
+      if (currentPage > 1 || hasMore) wrap.classList.add("visible");
+      else wrap.classList.remove("visible");
+
+      prevButton.disabled = currentPage === 1;
+      moreButton.disabled = !hasMore;
+      indicator.textContent = `Page ${currentPage}`;
+    }
+
+    async function fetchPrediction(payload) {
+      const res = await fetch("/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+
+      currentNextOffset = data.next_offset || 0;
+      renderComparables(data.comparables || []);
+      updateMoreButton(Boolean(data.has_more));
+      return data;
+    }
+
+    async function showMoreComparables() {
+      if (!currentPayload) return;
+      const moreButton = document.getElementById("more-button");
+      const prevButton = document.getElementById("prev-button");
+      moreButton.textContent = "Loading...";
+      moreButton.disabled = true;
+      prevButton.disabled = true;
+
+      try {
+        currentOffset = currentNextOffset;
+        currentPage += 1;
+        await fetchPrediction({ ...currentPayload, offset: currentOffset });
+      } catch (err) {
+        currentOffset = Math.max(0, currentOffset - currentLimit);
+        currentPage = Math.max(1, currentPage - 1);
+        const error = document.getElementById("error");
+        error.textContent = "Error: " + err.message;
+        error.style.display = "block";
+      } finally {
+        moreButton.textContent = "Show more";
+        updateMoreButton(currentHasMore);
+      }
+    }
+
+    async function showPreviousComparables() {
+      if (!currentPayload || currentPage === 1) return;
+      const moreButton = document.getElementById("more-button");
+      const prevButton = document.getElementById("prev-button");
+      moreButton.disabled = true;
+      prevButton.disabled = true;
+
+      try {
+        currentOffset = Math.max(0, currentOffset - currentLimit);
+        currentPage = Math.max(1, currentPage - 1);
+        await fetchPrediction({ ...currentPayload, offset: currentOffset });
+      } catch (err) {
+        currentOffset += currentLimit;
+        currentPage += 1;
+        const error = document.getElementById("error");
+        error.textContent = "Error: " + err.message;
+        error.style.display = "block";
+      } finally {
+        updateMoreButton(currentHasMore);
+      }
+    }
+
     async function predict() {
       const button = document.getElementById("predict-button");
       const resultCard = document.getElementById("result-card");
@@ -695,19 +828,19 @@
         const type = field.dataset.fieldType;
         payload[name] = type === "checkbox" ? field.checked : field.value;
       });
+      payload.limit = 4;
+      payload.offset = 0;
 
       button.textContent = "Estimating...";
       button.disabled = true;
       error.style.display = "none";
 
       try {
-        const res = await fetch("/predict", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-        });
-        const data = await res.json();
-        if (data.error) throw new Error(data.error);
+        currentLimit = 4;
+        currentOffset = 0;
+        currentPage = 1;
+        currentPayload = { ...payload, limit: currentLimit };
+        const data = await fetchPrediction(currentPayload);
 
         document.getElementById("price-display").textContent = formatCurrency(data.price);
         document.getElementById("result-copy").textContent =
