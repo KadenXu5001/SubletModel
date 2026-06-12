@@ -100,34 +100,6 @@
       line-height: 1.6;
     }
 
-    .hero-stats {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 14px;
-    }
-
-    .hero-stat {
-      padding: 18px 18px 16px;
-      border-radius: 22px;
-      background: rgba(255,255,255,0.12);
-      border: 1px solid rgba(255,255,255,0.14);
-      backdrop-filter: blur(10px);
-    }
-
-    .hero-stat span {
-      display: block;
-      font-size: 11px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: rgba(255,247,241,0.72);
-      margin-bottom: 8px;
-    }
-
-    .hero-stat strong {
-      font-size: clamp(1.4rem, 2vw, 2rem);
-      letter-spacing: -0.04em;
-    }
-
     .layout {
       display: grid;
       grid-template-columns: minmax(340px, 0.95fr) minmax(0, 1.15fr);
@@ -231,7 +203,8 @@
       line-height: 1.4;
     }
 
-    .field input[type="number"] {
+    .field input[type="number"],
+    .field input[type="text"] {
       width: 100%;
       border: 1px solid rgba(24, 21, 20, 0.12);
       border-radius: 18px;
@@ -242,7 +215,8 @@
       transition: border-color 0.18s, transform 0.18s, box-shadow 0.18s;
     }
 
-    .field input[type="number"]:focus {
+    .field input[type="number"]:focus,
+    .field input[type="text"]:focus {
       outline: none;
       border-color: var(--brand);
       box-shadow: 0 0 0 4px rgba(78, 42, 132, 0.14);
@@ -398,10 +372,10 @@
 
     .comp-card {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-columns: 148px minmax(0, 1fr) auto;
       gap: 18px;
-      align-items: center;
-      padding: 18px 20px;
+      align-items: stretch;
+      padding: 18px;
       border: 1px solid rgba(24, 21, 20, 0.1);
       border-radius: 22px;
       background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(232,225,244,0.52));
@@ -419,6 +393,22 @@
       text-decoration: none;
     }
 
+    .comp-photo {
+      width: 100%;
+      height: 126px;
+      border-radius: 16px;
+      overflow: hidden;
+      background: linear-gradient(135deg, rgba(78, 42, 132, 0.18), rgba(131, 110, 170, 0.32));
+      border: 1px solid rgba(78, 42, 132, 0.1);
+    }
+
+    .comp-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
     .comp-address {
       font-size: 1.08rem;
       font-weight: 700;
@@ -430,6 +420,14 @@
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
+    }
+
+    .comp-distance {
+      margin-top: 10px;
+      color: var(--brand-dark);
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
     }
 
     .pill {
@@ -483,10 +481,6 @@
       .layout {
         grid-template-columns: 1fr;
       }
-
-      .hero-stats {
-        grid-template-columns: 1fr 1fr;
-      }
     }
 
     @media (max-width: 640px) {
@@ -503,8 +497,7 @@
         padding-right: 18px;
       }
 
-      .field-grid,
-      .hero-stats {
+      .field-grid {
         grid-template-columns: 1fr;
       }
 
@@ -524,6 +517,10 @@
       .comp-price {
         text-align: left;
       }
+
+      .comp-photo {
+        height: 180px;
+      }
     }
   </style>
 </head>
@@ -533,22 +530,10 @@
       <div class="eyebrow">Evanston Rent Studio</div>
       <div class="hero-grid">
         <div>
-          <h1>Price an Evanston listing in full Wildcats colors.</h1>
+          <h1>Price an Evanston listing.</h1>
           <p>
-            A sharper Zillow-trained estimator with a ticketing-inspired control panel,
-            reworked in a Northwestern-inspired purple palette.
-            Plug in the listing details, get a rent quote, and instantly compare it to nearby lookalikes from the dataset.
+            Enter the listing details, get a quote, and compare it to nearby Zillow matches.
           </p>
-        </div>
-        <div class="hero-stats">
-          <div class="hero-stat">
-            <span>Average error</span>
-            <strong>${{ mae }}/mo</strong>
-          </div>
-          <div class="hero-stat">
-            <span>Model fit</span>
-            <strong>{{ r2 }}</strong>
-          </div>
         </div>
       </div>
     </section>
@@ -559,7 +544,7 @@
           <div>
             <h2 class="panel-title">Build your pricing ticket</h2>
             <p class="panel-copy">
-              Every visible field below feeds the estimate directly. Hidden model-only defaults still support the prediction, but the UI stays focused on the inputs you can meaningfully tune.
+              Use the fields you know. The rest stays on smart defaults.
             </p>
           </div>
           <div class="badge">Live quote</div>
@@ -607,7 +592,7 @@
           <div class="actions">
             <button class="button" type="button" id="predict-button" onclick="predict()">Estimate rent</button>
             <div class="action-note">
-              Results include a predicted monthly rent plus the closest Zillow listings from the training pool.
+              Includes nearby Zillow comps.
             </div>
           </div>
         </div>
@@ -618,18 +603,18 @@
           <div class="quote-card" id="result-card">
             <span class="quote-kicker">Estimated monthly rent</span>
             <h2 id="price-display">—</h2>
-            <p id="result-copy">Run an estimate to reveal your quote and the closest comparable listings.</p>
+            <p id="result-copy">Closest Zillow matches appear below.</p>
           </div>
 
           <div class="comp-head">
             <div>
               <h3>Closest listings</h3>
-              <p>These are the nearest matches from the Zillow dataset based on your inputs and the predicted price band.</p>
+              <p>Nearest Zillow matches.</p>
             </div>
           </div>
 
           <div class="empty-state" id="empty-state">
-            No comps yet. Enter the apartment details on the left and generate a quote to surface the most similar active listings.
+            No comps yet.
           </div>
 
           <div class="comp-list" id="comparable-list"></div>
@@ -675,13 +660,20 @@
 
         const price = comp.price ? formatCurrency(comp.price) : "Price unavailable";
         const link = comp.url || "#";
+        const image = comp.image_url
+          ? `<div class="comp-photo"><img src="${comp.image_url}" alt="Photo of ${comp.address || "listing"}" loading="lazy" /></div>`
+          : `<div class="comp-photo"></div>`;
 
         const card = document.createElement("article");
         card.className = "comp-card";
         card.innerHTML = `
+          ${image}
           <div>
             <div class="comp-address">${comp.address || "Address unavailable"}</div>
             <div class="comp-meta">${meta}</div>
+            ${comp.distance_from_northwestern_tech_mi !== null && comp.distance_from_northwestern_tech_mi !== undefined
+              ? `<div class="comp-distance">${comp.distance_from_northwestern_tech_mi} mi from Northwestern Tech</div>`
+              : ``}
           </div>
           <div class="comp-price">
             <strong>${price}</strong>
@@ -719,7 +711,7 @@
 
         document.getElementById("price-display").textContent = formatCurrency(data.price);
         document.getElementById("result-copy").textContent =
-          "This quote blends your submitted inputs with the hidden model defaults, then anchors the output against similar Zillow listings.";
+          "Closest Zillow matches appear below.";
         resultCard.classList.add("visible");
         renderComparables(data.comparables || []);
       } catch (err) {

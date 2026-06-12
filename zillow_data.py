@@ -62,6 +62,22 @@ def normalize_url(url):
     return f"{BASE_URL}/{url}"
 
 
+def first_photo_url(raw_listing):
+    img_src = raw_listing.get("imgSrc")
+    if img_src:
+        return str(img_src)
+
+    carousel = raw_listing.get("carouselPhotosComposable", {})
+    base_url = carousel.get("baseUrl")
+    photo_data = carousel.get("photoData") or []
+    if base_url and photo_data:
+        photo_key = photo_data[0].get("photoKey")
+        if photo_key:
+            return str(base_url).replace("{photoKey}", str(photo_key))
+
+    return ""
+
+
 def resolve_json_path() -> Path:
     candidates = [
         Path("data/zillow_evanston_all.json"),
@@ -89,6 +105,7 @@ def build_listing_frame() -> pd.DataFrame:
             "url": normalize_url(first_non_null(raw.get("detailUrl"), listing.get("url"))),
             "address": first_non_null(raw.get("address"), listing.get("address"), ""),
             "display_price": first_non_null(raw.get("price"), listing.get("price"), ""),
+            "image_url": first_photo_url(raw),
             "beds": first_non_null(raw.get("beds"), home_info.get("bedrooms"), listing.get("beds")),
             "baths": normalize_baths(
                 first_non_null(raw.get("baths"), home_info.get("bathrooms"), listing.get("baths"), 1)

@@ -1,5 +1,7 @@
 import pickle
 from pathlib import Path
+from difflib import SequenceMatcher
+from math import asin, cos, radians, sin, sqrt
 
 from flask import Flask, jsonify, render_template, request
 import pandas as pd
@@ -8,13 +10,15 @@ from zillow_data import build_listing_frame
 
 
 MODEL_PATH = Path("models/zillow_evanston_model.pkl")
+NORTHWESTERN_TECH_NAME = "Northwestern Tech"
+NORTHWESTERN_TECH_LATITUDE = 42.0579
+NORTHWESTERN_TECH_LONGITUDE = -87.6752
 HIDDEN_FIELDS = {"zipcode", "home_type", "rent_zestimate"}
 FIELD_ORDER = [
     "beds",
     "baths",
     "area",
-    "latitude",
-    "longitude",
+    "address_query",
     "days_on_zillow",
     "is_featured",
     "has_units",
@@ -24,6 +28,7 @@ FIELD_LABELS = {
     "beds": "Bedrooms",
     "baths": "Bathrooms",
     "area": "Square Footage",
+    "address_query": "Address",
     "latitude": "Latitude",
     "longitude": "Longitude",
     "days_on_zillow": "Days on Zillow",
@@ -35,15 +40,14 @@ FIELD_LABELS = {
     "has_home_info": "Has Zillow Home Details",
 }
 FIELD_HELP = {
-    "beds": "Studio = 0, one-bed = 1, and so on.",
-    "baths": "Half baths can be entered as 0.5 increments.",
-    "area": "Use interior square footage when available.",
-    "latitude": "Optional, but helps surface tighter comparables.",
-    "longitude": "Optional, pairs with latitude for location matching.",
-    "days_on_zillow": "Useful if you want recency-sensitive comps.",
-    "is_featured": "Whether the listing is promoted on Zillow.",
-    "has_units": "Turn on for buildings with multiple unit types.",
-    "has_home_info": "Keep on unless the listing is very sparse.",
+    "beds": "Studio = 0.",
+    "baths": "Use 0.5 steps if needed.",
+    "area": "Square feet.",
+    "address_query": "Used to infer latitude and longitude.",
+    "days_on_zillow": "Optional.",
+    "is_featured": "Promoted listing.",
+    "has_units": "Multiple unit types.",
+    "has_home_info": "Detailed Zillow data.",
 }
 
 
@@ -67,6 +71,12 @@ FEATURE_DEFAULTS = artifact["feature_defaults"]
 MODEL_MAE = artifact["metrics"]["mae"]
 MODEL_R2 = artifact["metrics"]["r2"]
 LISTINGS_DF = build_listing_frame()
+ADDRESS_BOOK = (
+    LISTINGS_DF[["address", "latitude", "longitude"]]
+    .dropna(subset=["address", "latitude", "longitude"])
+    .drop_duplicates(subset=["address"])
+    .reset_index(drop=True)
+)
 
 
 def build_field_specs() -> list[dict]:
@@ -99,6 +109,19 @@ def build_field_specs() -> list[dict]:
                 }
             )
 
+    if "address_query" in FIELD_ORDER:
+        insert_at = 3 if len(field_specs) >= 3 else len(field_specs)
+        field_specs.insert(
+            insert_at,
+            {
+                "name": "address_query",
+                "label": FIELD_LABELS["address_query"],
+                "type": "text",
+                "default": "",
+                "help": FIELD_HELP["address_query"],
+            },
+        )
+
     return field_specs
 
 
@@ -107,6 +130,33 @@ VISIBLE_FIELDS = [spec["name"] for spec in FIELD_SPECS]
 COMPARABLE_FIELDS = [
     field for field in VISIBLE_FIELDS if field in NUMERIC_FEATURES or field in BOOLEAN_FEATURES
 ]
+
+
+def resolve_address_to_coordinates(address_query: str) -> tuple[float, float] | None:
+    query = " ".join(str(address_query).lower().split())
+    if not query or ADDRESS_BOOK.empty:
+        return None
+
+    best_row = None
+    best_score = 0.0
+
+    for _, candidate in ADDRESS_BOOK.iterrows():
+        candidate_address = " ".join(str(candidate["address"]).lower().split())
+        if not candidate_address:
+            continue
+
+        score = SequenceMatcher(None, query, candidate_address).ratio()
+        if query in candidate_address:
+            score += 0.25
+
+        if score > best_score:
+            best_score = score
+            best_row = candidate
+
+    if best_row is None or best_score < 0.45:
+        return None
+
+    return float(best_row["latitude"]), float(best_row["longitude"])
 
 
 def build_model_row(data: dict) -> dict:
@@ -127,11 +177,18 @@ def build_model_row(data: dict) -> dict:
         if value is not None:
             row[feature] = int(bool(value))
 
+    resolved_coordinates = resolve_address_to_coordinates(data.get("address_query", ""))
+    if resolved_coordinates is not None:
+        row["latitude"], row["longitude"] = resolved_coordinates
+
     return row
 
 
 def find_comparables(row: dict, predicted_price: float, limit: int = 4) -> list[dict]:
     df = LISTINGS_DF.copy()
+    preferred_df = df[df["area"].notna() & df["image_url"].astype(str).ne("")].copy()
+    if len(preferred_df) >= limit:
+        df = preferred_df
     scored_columns = []
 
     for feature in COMPARABLE_FIELDS:
@@ -162,13 +219,43 @@ def find_comparables(row: dict, predicted_price: float, limit: int = 4) -> list[
         {
             "url": comp["url"],
             "address": comp["address"],
+            "image_url": comp["image_url"],
             "price": int(comp["price"]) if pd.notna(comp["price"]) else None,
             "beds": float(comp["beds"]) if pd.notna(comp["beds"]) else None,
             "baths": float(comp["baths"]) if pd.notna(comp["baths"]) else None,
             "area": int(comp["area"]) if pd.notna(comp["area"]) else None,
+            "distance_from_northwestern_tech_mi": distance_to_northwestern_tech(comp),
         }
         for _, comp in comps.iterrows()
     ]
+
+
+def haversine_miles(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    earth_radius_miles = 3958.8
+    dlat = radians(lat2 - lat1)
+    dlon = radians(lon2 - lon1)
+    lat1_rad = radians(lat1)
+    lat2_rad = radians(lat2)
+    a = sin(dlat / 2) ** 2 + cos(lat1_rad) * cos(lat2_rad) * sin(dlon / 2) ** 2
+    c = 2 * asin(sqrt(a))
+    return earth_radius_miles * c
+
+
+def distance_to_northwestern_tech(comp) -> float | None:
+    latitude = comp.get("latitude")
+    longitude = comp.get("longitude")
+    if pd.isna(latitude) or pd.isna(longitude):
+        return None
+
+    return round(
+        haversine_miles(
+            float(latitude),
+            float(longitude),
+            NORTHWESTERN_TECH_LATITUDE,
+            NORTHWESTERN_TECH_LONGITUDE,
+        ),
+        1,
+    )
 
 
 print(f"Model loaded — MAE: ${MODEL_MAE:,.0f}  R²: {MODEL_R2:.3f}")
