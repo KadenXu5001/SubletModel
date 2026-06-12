@@ -24,7 +24,7 @@ Clicking a listing node opens a detail card with the Zillow photo, beds/baths, s
 Install the Python dependencies:
 
 ```bash
-pip install flask pandas scikit-learn xgboost
+pip install -r requirements.txt
 ```
 
 Retrain the four-feature model:
